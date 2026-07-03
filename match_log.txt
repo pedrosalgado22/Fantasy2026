@@ -54,32 +54,32 @@ MATCH  'Exequiel Palacios'                      -> 'Exequiel Palacios'          
 MATCH  'Thiago Almada'                          -> 'Thiago Almada'                           score=100.0  team=Argentina
 MATCH  'Alexis Mac Allister'                    -> 'Alexis Mac Allister'                     score=100.0  team=Argentina
 MATCH  'Enzo Fernández'                         -> 'Enzo Fernández'                          score=100.0  team=Argentina
-MATCH  'Jordan Bos'                             -> 'Jordan Bos'                              score=100.0  team=Australia
+NO_MATCH  'Jordan Bos'                              team=Australia
 NO_MATCH  'Kye Rowles'                              team=Australia
-MATCH  'Alessandro Circati'                     -> 'Alessandro Circati'                      score=100.0  team=Australia
-MATCH  'Cameron Burgess'                        -> 'Cameron Burgess'                         score=100.0  team=Australia
-MATCH  'Milos Degenek'                          -> 'Milos Degenek'                           score=100.0  team=Australia
-MATCH  'Aziz Behich'                            -> 'Aziz Behich'                             score=100.0  team=Australia
-MATCH  'Jason Geria'                            -> 'Jason Geria'                             score=100.0  team=Australia
+NO_MATCH  'Alessandro Circati'                      team=Australia
+NO_MATCH  'Cameron Burgess'                         team=Australia
+NO_MATCH  'Milos Degenek'                           team=Australia
+NO_MATCH  'Aziz Behich'                             team=Australia
+NO_MATCH  'Jason Geria'                             team=Australia
 NO_MATCH  'Fran Karacic'                            team=Australia
-MATCH  'Kai Trewin'                             -> 'Kai Trewin'                              score=100.0  team=Australia
-MATCH  'Lucas Herrington'                       -> 'Lucas Herrington'                        score=100.0  team=Australia
-MATCH  'Nestory Irankunda'                      -> 'Nestory Irankunda'                       score=100.0  team=Australia
+NO_MATCH  'Kai Trewin'                              team=Australia
+NO_MATCH  'Lucas Herrington'                        team=Australia
+NO_MATCH  'Nestory Irankunda'                       team=Australia
 NO_MATCH  'Martin Boyle'                            team=Australia
-MATCH  'Nishan Velupillay'                      -> 'Nishan Velupillay'                       score=100.0  team=Australia
+NO_MATCH  'Nishan Velupillay'                       team=Australia
 NO_MATCH  'Deni Juric'                              team=Australia
 NO_MATCH  'Jacob Italiano'                          team=Australia
 NO_MATCH  'Ante Suto'                               team=Australia
 NO_MATCH  'Mathew Ryan'                             team=Australia
 NO_MATCH  'Paul Izzo'                               team=Australia
 TEAM_MISMATCH  'Patrick Beach' matched 'Patrick Berg' score=80.0 but team Australia != Norway
-OVERRIDE  'Paul Okon' -> 'Paul Okon Engstler'
+TEAM_MISMATCH  'Paul Okon' matched 'Joao Paulo' score=73.6842105263158 but team Australia != Cabo Verde
 NO_MATCH  'Patrick Yazbek'                          team=Australia
 NO_MATCH  'Alex Robertson'                          team=Australia
-MATCH  'Connor Metcalfe'                        -> 'Connor Metcalfe'                         score=100.0  team=Australia
-MATCH  "Aiden O'Neill"                          -> "Aiden O'Neill"                           score=100.0  team=Australia
-MATCH  'Awer Mabil'                             -> 'Awer Mabil'                              score=100.0  team=Australia
-MATCH  'Ajdin Hrustic'                          -> 'Ajdin Hrustic'                           score=100.0  team=Australia
+NO_MATCH  'Connor Metcalfe'                         team=Australia
+NO_MATCH  "Aiden O'Neill"                           team=Australia
+NO_MATCH  'Awer Mabil'                              team=Australia
+NO_MATCH  'Ajdin Hrustic'                           team=Australia
 NO_MATCH  'Riley McGree'                            team=Australia
 NO_MATCH  'David Alaba'                             team=Austria
 NO_MATCH  'Philipp Lienhart'                        team=Austria
@@ -277,7 +277,7 @@ NO_MATCH  'Evann Guessand'                          team=Cote d Ivoire
 NO_MATCH  'Bazoumana Touré'                         team=Cote d Ivoire
 NO_MATCH  'Alban Lafont'                            team=Cote d Ivoire
 NO_MATCH  'Yahia Fofana'                            team=Cote d Ivoire
-TEAM_MISMATCH  'Mohamed Koné' matched 'Mohamed Hany' score=75.0 but team Cote d Ivoire != Egypt
+NO_MATCH  'Mohamed Koné'                            team=Cote d Ivoire
 NO_MATCH  'Parfait Guiagon'                         team=Cote d Ivoire
 NO_MATCH  'Jean Michaël Seri'                       team=Cote d Ivoire
 TEAM_MISMATCH  'Ibrahim Sangaré' matched 'Ibrahima Konaté' score=73.33333333333334 but team Cote d Ivoire != France
@@ -375,27 +375,27 @@ NO_MATCH  'Kendry Páez'                             team=Ecuador
 NO_MATCH  'Alan Franco'                             team=Ecuador
 NO_MATCH  'Pedro Vite'                              team=Ecuador
 NO_MATCH  'Moisés Caicedo'                          team=Ecuador
-MATCH  'Marwan Attia'                           -> 'Marwan Attia'                            score=100.0  team=Egypt
-MATCH  'Zizo'                                   -> 'Zizo'                                    score=100.0  team=Egypt
-MATCH  'Hamdi Fathy'                            -> 'Hamdi Fathi'                             score=90.9090909090909  team=Egypt
-MATCH  'Emam Ashour'                            -> 'Emam Ashour'                             score=100.0  team=Egypt
-MATCH  'Mahmoud Saber'                          -> 'Mahmoud Saber'                           score=100.0  team=Egypt
+NO_MATCH  'Marwan Attia'                            team=Egypt
+NO_MATCH  'Zizo'                                    team=Egypt
+NO_MATCH  'Hamdi Fathy'                             team=Egypt
+NO_MATCH  'Emam Ashour'                             team=Egypt
+NO_MATCH  'Mahmoud Saber'                           team=Egypt
 NO_MATCH  'Mohamed Abdelmonem'                      team=Egypt
 NO_MATCH  'Ahmed Fatouh'                            team=Egypt
-MATCH  'Mohamed Hany'                           -> 'Mohamed Hany'                            score=100.0  team=Egypt
-MATCH  'Ramy Rabia'                             -> 'Ramy Rabia'                              score=100.0  team=Egypt
-MATCH  'Hossam Abdelmaguid'                     -> 'Hossam Abdelmaguid'                      score=100.0  team=Egypt
-MATCH  'Tarek Alaa'                             -> 'Tarek Alaa'                              score=100.0  team=Egypt
-MATCH  'Yasser Ibrahim'                         -> 'Yasser Ibrahim'                          score=100.0  team=Egypt
-MATCH  'Omar Marmoush'                          -> 'Omar Marmoush'                           score=100.0  team=Egypt
-MATCH  'Trezeguet'                              -> 'Trezeguet'                               score=100.0  team=Egypt
-MATCH  'Haissem Hassan'                         -> 'Haissem Hassan'                          score=100.0  team=Egypt
+NO_MATCH  'Mohamed Hany'                            team=Egypt
+NO_MATCH  'Ramy Rabia'                              team=Egypt
+NO_MATCH  'Hossam Abdelmaguid'                      team=Egypt
+NO_MATCH  'Tarek Alaa'                              team=Egypt
+NO_MATCH  'Yasser Ibrahim'                          team=Egypt
+NO_MATCH  'Omar Marmoush'                           team=Egypt
+NO_MATCH  'Trezeguet'                               team=Egypt
+NO_MATCH  'Haissem Hassan'                          team=Egypt
 NO_MATCH  'Mohamed El Shenawy'                      team=Egypt
 NO_MATCH  'El Mahdy Soliman'                        team=Egypt
 NO_MATCH  'Mostafa Shobeir'                         team=Egypt
-MATCH  'Mohamed Alaa'                           -> 'Mohamed Hany'                            score=75.0  team=Egypt
+NO_MATCH  'Mohamed Alaa'                            team=Egypt
 NO_MATCH  'Mohanad Lasheen'                         team=Egypt
-MATCH  'Ibrahim Adel'                           -> 'Ibrahim Adel'                            score=100.0  team=Egypt
+NO_MATCH  'Ibrahim Adel'                            team=Egypt
 MATCH  "Nico O'Reilly"                          -> "Nico O'Reilly"                           score=100.0  team=England
 NO_MATCH  'Tino Livramento'                         team=England
 MATCH  'Marc Guéhi'                             -> 'Marc Guehi'                              score=100.0  team=England
@@ -536,7 +536,7 @@ TEAM_MISMATCH  'Ahmed Basil' matched 'Ali Ahmed' score=80.0 but team Iraq != Can
 NO_MATCH  'Fahad Talib'                             team=Iraq
 NO_MATCH  'Kumel Saadi'                             team=Iraq
 NO_MATCH  'Zidane Iqbal'                            team=Iraq
-TEAM_MISMATCH  'Ibrahim Bayesh' matched 'Ibrahim Adel' score=76.92307692307692 but team Iraq != Egypt
+NO_MATCH  'Ibrahim Bayesh'                          team=Iraq
 NO_MATCH  'Kaishu Sano'                             team=Japan
 NO_MATCH  'Yukinari Sugawara'                       team=Japan
 NO_MATCH  'Tsuyoshi Watanabe'                       team=Japan
@@ -559,7 +559,7 @@ NO_MATCH  'Ao Tanaka'                               team=Japan
 NO_MATCH  'Daichi Kamada'                           team=Japan
 NO_MATCH  'Ritsu Doan'                              team=Japan
 NO_MATCH  'Yousef Qashi'                            team=Jordan
-TEAM_MISMATCH  'Ibrahim Sadeh' matched 'Yasser Ibrahim' score=74.07407407407408 but team Jordan != Egypt
+NO_MATCH  'Ibrahim Sadeh'                           team=Jordan
 NO_MATCH  'Mohammad Al Daoud'                       team=Jordan
 NO_MATCH  'Noor Al Rawabdeh'                        team=Jordan
 NO_MATCH  'Nizar Al Rashdan'                        team=Jordan
@@ -576,7 +576,7 @@ NO_MATCH  'Amer Jamous'                             team=Jordan
 NO_MATCH  'Mousa Al Tamari'                         team=Jordan
 NO_MATCH  'Mohammad Abu Zraiq'                      team=Jordan
 NO_MATCH  'Mahmoud Al Mardi'                        team=Jordan
-TEAM_MISMATCH  'Ibrahim Sabra' matched 'Yasser Ibrahim' score=74.07407407407408 but team Jordan != Egypt
+NO_MATCH  'Ibrahim Sabra'                           team=Jordan
 NO_MATCH  'Ali Azaizeh'                             team=Jordan
 NO_MATCH  'Odeh Fakhoury'                           team=Jordan
 NO_MATCH  'Yazeed  Abulaila'                        team=Jordan
@@ -781,7 +781,7 @@ NO_MATCH  'Ayoub Al Oui'                            team=Qatar
 NO_MATCH  'Ahmed Fathy'                             team=Qatar
 NO_MATCH  'Karim Boudiaf'                           team=Qatar
 NO_MATCH  'Assim Madibo'                            team=Qatar
-TEAM_MISMATCH  'Mohammed Waad' matched 'Mohamed Salah' score=76.92307692307692 but team Qatar != Egypt
+NO_MATCH  'Mohammed Waad'                           team=Qatar
 NO_MATCH  'Pedro Miguel'                            team=Qatar
 NO_MATCH  'Bassam Al Rawi'                          team=Qatar
 NO_MATCH  'Lucas Mendes'                            team=Qatar
@@ -802,7 +802,7 @@ NO_MATCH  'Shehab Ellethy'                          team=Qatar
 NO_MATCH  'Mahmud Abunada'                          team=Qatar
 NO_MATCH  'Musab Al Juwayr'                         team=Saudi Arabia
 NO_MATCH  'Ziyad Al Johani'                         team=Saudi Arabia
-TEAM_MISMATCH  'Mohamed Kanno' matched 'Mohamed Hany' score=80.0 but team Saudi Arabia != Egypt
+NO_MATCH  'Mohamed Kanno'                           team=Saudi Arabia
 NO_MATCH  'Abdullah Al Khaibari'                    team=Saudi Arabia
 NO_MATCH  'Aiman Yahya'                             team=Saudi Arabia
 NO_MATCH  'Saud Abdulhamid'                         team=Saudi Arabia
@@ -857,7 +857,7 @@ NO_MATCH  'Ismaïla Sarr'                            team=Senegal
 NO_MATCH  'Assane Diao'                             team=Senegal
 NO_MATCH  'Cherif Ndiaye'                           team=Senegal
 NO_MATCH  'Bamba Dieng'                             team=Senegal
-TEAM_MISMATCH  'Ibrahim Mbaye' matched 'Yasser Ibrahim' score=74.07407407407408 but team Senegal != Egypt
+NO_MATCH  'Ibrahim Mbaye'                           team=Senegal
 NO_MATCH  'Édouard Mendy'                           team=Senegal
 NO_MATCH  'Yehvann Diouf'                           team=Senegal
 NO_MATCH  'Mory Diaw'                               team=Senegal
@@ -1184,7 +1184,7 @@ NO_MATCH  'Agustín Sández'                          team=Paraguay
 NO_MATCH  'Alan Núñez'                              team=Paraguay
 NO_MATCH  'Saúl Salcedo'                            team=Paraguay
 NO_MATCH  'Diego León'                              team=Paraguay
-TEAM_MISMATCH  'Tarek Salman' matched 'Tarek Alaa' score=81.81818181818181 but team Qatar != Egypt
+NO_MATCH  'Tarek Salman'                            team=Qatar
 NO_MATCH  'Rayyan Al Ali'                           team=Qatar
 NO_MATCH  'Homam El Amin'                           team=Qatar
 NO_MATCH  'Sultan Al Brake'                         team=Qatar
@@ -1272,12 +1272,12 @@ NO_MATCH  'Demir Ege Tiknaz'                        team=Turkiye
 NO_MATCH  'Can Uzun'                                team=Turkiye
 NO_MATCH  'Yusuf Sari'                              team=Turkiye
 NO_MATCH  'Aaron Tshibola'                          team=Congo DR
-MATCH  'Karim Hafez'                            -> 'Karim Hafez'                             score=100.0  team=Egypt
-MATCH  'Nabil Emad Dunga'                       -> 'Nabil Dunga'                             score=81.4814814814815  team=Egypt
-MATCH  'Mostafa Zico'                           -> 'Mostafa Ziko'                            score=91.66666666666666  team=Egypt
+NO_MATCH  'Karim Hafez'                             team=Egypt
+NO_MATCH  'Nabil Emad Dunga'                        team=Egypt
+NO_MATCH  'Mostafa Zico'                            team=Egypt
 NO_MATCH  'Aqtay Abdallah'                          team=Egypt
-MATCH  'Hamza Abdelkarim'                       -> 'Hamza Abdelkarim'                        score=100.0  team=Egypt
-MATCH  'Mohamed Salah'                          -> 'Mohamed Salah'                           score=100.0  team=Egypt
+NO_MATCH  'Hamza Abdelkarim'                        team=Egypt
+NO_MATCH  'Mohamed Salah'                           team=Egypt
 NO_MATCH  'Manuel Neuer'                            team=Germany
 NO_MATCH  'Nadiem Amiri'                            team=Germany
 NO_MATCH  'Jamal Musiala'                           team=Germany
@@ -1409,12 +1409,12 @@ MATCH  'Fabián Ruiz'                            -> 'Fabián Ruiz'              
 MATCH  'Gavi'                                   -> 'Gavi'                                    score=100.0  team=Spain
 TEAM_MISMATCH  'Nico Williams' matched 'Inaki Williams' score=81.4814814814815 but team Spain != Ghana
 NO_MATCH  'Joe Gauci'                               team=Australia
-MATCH  'Harry Souttar'                          -> 'Harry Souttar'                           score=100.0  team=Australia
-MATCH  'Cameron Devlin'                         -> 'Cammy Devlin'                            score=76.92307692307692  team=Australia
-MATCH  'Jackson Irvine'                         -> 'Jackson Irvine'                          score=100.0  team=Australia
+NO_MATCH  'Harry Souttar'                           team=Australia
+NO_MATCH  'Cameron Devlin'                          team=Australia
+NO_MATCH  'Jackson Irvine'                          team=Australia
 NO_MATCH  'Mathew Leckie'                           team=Australia
-MATCH  'Mohamed Touré'                          -> 'Mohamed Toure'                           score=100.0  team=Australia
-MATCH  'Tete Yengi'                             -> 'Tete Yengi'                              score=100.0  team=Australia
+NO_MATCH  'Mohamed Touré'                           team=Australia
+NO_MATCH  'Tete Yengi'                              team=Australia
 NO_MATCH  'Brandon Borrello'                        team=Australia
 NO_MATCH  'Ahmed Tagnaouti'                         team=Morocco
 NO_MATCH  'Yassine Bounou'                          team=Morocco
@@ -1455,9 +1455,9 @@ NO_MATCH  'Crysencio Summerville'                   team=Netherlands
 NO_MATCH  'Abdelatif Ramdane'                       team=Algeria
 NO_MATCH  'Oussama Benbot'                          team=Algeria
 NO_MATCH  'Samir Chergui'                           team=Algeria
-TEAM_MISMATCH  'Mohamed Tougaï' matched 'Mohamed Toure' score=81.4814814814815 but team Algeria != Australia
+NO_MATCH  'Mohamed Tougaï'                          team=Algeria
 NO_MATCH  'Nabil Bentaleb'                          team=Algeria
-MATCH  'Cristian Volpato'                       -> 'Cristian Volpato'                        score=100.0  team=Australia
+NO_MATCH  'Cristian Volpato'                        team=Australia
 NO_MATCH  'Christopher Opéri'                       team=Cote d Ivoire
 NO_MATCH  'Piero Hincapié'                          team=Ecuador
 NO_MATCH  'Willian Pacho'                           team=Ecuador
