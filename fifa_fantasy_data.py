@@ -11,7 +11,6 @@ BASE = 'https://play.fifa.com/json/fantasy'
 players = requests.get(f'{BASE}/players.json', headers=FIFA_HEADERS).json()
 rounds = requests.get(f'{BASE}/rounds.json', headers=FIFA_HEADERS).json()
 
-# Fetch stats for every player
 all_stats = {}
 for i, p in enumerate(players):
     try:
@@ -22,10 +21,9 @@ for i, p in enumerate(players):
     except:
         pass
 
-# Merge into one dataset
 dataset = []
 for p in players:
-    dataset.append({
+    row = {
         'id': p['id'],
         'name': p.get('knownName') or f"{p['firstName']} {p['lastName']}",
         'squad_id': p['squadId'],
@@ -38,7 +36,16 @@ for p in players:
         'next_fixture': p['stats']['nextFixtureFromActiveRound'],
         'percent_selected': p['percentSelected'],
         'round_stats': all_stats.get(p['id'], []),
-    })
+    }
+
+    # Add individual round stats as flat columns: round_1_GS, round_2_MP, etc.
+    for round_entry in all_stats.get(p['id'], []):
+        r = round_entry.get('roundId')
+        stats = round_entry.get('stats') or {}
+        for stat_key, stat_val in stats.items():
+            row[f'round_{r}_{stat_key}'] = stat_val
+
+    dataset.append(row)
 
 with open('fifa_players_full.json', 'w', encoding='utf-8') as f:
     json.dump({'players': dataset, 'rounds': rounds}, f, indent=2, ensure_ascii=False)

@@ -214,23 +214,6 @@ def parse_all_markets(raw):
 
 
 # ── Build clean output ────────────────────────────────────────────────────────
-#
-# FIX 1 — Ghana ("Gana", 4 chars):
-#   Old range [8,7,6,5] requires len(name) >= 5, so "gana" (len=4) was skipped
-#   silently. home_totals / away_totals stayed empty for Ghana.
-#   Fix: range extended to [8,7,6,5,4,3].
-#
-# FIX 2 — Bosnia (and any team whose EN name differs from PT name in accents):
-#   home_l / away_l were derived from the canonical English name in the old
-#   version of this function. Betano market strings are in Portuguese, so
-#   "bosni" (EN) never matched "bósni" (PT) due to the accent on the ó.
-#   Fix: pass home_pt / away_pt explicitly and use those for substring matching.
-#   EN names are used only in the output JSON, not for matching.
-#
-# FIX 3 — PT_TO_EN moved into this file:
-#   Previously, translation happened only in build_parquet.py. If a team name
-#   was missing from that dict, team_signals lookup silently returned {} and
-#   all probability columns were NaN. Now the JSON stores EN names directly.
 
 def build_clean(home_en: str, away_en: str, markets: dict,
                 home_pt: str, away_pt: str) -> dict:

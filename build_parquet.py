@@ -1,25 +1,9 @@
-"""
-Build fantasy optimizer parquet.
-
-Inputs:
-  - betano_odds.json       : list of match dicts with odds + scorer odds
-  - fifa_players_full.json : FIFA fantasy player data + round stats
-
-Output:
-  - fantasy_optimizer.parquet  : one row per player
-  - fantasy_optimizer.csv      : same
-  - match_log.txt              : fuzzy match log for QC
-"""
-
-
 from collections import defaultdict
 import json, unicodedata, re
 from rapidfuzz import process, fuzz
 import pandas as pd
 
 
-
-# ── Squad ID → English name mapping (1-indexed alphabetical order) ─────────────
 SQUAD_ID_TO_EN = {
     1:  "Algeria",
     2:  "Argentina",
@@ -71,8 +55,7 @@ SQUAD_ID_TO_EN = {
     48: "Uzbekistan",
 }
 
-# Portuguese team name variants from Betano → canonical English name
-# Built from known Betano PT names seen in the data
+
 PT_TO_EN = {
     "paises baixos":     "Netherlands",
     "marrocos":          "Morocco",
@@ -524,6 +507,15 @@ for p in fifa_players:
         "stat_FK":  stat_totals.get("FK", 0),  # free kicks
     }
 
+
+    # Individual round stats (round_1_GS, round_2_MP, ..., round_i_SXI)
+    for round_entry in round_stats:
+        r = round_entry.get("roundId")
+        stats = round_entry.get("stats") or {}
+
+        for stat_key, stat_value in stats.items():
+            row[f"round_{r}_{stat_key}"] = stat_value
+
     rows.append(row)
 
 # ── Verify all Betano scorer names are matched ────────────────────────────────
@@ -599,3 +591,16 @@ fifa_names = {normalize(p["name"]): p["name"] for p in fifa}
 for t in targets:
     r = process.extractOne(t, list(fifa_names.keys()), scorer=fuzz.token_sort_ratio)
     print(f"Betano '{t}' -> FIFA '{r}'")
+
+
+
+df = pd.DataFrame(rows)
+
+# Show ALL columns
+pd.set_option("display.max_columns", None)
+pd.set_option("display.max_colwidth", None)
+pd.set_option("display.width", None)
+
+print(df.columns.tolist())
+
+print(f"\nTotal columns: {len(df.columns)}")
