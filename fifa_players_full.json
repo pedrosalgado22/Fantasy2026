@@ -2805,7 +2805,7 @@
         "4": 4
       },
       "next_fixture": null,
-      "percent_selected": 5.7,
+      "percent_selected": 5.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -3013,7 +3013,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 4.2,
+      "percent_selected": 4.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -3514,7 +3514,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 52.3,
+      "percent_selected": 52.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -5154,7 +5154,7 @@
         "4": 8
       },
       "next_fixture": null,
-      "percent_selected": 4.7,
+      "percent_selected": 4.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -6956,7 +6956,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 3.7,
+      "percent_selected": 3.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -12182,7 +12182,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.5,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -13232,7 +13232,7 @@
         "4": 18
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -13424,7 +13424,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 4.6,
+      "percent_selected": 4.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -17444,7 +17444,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 43.6,
+      "percent_selected": 43.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -17636,7 +17636,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.2,
+      "percent_selected": 5.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -21364,7 +21364,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -22072,7 +22072,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -22662,7 +22662,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -23562,7 +23562,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 4.6,
+      "percent_selected": 4.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -24047,7 +24047,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 2,
@@ -24730,7 +24730,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 18.3,
+      "percent_selected": 18.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -24922,7 +24922,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -25114,7 +25114,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -25365,7 +25365,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.8,
+      "percent_selected": 1.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -26166,7 +26166,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 4.5,
+      "percent_selected": 4.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -30006,7 +30006,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": [
         {
           "roundId": 1,
@@ -31618,7 +31618,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -32668,7 +32668,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -34007,7 +34007,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": []
     },
     {
@@ -34247,7 +34247,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 2,
@@ -34882,7 +34882,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -35592,7 +35592,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.9,
+      "percent_selected": 1.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -40569,7 +40569,7 @@
         "4": 0
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -43274,7 +43274,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -45358,7 +45358,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 11.3,
+      "percent_selected": 11.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -45770,7 +45770,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 4.8,
+      "percent_selected": 4.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -46258,7 +46258,7 @@
         "4": 13
       },
       "next_fixture": null,
-      "percent_selected": 41.8,
+      "percent_selected": 42,
       "round_stats": [
         {
           "roundId": 1,
@@ -46450,7 +46450,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 4.1,
+      "percent_selected": 4,
       "round_stats": [
         {
           "roundId": 1,
@@ -47322,7 +47322,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 16.3,
+      "percent_selected": 16.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -47956,7 +47956,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 24.1,
+      "percent_selected": 23.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -48356,7 +48356,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 8,
+      "percent_selected": 8.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -48620,7 +48620,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.9,
       "round_stats": [
         {
           "roundId": 2,
@@ -48874,7 +48874,7 @@
         "4": 14
       },
       "next_fixture": null,
-      "percent_selected": 67.6,
+      "percent_selected": 68,
       "round_stats": [
         {
           "roundId": 1,
@@ -49066,7 +49066,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 38.5,
+      "percent_selected": 39,
       "round_stats": [
         {
           "roundId": 1,
@@ -49510,7 +49510,7 @@
         "4": 8
       },
       "next_fixture": null,
-      "percent_selected": 12.7,
+      "percent_selected": 13.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -50204,7 +50204,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 4.1,
+      "percent_selected": 4,
       "round_stats": [
         {
           "roundId": 1,
@@ -50396,7 +50396,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 40.2,
+      "percent_selected": 41,
       "round_stats": [
         {
           "roundId": 1,
@@ -51062,7 +51062,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.7,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -51253,7 +51253,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 3.7,
+      "percent_selected": 3.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -51400,7 +51400,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 3.3,
+      "percent_selected": 3.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -51610,7 +51610,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 6.7,
+      "percent_selected": 6.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -51802,7 +51802,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -51994,7 +51994,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -52482,7 +52482,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 18.2,
+      "percent_selected": 17.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -52674,7 +52674,7 @@
         "4": 5
       },
       "next_fixture": null,
-      "percent_selected": 9.1,
+      "percent_selected": 8.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -61718,7 +61718,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.5,
+      "percent_selected": 1.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -62146,7 +62146,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -62338,7 +62338,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -67680,7 +67680,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -68076,7 +68076,7 @@
         "4": 12
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 2.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -68714,7 +68714,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 9.4,
+      "percent_selected": 9.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -70040,7 +70040,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 17.6,
+      "percent_selected": 18.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -70260,7 +70260,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 10.7,
+      "percent_selected": 10.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -70452,7 +70452,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 15.5,
+      "percent_selected": 15.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -70791,7 +70791,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -70982,7 +70982,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -71234,7 +71234,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 3,
+      "percent_selected": 2.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -71678,7 +71678,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -71930,7 +71930,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 2.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -76245,7 +76245,7 @@
         "4": 8
       },
       "next_fixture": null,
-      "percent_selected": 29,
+      "percent_selected": 28.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -80656,7 +80656,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -82536,7 +82536,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 35.8,
+      "percent_selected": 35.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -83877,7 +83877,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": []
     },
     {
@@ -84458,7 +84458,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 28.2,
+      "percent_selected": 27.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -96211,7 +96211,7 @@
         "4": 8
       },
       "next_fixture": null,
-      "percent_selected": 1.1,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 2,
@@ -96684,7 +96684,7 @@
         "4": 13
       },
       "next_fixture": null,
-      "percent_selected": 36.4,
+      "percent_selected": 36.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -97068,7 +97068,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 37.8,
+      "percent_selected": 37.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -97452,7 +97452,7 @@
         "4": 14
       },
       "next_fixture": null,
-      "percent_selected": 11.2,
+      "percent_selected": 11.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -97890,7 +97890,7 @@
         "3": 12
       },
       "next_fixture": null,
-      "percent_selected": 4.5,
+      "percent_selected": 4.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -99178,7 +99178,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.1,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 1,
@@ -100996,7 +100996,7 @@
         "2": -2
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -101102,7 +101102,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 10.3,
+      "percent_selected": 10.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -102462,7 +102462,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -103866,7 +103866,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -110515,7 +110515,7 @@
         "3": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.6,
+      "percent_selected": 2.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -112747,7 +112747,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 2.9,
+      "percent_selected": 2.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -113159,7 +113159,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 5,
+      "percent_selected": 4.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -115927,7 +115927,7 @@
         "4": 11
       },
       "next_fixture": null,
-      "percent_selected": 12.7,
+      "percent_selected": 13.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -116089,7 +116089,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 15.4,
+      "percent_selected": 15.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -117128,7 +117128,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 7.2,
+      "percent_selected": 7.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -117318,7 +117318,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 8.6,
+      "percent_selected": 8.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -118071,7 +118071,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 13.2,
+      "percent_selected": 13.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -118220,7 +118220,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 7.8,
+      "percent_selected": 8.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -118412,7 +118412,7 @@
         "4": 11
       },
       "next_fixture": null,
-      "percent_selected": 3,
+      "percent_selected": 3.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -119779,7 +119779,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 2,
@@ -121878,7 +121878,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -122764,7 +122764,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 5.6,
+      "percent_selected": 5.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -123382,7 +123382,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 2,
@@ -123990,7 +123990,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -129366,7 +129366,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 7.7,
+      "percent_selected": 7.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -129662,7 +129662,7 @@
         "4": 0
       },
       "next_fixture": null,
-      "percent_selected": 6.9,
+      "percent_selected": 6.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -129854,7 +129854,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 5.7,
+      "percent_selected": 5,
       "round_stats": [
         {
           "roundId": 1,
@@ -131826,7 +131826,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.5,
+      "percent_selected": 1.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -134148,7 +134148,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -139389,7 +139389,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 1,
       "round_stats": []
     },
     {
@@ -139408,7 +139408,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 4.9,
+      "percent_selected": 5.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -139614,7 +139614,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 30,
+      "percent_selected": 30.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -139806,7 +139806,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 1.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -139998,7 +139998,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.4,
+      "percent_selected": 2.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -140249,7 +140249,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -140664,7 +140664,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 3.4,
+      "percent_selected": 3.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -141048,7 +141048,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -141980,7 +141980,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 13.6,
+      "percent_selected": 13.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -142602,7 +142602,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -143106,7 +143106,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 3.7,
+      "percent_selected": 3.4,
       "round_stats": [
         {
           "roundId": 1,
