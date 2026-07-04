@@ -5,24 +5,24 @@
     "1x2": [
       {
         "name": "1",
-        "price": 5.2,
+        "price": 4.8,
         "handicap": 0.0
       },
       {
         "name": "X",
-        "price": 3.35,
+        "price": 3.3,
         "handicap": 0.0
       },
       {
         "name": "2",
-        "price": 1.78,
+        "price": 1.85,
         "handicap": 0.0
       }
     ],
     "btts": [
       {
         "name": "Sim",
-        "price": 1.88,
+        "price": 1.85,
         "handicap": 0.0
       },
       {
@@ -44,27 +44,27 @@
       },
       {
         "name": "Mais de 1.5",
-        "price": 1.35,
+        "price": 1.36,
         "handicap": 1.5
       },
       {
         "name": "Menos 1.5",
-        "price": 2.57,
+        "price": 2.55,
         "handicap": 1.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 3.25,
+        "price": 3.3,
         "handicap": 3.5
       },
       {
         "name": "Menos 3.5",
-        "price": 1.22,
+        "price": 1.21,
         "handicap": 3.5
       },
       {
         "name": "Mais de 0.5",
-        "price": 1.07,
+        "price": 1.08,
         "handicap": 0.5
       },
       {
@@ -84,7 +84,7 @@
       },
       {
         "name": "Mais de 5.5",
-        "price": 6.6,
+        "price": 6.7,
         "handicap": 5.5
       },
       {
@@ -96,32 +96,32 @@
     "home_totals": [
       {
         "name": "Mais de 0.5",
-        "price": 1.62,
+        "price": 1.6,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 2.02,
+        "price": 2.07,
         "handicap": 0.5
       },
       {
         "name": "Mais de 1.5",
-        "price": 3.65,
+        "price": 3.55,
         "handicap": 1.5
       },
       {
         "name": "Menos 1.5",
-        "price": 1.2,
+        "price": 1.21,
         "handicap": 1.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 7.0,
+        "price": 6.9,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.03,
+        "price": 1.04,
         "handicap": 2.5
       },
       {
@@ -133,47 +133,47 @@
     "away_totals": [
       {
         "name": "Mais de 1.5",
-        "price": 1.91,
+        "price": 1.98,
         "handicap": 1.5
       },
       {
         "name": "Menos 1.5",
-        "price": 1.7,
+        "price": 1.65,
         "handicap": 1.5
       },
       {
         "name": "Mais de 0.5",
-        "price": 1.19,
+        "price": 1.21,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 3.7,
+        "price": 3.55,
         "handicap": 0.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 3.65,
+        "price": 3.8,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.2,
+        "price": 1.18,
         "handicap": 2.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 6.4,
+        "price": 6.6,
         "handicap": 3.5
       },
       {
         "name": "Menos 3.5",
-        "price": 1.05,
+        "price": 1.04,
         "handicap": 3.5
       },
       {
         "name": "Mais de 4.5",
-        "price": 8.5,
+        "price": 9.0,
         "handicap": 4.5
       }
     ],
@@ -181,12 +181,12 @@
     "qualify": [
       {
         "name": "Canadá",
-        "price": 2.75,
+        "price": 2.6,
         "handicap": 0.0
       },
       {
         "name": "Marrocos",
-        "price": 1.33,
+        "price": 1.36,
         "handicap": 0.0
       }
     ],
@@ -196,7 +196,7 @@
         "selections": [
           {
             "name": "Marrocos -3",
-            "price": 11.25
+            "price": 11.75
           }
         ]
       },
@@ -209,11 +209,11 @@
           },
           {
             "name": "Empate -2",
-            "price": 7.6
+            "price": 7.4
           },
           {
             "name": "Marrocos -2",
-            "price": 6.1
+            "price": 6.5
           }
         ]
       },
@@ -222,15 +222,15 @@
         "selections": [
           {
             "name": "Canadá -1",
-            "price": 10.0
+            "price": 9.5
           },
           {
             "name": "Empate -1",
-            "price": 5.0
+            "price": 4.8
           },
           {
             "name": "Marrocos -1",
-            "price": 3.0
+            "price": 3.2
           }
         ]
       },
@@ -239,15 +239,15 @@
         "selections": [
           {
             "name": "Marrocos +1",
-            "price": 1.16
+            "price": 1.18
           },
           {
             "name": "Canadá +1",
-            "price": 1.98
+            "price": 1.88
           },
           {
             "name": "Empate +1",
-            "price": 3.1
+            "price": 3.15
           }
         ]
       },
@@ -256,15 +256,15 @@
         "selections": [
           {
             "name": "Marrocos +2",
-            "price": 1.03
+            "price": 1.04
           },
           {
             "name": "Canadá +2",
-            "price": 1.31
+            "price": 1.28
           },
           {
             "name": "Empate +2",
-            "price": 4.35
+            "price": 4.5
           }
         ]
       },
@@ -273,11 +273,11 @@
         "selections": [
           {
             "name": "Canadá +3",
-            "price": 1.09
+            "price": 1.08
           },
           {
             "name": "Empate +3",
-            "price": 6.6
+            "price": 6.8
           }
         ]
       }
@@ -288,25 +288,31 @@
           "player": "Ismael Saibari",
           "team": "Marrocos",
           "name": "Ismael Saibari (Marrocos)",
-          "price": 2.5
+          "price": 2.67
         },
         {
           "player": "Ayoub El Kaabi",
           "team": "Marrocos",
           "name": "Ayoub El Kaabi (Marrocos)",
-          "price": 2.87
+          "price": 3.05
         },
         {
           "player": "Soufiane Rahimi",
           "team": "Marrocos",
           "name": "Soufiane Rahimi (Marrocos)",
-          "price": 2.87
+          "price": 3.15
         },
         {
           "player": "Brahim Díaz",
           "team": "Marrocos",
           "name": "Brahim Díaz (Marrocos)",
-          "price": 3.3
+          "price": 3.45
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canadá",
+          "name": "Jonathan David (Canadá)",
+          "price": 3.75
         },
         {
           "player": "Amine Sbai",
@@ -315,160 +321,136 @@
           "price": 4.3
         },
         {
-          "player": "Jonathan David",
-          "team": "Canadá",
-          "name": "Jonathan David (Canadá)",
-          "price": 4.35
-        },
-        {
-          "player": "Bilal El Khannouss",
-          "team": "Marrocos",
-          "name": "Bilal El Khannouss (Marrocos)",
-          "price": 4.5
-        },
-        {
-          "player": "Azzedine Ounahi",
-          "team": "Marrocos",
-          "name": "Azzedine Ounahi (Marrocos)",
-          "price": 4.5
-        },
-        {
           "player": "Cyle Larin",
           "team": "Canadá",
           "name": "Cyle Larin (Canadá)",
-          "price": 5.0
-        },
-        {
-          "player": "Promise David",
-          "team": "Canadá",
-          "name": "Promise David (Canadá)",
-          "price": 5.0
-        },
-        {
-          "player": "Ayoube Amaimouni-Echghouyab",
-          "team": "Marrocos",
-          "name": "Ayoube Amaimouni-Echghouyab (Marrocos)",
-          "price": 5.0
-        },
-        {
-          "player": "Chemsdine Talbi",
-          "team": "Marrocos",
-          "name": "Chemsdine Talbi (Marrocos)",
-          "price": 5.0
+          "price": 4.45
         },
         {
           "player": "Tani Oluwaseyi",
           "team": "Canadá",
           "name": "Tani Oluwaseyi (Canadá)",
-          "price": 5.5
+          "price": 4.45
+        },
+        {
+          "player": "Promise David",
+          "team": "Canadá",
+          "name": "Promise David (Canadá)",
+          "price": 4.45
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "team": "Marrocos",
+          "name": "Bilal El Khannouss (Marrocos)",
+          "price": 4.6
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Marrocos",
+          "name": "Azzedine Ounahi (Marrocos)",
+          "price": 4.6
+        },
+        {
+          "player": "Ayoube Amaimouni-Echghouyab",
+          "team": "Marrocos",
+          "name": "Ayoube Amaimouni-Echghouyab (Marrocos)",
+          "price": 5.1
+        },
+        {
+          "player": "Chemsdine Talbi",
+          "team": "Marrocos",
+          "name": "Chemsdine Talbi (Marrocos)",
+          "price": 5.1
         },
         {
           "player": "Achraf Hakimi",
           "team": "Marrocos",
           "name": "Achraf Hakimi (Marrocos)",
-          "price": 5.5
+          "price": 5.1
         },
         {
           "player": "Gessime Yassine",
           "team": "Marrocos",
           "name": "Gessime Yassine (Marrocos)",
-          "price": 5.5
+          "price": 5.1
         },
         {
           "player": "Neil El Aynaoui",
           "team": "Marrocos",
           "name": "Neil El Aynaoui (Marrocos)",
+          "price": 5.6
+        },
+        {
+          "player": "Tajon Buchanan",
+          "team": "Canadá",
+          "name": "Tajon Buchanan (Canadá)",
+          "price": 6.0
+        },
+        {
+          "player": "Alphonso Davies",
+          "team": "Canadá",
+          "name": "Alphonso Davies (Canadá)",
           "price": 6.0
         },
         {
           "player": "Jayden Nelson",
           "team": "Canadá",
           "name": "Jayden Nelson (Canadá)",
-          "price": 7.0
+          "price": 6.4
         },
         {
           "player": "Jacob Shaffelburg",
           "team": "Canadá",
           "name": "Jacob Shaffelburg (Canadá)",
-          "price": 7.0
-        },
-        {
-          "player": "Tajon Buchanan",
-          "team": "Canadá",
-          "name": "Tajon Buchanan (Canadá)",
-          "price": 7.0
-        },
-        {
-          "player": "Alphonso Davies",
-          "team": "Canadá",
-          "name": "Alphonso Davies (Canadá)",
-          "price": 7.0
+          "price": 6.4
         },
         {
           "player": "Jonathan Osorio",
           "team": "Canadá",
           "name": "Jonathan Osorio (Canadá)",
-          "price": 7.5
-        },
-        {
-          "player": "Samir El Mourabet",
-          "team": "Marrocos",
-          "name": "Samir El Mourabet (Marrocos)",
-          "price": 7.5
+          "price": 6.4
         },
         {
           "player": "Liam Millar",
           "team": "Canadá",
           "name": "Liam Millar (Canadá)",
-          "price": 8.0
+          "price": 6.9
         },
         {
           "player": "Ali Ahmed",
           "team": "Canadá",
           "name": "Ali Ahmed (Canadá)",
-          "price": 8.5
+          "price": 7.4
+        },
+        {
+          "player": "Samir El Mourabet",
+          "team": "Marrocos",
+          "name": "Samir El Mourabet (Marrocos)",
+          "price": 7.7
         },
         {
           "player": "Sofyan Amrabat",
           "team": "Marrocos",
           "name": "Sofyan Amrabat (Marrocos)",
-          "price": 10.0
+          "price": 10.25
         },
         {
           "player": "Ayyoub Bouaddi",
           "team": "Marrocos",
           "name": "Ayyoub Bouaddi (Marrocos)",
-          "price": 10.0
+          "price": 10.25
         },
         {
           "player": "Zakaria El Ouahdi",
           "team": "Marrocos",
           "name": "Zakaria El Ouahdi (Marrocos)",
-          "price": 10.0
+          "price": 10.25
         },
         {
           "player": "Nathan-Dylan Saliba",
           "team": "Canadá",
           "name": "Nathan-Dylan Saliba (Canadá)",
           "price": 11.0
-        },
-        {
-          "player": "Youssef Belammari",
-          "team": "Marrocos",
-          "name": "Youssef Belammari (Marrocos)",
-          "price": 12.0
-        },
-        {
-          "player": "Noussair Mazraoui",
-          "team": "Marrocos",
-          "name": "Noussair Mazraoui (Marrocos)",
-          "price": 12.0
-        },
-        {
-          "player": "Marwane Saadane",
-          "team": "Marrocos",
-          "name": "Marwane Saadane (Marrocos)",
-          "price": 12.0
         },
         {
           "player": "Stephen Eustáquio",
@@ -483,33 +465,27 @@
           "price": 13.0
         },
         {
+          "player": "Youssef Belammari",
+          "team": "Marrocos",
+          "name": "Youssef Belammari (Marrocos)",
+          "price": 13.5
+        },
+        {
+          "player": "Noussair Mazraoui",
+          "team": "Marrocos",
+          "name": "Noussair Mazraoui (Marrocos)",
+          "price": 13.5
+        },
+        {
+          "player": "Marwane Saadane",
+          "team": "Marrocos",
+          "name": "Marwane Saadane (Marrocos)",
+          "price": 13.5
+        },
+        {
           "player": "Niko Sigur",
           "team": "Canadá",
           "name": "Niko Sigur (Canadá)",
-          "price": 15.0
-        },
-        {
-          "player": "Issa Diop",
-          "team": "Marrocos",
-          "name": "Issa Diop (Marrocos)",
-          "price": 15.0
-        },
-        {
-          "player": "Chadi Riad",
-          "team": "Marrocos",
-          "name": "Chadi Riad (Marrocos)",
-          "price": 15.0
-        },
-        {
-          "player": "Anass Salah-Eddine",
-          "team": "Marrocos",
-          "name": "Anass Salah-Eddine (Marrocos)",
-          "price": 15.0
-        },
-        {
-          "player": "Redouane Halhal",
-          "team": "Marrocos",
-          "name": "Redouane Halhal (Marrocos)",
           "price": 15.0
         },
         {
@@ -519,10 +495,28 @@
           "price": 17.0
         },
         {
-          "player": "Derek Cornelius",
-          "team": "Canadá",
-          "name": "Derek Cornelius (Canadá)",
-          "price": 21.0
+          "player": "Issa Diop",
+          "team": "Marrocos",
+          "name": "Issa Diop (Marrocos)",
+          "price": 19.5
+        },
+        {
+          "player": "Chadi Riad",
+          "team": "Marrocos",
+          "name": "Chadi Riad (Marrocos)",
+          "price": 19.5
+        },
+        {
+          "player": "Anass Salah-Eddine",
+          "team": "Marrocos",
+          "name": "Anass Salah-Eddine (Marrocos)",
+          "price": 19.5
+        },
+        {
+          "player": "Redouane Halhal",
+          "team": "Marrocos",
+          "name": "Redouane Halhal (Marrocos)",
+          "price": 19.5
         },
         {
           "player": "Richie Laryea",
@@ -537,22 +531,28 @@
           "price": 21.0
         },
         {
+          "player": "Derek Cornelius",
+          "team": "Canadá",
+          "name": "Derek Cornelius (Canadá)",
+          "price": 23.0
+        },
+        {
           "player": "Moise Bombito",
           "team": "Canadá",
           "name": "Moise Bombito (Canadá)",
-          "price": 23.0
+          "price": 26.0
         },
         {
           "player": "Joel Waterman",
           "team": "Canadá",
           "name": "Joel Waterman (Canadá)",
-          "price": 23.0
+          "price": 26.0
         },
         {
           "player": "Luc De Fougerolles",
           "team": "Canadá",
           "name": "Luc De Fougerolles (Canadá)",
-          "price": 29.0
+          "price": 30.0
         }
       ],
       "first": [
@@ -560,36 +560,54 @@
           "player": "Ismael Saibari",
           "team": "Marrocos",
           "name": "Ismael Saibari (Marrocos)",
-          "price": 4.5
+          "price": 4.75
         },
         {
           "player": "Ayoub El Kaabi",
           "team": "Marrocos",
           "name": "Ayoub El Kaabi (Marrocos)",
-          "price": 5.3
+          "price": 5.5
         },
         {
           "player": "Soufiane Rahimi",
           "team": "Marrocos",
           "name": "Soufiane Rahimi (Marrocos)",
-          "price": 5.3
+          "price": 5.7
         },
         {
           "player": "Brahim Díaz",
           "team": "Marrocos",
           "name": "Brahim Díaz (Marrocos)",
-          "price": 6.1
+          "price": 6.3
         },
         {
           "player": "Jonathan David",
           "team": "Canadá",
           "name": "Jonathan David (Canadá)",
-          "price": 7.9
+          "price": 6.9
         },
         {
           "player": "Amine Sbai",
           "team": "Marrocos",
           "name": "Amine Sbai (Marrocos)",
+          "price": 7.9
+        },
+        {
+          "player": "Cyle Larin",
+          "team": "Canadá",
+          "name": "Cyle Larin (Canadá)",
+          "price": 8.25
+        },
+        {
+          "player": "Tani Oluwaseyi",
+          "team": "Canadá",
+          "name": "Tani Oluwaseyi (Canadá)",
+          "price": 8.25
+        },
+        {
+          "player": "Promise David",
+          "team": "Canadá",
+          "name": "Promise David (Canadá)",
           "price": 8.25
         },
         {
@@ -605,18 +623,6 @@
           "price": 8.5
         },
         {
-          "player": "Cyle Larin",
-          "team": "Canadá",
-          "name": "Cyle Larin (Canadá)",
-          "price": 9.0
-        },
-        {
-          "player": "Promise David",
-          "team": "Canadá",
-          "name": "Promise David (Canadá)",
-          "price": 9.0
-        },
-        {
           "player": "Ayoube Amaimouni-Echghouyab",
           "team": "Marrocos",
           "name": "Ayoube Amaimouni-Echghouyab (Marrocos)",
@@ -629,57 +635,63 @@
           "price": 9.5
         },
         {
-          "player": "Tani Oluwaseyi",
-          "team": "Canadá",
-          "name": "Tani Oluwaseyi (Canadá)",
-          "price": 10.0
-        },
-        {
           "player": "Achraf Hakimi",
           "team": "Marrocos",
           "name": "Achraf Hakimi (Marrocos)",
-          "price": 10.25
+          "price": 9.5
         },
         {
           "player": "Gessime Yassine",
           "team": "Marrocos",
           "name": "Gessime Yassine (Marrocos)",
-          "price": 10.25
+          "price": 9.5
         },
         {
           "player": "Neil El Aynaoui",
           "team": "Marrocos",
           "name": "Neil El Aynaoui (Marrocos)",
-          "price": 11.25
-        },
-        {
-          "player": "Jayden Nelson",
-          "team": "Canadá",
-          "name": "Jayden Nelson (Canadá)",
-          "price": 12.5
-        },
-        {
-          "player": "Jacob Shaffelburg",
-          "team": "Canadá",
-          "name": "Jacob Shaffelburg (Canadá)",
-          "price": 12.5
+          "price": 10.25
         },
         {
           "player": "Tajon Buchanan",
           "team": "Canadá",
           "name": "Tajon Buchanan (Canadá)",
-          "price": 12.5
+          "price": 11.0
         },
         {
           "player": "Alphonso Davies",
           "team": "Canadá",
           "name": "Alphonso Davies (Canadá)",
-          "price": 12.5
+          "price": 11.0
+        },
+        {
+          "player": "Jayden Nelson",
+          "team": "Canadá",
+          "name": "Jayden Nelson (Canadá)",
+          "price": 11.75
+        },
+        {
+          "player": "Jacob Shaffelburg",
+          "team": "Canadá",
+          "name": "Jacob Shaffelburg (Canadá)",
+          "price": 11.75
         },
         {
           "player": "Jonathan Osorio",
           "team": "Canadá",
           "name": "Jonathan Osorio (Canadá)",
+          "price": 11.75
+        },
+        {
+          "player": "Liam Millar",
+          "team": "Canadá",
+          "name": "Liam Millar (Canadá)",
+          "price": 12.5
+        },
+        {
+          "player": "Ali Ahmed",
+          "team": "Canadá",
+          "name": "Ali Ahmed (Canadá)",
           "price": 13.5
         },
         {
@@ -689,306 +701,22 @@
           "price": 14.0
         },
         {
-          "player": "Liam Millar",
-          "team": "Canadá",
-          "name": "Liam Millar (Canadá)",
-          "price": 14.5
-        },
-        {
-          "player": "Ali Ahmed",
-          "team": "Canadá",
-          "name": "Ali Ahmed (Canadá)",
-          "price": 15.0
-        },
-        {
           "player": "Sofyan Amrabat",
           "team": "Marrocos",
           "name": "Sofyan Amrabat (Marrocos)",
-          "price": 18.5
+          "price": 18.0
         },
         {
           "player": "Ayyoub Bouaddi",
           "team": "Marrocos",
           "name": "Ayyoub Bouaddi (Marrocos)",
-          "price": 18.5
+          "price": 18.0
         },
         {
           "player": "Zakaria El Ouahdi",
           "team": "Marrocos",
           "name": "Zakaria El Ouahdi (Marrocos)",
-          "price": 18.5
-        },
-        {
-          "player": "Nathan-Dylan Saliba",
-          "team": "Canadá",
-          "name": "Nathan-Dylan Saliba (Canadá)",
-          "price": 19.0
-        },
-        {
-          "player": "Youssef Belammari",
-          "team": "Marrocos",
-          "name": "Youssef Belammari (Marrocos)",
-          "price": 22.0
-        },
-        {
-          "player": "Noussair Mazraoui",
-          "team": "Marrocos",
-          "name": "Noussair Mazraoui (Marrocos)",
-          "price": 22.0
-        },
-        {
-          "player": "Marwane Saadane",
-          "team": "Marrocos",
-          "name": "Marwane Saadane (Marrocos)",
-          "price": 22.0
-        },
-        {
-          "player": "Stephen Eustáquio",
-          "team": "Canadá",
-          "name": "Stephen Eustáquio (Canadá)",
-          "price": 22.0
-        },
-        {
-          "player": "Mathieu Choinière",
-          "team": "Canadá",
-          "name": "Mathieu Choinière (Canadá)",
-          "price": 22.0
-        },
-        {
-          "player": "Niko Sigur",
-          "team": "Canadá",
-          "name": "Niko Sigur (Canadá)",
-          "price": 25.0
-        },
-        {
-          "player": "Issa Diop",
-          "team": "Marrocos",
-          "name": "Issa Diop (Marrocos)",
-          "price": 26.0
-        },
-        {
-          "player": "Chadi Riad",
-          "team": "Marrocos",
-          "name": "Chadi Riad (Marrocos)",
-          "price": 26.0
-        },
-        {
-          "player": "Anass Salah-Eddine",
-          "team": "Marrocos",
-          "name": "Anass Salah-Eddine (Marrocos)",
-          "price": 26.0
-        },
-        {
-          "player": "Redouane Halhal",
-          "team": "Marrocos",
-          "name": "Redouane Halhal (Marrocos)",
-          "price": 26.0
-        },
-        {
-          "player": "Alfie Jones",
-          "team": "Canadá",
-          "name": "Alfie Jones (Canadá)",
-          "price": 28.0
-        },
-        {
-          "player": "Derek Cornelius",
-          "team": "Canadá",
-          "name": "Derek Cornelius (Canadá)",
-          "price": 35.0
-        },
-        {
-          "player": "Richie Laryea",
-          "team": "Canadá",
-          "name": "Richie Laryea (Canadá)",
-          "price": 35.0
-        },
-        {
-          "player": "Alistair Johnston",
-          "team": "Canadá",
-          "name": "Alistair Johnston (Canadá)",
-          "price": 35.0
-        },
-        {
-          "player": "Moise Bombito",
-          "team": "Canadá",
-          "name": "Moise Bombito (Canadá)",
-          "price": 37.0
-        },
-        {
-          "player": "Joel Waterman",
-          "team": "Canadá",
-          "name": "Joel Waterman (Canadá)",
-          "price": 37.0
-        },
-        {
-          "player": "Luc De Fougerolles",
-          "team": "Canadá",
-          "name": "Luc De Fougerolles (Canadá)",
-          "price": 45.0
-        }
-      ],
-      "last": [
-        {
-          "player": "Ismael Saibari",
-          "team": "Marrocos",
-          "name": "Ismael Saibari (Marrocos)",
-          "price": 4.5
-        },
-        {
-          "player": "Ayoub El Kaabi",
-          "team": "Marrocos",
-          "name": "Ayoub El Kaabi (Marrocos)",
-          "price": 5.3
-        },
-        {
-          "player": "Soufiane Rahimi",
-          "team": "Marrocos",
-          "name": "Soufiane Rahimi (Marrocos)",
-          "price": 5.3
-        },
-        {
-          "player": "Brahim Díaz",
-          "team": "Marrocos",
-          "name": "Brahim Díaz (Marrocos)",
-          "price": 6.2
-        },
-        {
-          "player": "Jonathan David",
-          "team": "Canadá",
-          "name": "Jonathan David (Canadá)",
-          "price": 7.9
-        },
-        {
-          "player": "Amine Sbai",
-          "team": "Marrocos",
-          "name": "Amine Sbai (Marrocos)",
-          "price": 8.25
-        },
-        {
-          "player": "Bilal El Khannouss",
-          "team": "Marrocos",
-          "name": "Bilal El Khannouss (Marrocos)",
-          "price": 8.5
-        },
-        {
-          "player": "Azzedine Ounahi",
-          "team": "Marrocos",
-          "name": "Azzedine Ounahi (Marrocos)",
-          "price": 8.5
-        },
-        {
-          "player": "Cyle Larin",
-          "team": "Canadá",
-          "name": "Cyle Larin (Canadá)",
-          "price": 9.25
-        },
-        {
-          "player": "Promise David",
-          "team": "Canadá",
-          "name": "Promise David (Canadá)",
-          "price": 9.25
-        },
-        {
-          "player": "Ayoube Amaimouni-Echghouyab",
-          "team": "Marrocos",
-          "name": "Ayoube Amaimouni-Echghouyab (Marrocos)",
-          "price": 9.5
-        },
-        {
-          "player": "Chemsdine Talbi",
-          "team": "Marrocos",
-          "name": "Chemsdine Talbi (Marrocos)",
-          "price": 9.5
-        },
-        {
-          "player": "Tani Oluwaseyi",
-          "team": "Canadá",
-          "name": "Tani Oluwaseyi (Canadá)",
-          "price": 10.0
-        },
-        {
-          "player": "Achraf Hakimi",
-          "team": "Marrocos",
-          "name": "Achraf Hakimi (Marrocos)",
-          "price": 10.5
-        },
-        {
-          "player": "Gessime Yassine",
-          "team": "Marrocos",
-          "name": "Gessime Yassine (Marrocos)",
-          "price": 10.5
-        },
-        {
-          "player": "Neil El Aynaoui",
-          "team": "Marrocos",
-          "name": "Neil El Aynaoui (Marrocos)",
-          "price": 11.25
-        },
-        {
-          "player": "Jayden Nelson",
-          "team": "Canadá",
-          "name": "Jayden Nelson (Canadá)",
-          "price": 13.0
-        },
-        {
-          "player": "Jacob Shaffelburg",
-          "team": "Canadá",
-          "name": "Jacob Shaffelburg (Canadá)",
-          "price": 13.0
-        },
-        {
-          "player": "Tajon Buchanan",
-          "team": "Canadá",
-          "name": "Tajon Buchanan (Canadá)",
-          "price": 13.0
-        },
-        {
-          "player": "Alphonso Davies",
-          "team": "Canadá",
-          "name": "Alphonso Davies (Canadá)",
-          "price": 13.0
-        },
-        {
-          "player": "Jonathan Osorio",
-          "team": "Canadá",
-          "name": "Jonathan Osorio (Canadá)",
-          "price": 13.5
-        },
-        {
-          "player": "Samir El Mourabet",
-          "team": "Marrocos",
-          "name": "Samir El Mourabet (Marrocos)",
-          "price": 14.0
-        },
-        {
-          "player": "Liam Millar",
-          "team": "Canadá",
-          "name": "Liam Millar (Canadá)",
-          "price": 14.5
-        },
-        {
-          "player": "Ali Ahmed",
-          "team": "Canadá",
-          "name": "Ali Ahmed (Canadá)",
-          "price": 15.5
-        },
-        {
-          "player": "Sofyan Amrabat",
-          "team": "Marrocos",
-          "name": "Sofyan Amrabat (Marrocos)",
-          "price": 18.5
-        },
-        {
-          "player": "Ayyoub Bouaddi",
-          "team": "Marrocos",
-          "name": "Ayyoub Bouaddi (Marrocos)",
-          "price": 18.5
-        },
-        {
-          "player": "Zakaria El Ouahdi",
-          "team": "Marrocos",
-          "name": "Zakaria El Ouahdi (Marrocos)",
-          "price": 18.5
+          "price": 18.0
         },
         {
           "player": "Nathan-Dylan Saliba",
@@ -997,24 +725,6 @@
           "price": 19.5
         },
         {
-          "player": "Youssef Belammari",
-          "team": "Marrocos",
-          "name": "Youssef Belammari (Marrocos)",
-          "price": 22.0
-        },
-        {
-          "player": "Noussair Mazraoui",
-          "team": "Marrocos",
-          "name": "Noussair Mazraoui (Marrocos)",
-          "price": 22.0
-        },
-        {
-          "player": "Marwane Saadane",
-          "team": "Marrocos",
-          "name": "Marwane Saadane (Marrocos)",
-          "price": 22.0
-        },
-        {
           "player": "Stephen Eustáquio",
           "team": "Canadá",
           "name": "Stephen Eustáquio (Canadá)",
@@ -1027,46 +737,58 @@
           "price": 23.0
         },
         {
+          "player": "Youssef Belammari",
+          "team": "Marrocos",
+          "name": "Youssef Belammari (Marrocos)",
+          "price": 23.0
+        },
+        {
+          "player": "Noussair Mazraoui",
+          "team": "Marrocos",
+          "name": "Noussair Mazraoui (Marrocos)",
+          "price": 23.0
+        },
+        {
+          "player": "Marwane Saadane",
+          "team": "Marrocos",
+          "name": "Marwane Saadane (Marrocos)",
+          "price": 23.0
+        },
+        {
           "player": "Niko Sigur",
           "team": "Canadá",
           "name": "Niko Sigur (Canadá)",
           "price": 26.0
         },
         {
+          "player": "Alfie Jones",
+          "team": "Canadá",
+          "name": "Alfie Jones (Canadá)",
+          "price": 29.0
+        },
+        {
           "player": "Issa Diop",
           "team": "Marrocos",
           "name": "Issa Diop (Marrocos)",
-          "price": 27.0
+          "price": 32.0
         },
         {
           "player": "Chadi Riad",
           "team": "Marrocos",
           "name": "Chadi Riad (Marrocos)",
-          "price": 27.0
+          "price": 32.0
         },
         {
           "player": "Anass Salah-Eddine",
           "team": "Marrocos",
           "name": "Anass Salah-Eddine (Marrocos)",
-          "price": 27.0
+          "price": 32.0
         },
         {
           "player": "Redouane Halhal",
           "team": "Marrocos",
           "name": "Redouane Halhal (Marrocos)",
-          "price": 27.0
-        },
-        {
-          "player": "Alfie Jones",
-          "team": "Canadá",
-          "name": "Alfie Jones (Canadá)",
-          "price": 30.0
-        },
-        {
-          "player": "Derek Cornelius",
-          "team": "Canadá",
-          "name": "Derek Cornelius (Canadá)",
-          "price": 35.0
+          "price": 32.0
         },
         {
           "player": "Richie Laryea",
@@ -1079,6 +801,12 @@
           "team": "Canadá",
           "name": "Alistair Johnston (Canadá)",
           "price": 35.0
+        },
+        {
+          "player": "Derek Cornelius",
+          "team": "Canadá",
+          "name": "Derek Cornelius (Canadá)",
+          "price": 37.0
         },
         {
           "player": "Moise Bombito",
@@ -1098,6 +826,278 @@
           "name": "Luc De Fougerolles (Canadá)",
           "price": 50.0
         }
+      ],
+      "last": [
+        {
+          "player": "Ismael Saibari",
+          "team": "Marrocos",
+          "name": "Ismael Saibari (Marrocos)",
+          "price": 4.75
+        },
+        {
+          "player": "Ayoub El Kaabi",
+          "team": "Marrocos",
+          "name": "Ayoub El Kaabi (Marrocos)",
+          "price": 5.5
+        },
+        {
+          "player": "Soufiane Rahimi",
+          "team": "Marrocos",
+          "name": "Soufiane Rahimi (Marrocos)",
+          "price": 5.7
+        },
+        {
+          "player": "Brahim Díaz",
+          "team": "Marrocos",
+          "name": "Brahim Díaz (Marrocos)",
+          "price": 6.3
+        },
+        {
+          "player": "Jonathan David",
+          "team": "Canadá",
+          "name": "Jonathan David (Canadá)",
+          "price": 7.0
+        },
+        {
+          "player": "Amine Sbai",
+          "team": "Marrocos",
+          "name": "Amine Sbai (Marrocos)",
+          "price": 7.9
+        },
+        {
+          "player": "Cyle Larin",
+          "team": "Canadá",
+          "name": "Cyle Larin (Canadá)",
+          "price": 8.25
+        },
+        {
+          "player": "Tani Oluwaseyi",
+          "team": "Canadá",
+          "name": "Tani Oluwaseyi (Canadá)",
+          "price": 8.25
+        },
+        {
+          "player": "Promise David",
+          "team": "Canadá",
+          "name": "Promise David (Canadá)",
+          "price": 8.25
+        },
+        {
+          "player": "Bilal El Khannouss",
+          "team": "Marrocos",
+          "name": "Bilal El Khannouss (Marrocos)",
+          "price": 8.5
+        },
+        {
+          "player": "Azzedine Ounahi",
+          "team": "Marrocos",
+          "name": "Azzedine Ounahi (Marrocos)",
+          "price": 8.5
+        },
+        {
+          "player": "Ayoube Amaimouni-Echghouyab",
+          "team": "Marrocos",
+          "name": "Ayoube Amaimouni-Echghouyab (Marrocos)",
+          "price": 9.5
+        },
+        {
+          "player": "Chemsdine Talbi",
+          "team": "Marrocos",
+          "name": "Chemsdine Talbi (Marrocos)",
+          "price": 9.5
+        },
+        {
+          "player": "Achraf Hakimi",
+          "team": "Marrocos",
+          "name": "Achraf Hakimi (Marrocos)",
+          "price": 9.5
+        },
+        {
+          "player": "Gessime Yassine",
+          "team": "Marrocos",
+          "name": "Gessime Yassine (Marrocos)",
+          "price": 9.5
+        },
+        {
+          "player": "Neil El Aynaoui",
+          "team": "Marrocos",
+          "name": "Neil El Aynaoui (Marrocos)",
+          "price": 10.5
+        },
+        {
+          "player": "Tajon Buchanan",
+          "team": "Canadá",
+          "name": "Tajon Buchanan (Canadá)",
+          "price": 11.0
+        },
+        {
+          "player": "Alphonso Davies",
+          "team": "Canadá",
+          "name": "Alphonso Davies (Canadá)",
+          "price": 11.0
+        },
+        {
+          "player": "Jayden Nelson",
+          "team": "Canadá",
+          "name": "Jayden Nelson (Canadá)",
+          "price": 12.0
+        },
+        {
+          "player": "Jacob Shaffelburg",
+          "team": "Canadá",
+          "name": "Jacob Shaffelburg (Canadá)",
+          "price": 12.0
+        },
+        {
+          "player": "Jonathan Osorio",
+          "team": "Canadá",
+          "name": "Jonathan Osorio (Canadá)",
+          "price": 12.0
+        },
+        {
+          "player": "Liam Millar",
+          "team": "Canadá",
+          "name": "Liam Millar (Canadá)",
+          "price": 13.0
+        },
+        {
+          "player": "Ali Ahmed",
+          "team": "Canadá",
+          "name": "Ali Ahmed (Canadá)",
+          "price": 14.0
+        },
+        {
+          "player": "Samir El Mourabet",
+          "team": "Marrocos",
+          "name": "Samir El Mourabet (Marrocos)",
+          "price": 14.0
+        },
+        {
+          "player": "Sofyan Amrabat",
+          "team": "Marrocos",
+          "name": "Sofyan Amrabat (Marrocos)",
+          "price": 18.5
+        },
+        {
+          "player": "Ayyoub Bouaddi",
+          "team": "Marrocos",
+          "name": "Ayyoub Bouaddi (Marrocos)",
+          "price": 18.5
+        },
+        {
+          "player": "Zakaria El Ouahdi",
+          "team": "Marrocos",
+          "name": "Zakaria El Ouahdi (Marrocos)",
+          "price": 18.5
+        },
+        {
+          "player": "Nathan-Dylan Saliba",
+          "team": "Canadá",
+          "name": "Nathan-Dylan Saliba (Canadá)",
+          "price": 20.0
+        },
+        {
+          "player": "Stephen Eustáquio",
+          "team": "Canadá",
+          "name": "Stephen Eustáquio (Canadá)",
+          "price": 23.0
+        },
+        {
+          "player": "Mathieu Choinière",
+          "team": "Canadá",
+          "name": "Mathieu Choinière (Canadá)",
+          "price": 23.0
+        },
+        {
+          "player": "Youssef Belammari",
+          "team": "Marrocos",
+          "name": "Youssef Belammari (Marrocos)",
+          "price": 24.0
+        },
+        {
+          "player": "Noussair Mazraoui",
+          "team": "Marrocos",
+          "name": "Noussair Mazraoui (Marrocos)",
+          "price": 24.0
+        },
+        {
+          "player": "Marwane Saadane",
+          "team": "Marrocos",
+          "name": "Marwane Saadane (Marrocos)",
+          "price": 24.0
+        },
+        {
+          "player": "Niko Sigur",
+          "team": "Canadá",
+          "name": "Niko Sigur (Canadá)",
+          "price": 27.0
+        },
+        {
+          "player": "Alfie Jones",
+          "team": "Canadá",
+          "name": "Alfie Jones (Canadá)",
+          "price": 30.0
+        },
+        {
+          "player": "Issa Diop",
+          "team": "Marrocos",
+          "name": "Issa Diop (Marrocos)",
+          "price": 35.0
+        },
+        {
+          "player": "Chadi Riad",
+          "team": "Marrocos",
+          "name": "Chadi Riad (Marrocos)",
+          "price": 35.0
+        },
+        {
+          "player": "Anass Salah-Eddine",
+          "team": "Marrocos",
+          "name": "Anass Salah-Eddine (Marrocos)",
+          "price": 35.0
+        },
+        {
+          "player": "Redouane Halhal",
+          "team": "Marrocos",
+          "name": "Redouane Halhal (Marrocos)",
+          "price": 35.0
+        },
+        {
+          "player": "Richie Laryea",
+          "team": "Canadá",
+          "name": "Richie Laryea (Canadá)",
+          "price": 37.0
+        },
+        {
+          "player": "Alistair Johnston",
+          "team": "Canadá",
+          "name": "Alistair Johnston (Canadá)",
+          "price": 37.0
+        },
+        {
+          "player": "Derek Cornelius",
+          "team": "Canadá",
+          "name": "Derek Cornelius (Canadá)",
+          "price": 40.0
+        },
+        {
+          "player": "Moise Bombito",
+          "team": "Canadá",
+          "name": "Moise Bombito (Canadá)",
+          "price": 45.0
+        },
+        {
+          "player": "Joel Waterman",
+          "team": "Canadá",
+          "name": "Joel Waterman (Canadá)",
+          "price": 45.0
+        },
+        {
+          "player": "Luc De Fougerolles",
+          "team": "Canadá",
+          "name": "Luc De Fougerolles (Canadá)",
+          "price": 50.0
+        }
       ]
     }
   },
@@ -1107,7 +1107,7 @@
     "1x2": [
       {
         "name": "1",
-        "price": 14.5,
+        "price": 15.0,
         "handicap": 0.0
       },
       {
@@ -1171,7 +1171,7 @@
       },
       {
         "name": "Menos 0.5",
-        "price": 6.3,
+        "price": 6.2,
         "handicap": 0.5
       },
       {
@@ -1208,12 +1208,12 @@
     "home_totals": [
       {
         "name": "Mais de 0.5",
-        "price": 2.15,
+        "price": 2.18,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 1.55,
+        "price": 1.53,
         "handicap": 0.5
       },
       {
@@ -1363,7 +1363,7 @@
         "selections": [
           {
             "name": "Paraguai +1",
-            "price": 4.2
+            "price": 4.25
           },
           {
             "name": "Empate +1",
@@ -2202,7 +2202,7 @@
           "player": "Juan Caceres",
           "team": "Paraguai",
           "name": "Juan Caceres (Paraguai)",
-          "price": 110.0
+          "price": 120.0
         }
       ]
     }
@@ -2213,17 +2213,17 @@
     "1x2": [
       {
         "name": "1",
-        "price": 1.93,
+        "price": 1.88,
         "handicap": 0.0
       },
       {
         "name": "X",
-        "price": 3.5,
+        "price": 3.55,
         "handicap": 0.0
       },
       {
         "name": "2",
-        "price": 4.05,
+        "price": 4.2,
         "handicap": 0.0
       }
     ],
@@ -2314,7 +2314,7 @@
       },
       {
         "name": "Menos 1.5",
-        "price": 1.88,
+        "price": 1.9,
         "handicap": 1.5
       },
       {
@@ -2324,22 +2324,22 @@
       },
       {
         "name": "Menos 0.5",
-        "price": 4.1,
+        "price": 4.15,
         "handicap": 0.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 3.1,
+        "price": 3.05,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.27,
+        "price": 1.28,
         "handicap": 2.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 5.5,
+        "price": 5.4,
         "handicap": 3.5
       },
       {
@@ -2349,7 +2349,7 @@
       },
       {
         "name": "Mais de 4.5",
-        "price": 7.8,
+        "price": 7.7,
         "handicap": 4.5
       },
       {
@@ -2359,34 +2359,34 @@
       },
       {
         "name": "Mais de 5.5",
-        "price": 12.0,
+        "price": 11.75,
         "handicap": 5.5
       }
     ],
     "away_totals": [
       {
         "name": "Mais de 0.5",
-        "price": 1.38,
+        "price": 1.39,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 2.62,
+        "price": 2.57,
         "handicap": 0.5
       },
       {
         "name": "Mais de 1.5",
-        "price": 2.67,
+        "price": 2.72,
         "handicap": 1.5
       },
       {
         "name": "Menos 1.5",
-        "price": 1.36,
+        "price": 1.35,
         "handicap": 1.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 5.4,
+        "price": 5.5,
         "handicap": 2.5
       },
       {
@@ -2404,12 +2404,12 @@
     "qualify": [
       {
         "name": "Brasil",
-        "price": 1.4,
+        "price": 1.39,
         "handicap": 0.0
       },
       {
         "name": "Noruega",
-        "price": 2.45,
+        "price": 2.5,
         "handicap": 0.0
       }
     ],
@@ -2419,11 +2419,11 @@
         "selections": [
           {
             "name": "Brasil -3",
-            "price": 10.25
+            "price": 10.0
           },
           {
             "name": "Empate -3",
-            "price": 6.7
+            "price": 6.6
           }
         ]
       },
@@ -2432,11 +2432,11 @@
         "selections": [
           {
             "name": "Brasil -2",
-            "price": 5.8
+            "price": 5.6
           },
           {
             "name": "Empate -2",
-            "price": 4.6
+            "price": 4.55
           },
           {
             "name": "Noruega -2",
@@ -2449,7 +2449,7 @@
         "selections": [
           {
             "name": "Brasil -1",
-            "price": 3.05
+            "price": 3.0
           },
           {
             "name": "Empate -1",
@@ -2457,7 +2457,7 @@
           },
           {
             "name": "Noruega -1",
-            "price": 7.6
+            "price": 7.8
           }
         ]
       },
@@ -2466,15 +2466,15 @@
         "selections": [
           {
             "name": "Noruega +1",
-            "price": 1.85
+            "price": 1.88
           },
           {
             "name": "Brasil +1",
-            "price": 1.23
+            "price": 1.22
           },
           {
             "name": "Empate +1",
-            "price": 4.7
+            "price": 4.75
           }
         ]
       },
@@ -2483,7 +2483,7 @@
         "selections": [
           {
             "name": "Noruega +2",
-            "price": 1.3
+            "price": 1.31
           },
           {
             "name": "Brasil +2",
@@ -2491,7 +2491,7 @@
           },
           {
             "name": "Empate +2",
-            "price": 7.1
+            "price": 7.2
           }
         ]
       },
@@ -2508,40 +2508,40 @@
     "scorers": {
       "anytime": [
         {
+          "player": "Erling Haaland",
+          "team": "Noruega",
+          "name": "Erling Haaland (Noruega)",
+          "price": 2.27
+        },
+        {
           "player": "Vinícius Júnior",
           "team": "Brasil",
           "name": "Vinícius Júnior (Brasil)",
           "price": 2.3
         },
         {
-          "player": "Erling Haaland",
-          "team": "Noruega",
-          "name": "Erling Haaland (Noruega)",
-          "price": 2.3
-        },
-        {
           "player": "Matheus Cunha",
           "team": "Brasil",
           "name": "Matheus Cunha (Brasil)",
-          "price": 2.62
+          "price": 2.65
         },
         {
           "player": "Endrick",
           "team": "Brasil",
           "name": "Endrick (Brasil)",
-          "price": 2.62
+          "price": 2.65
         },
         {
           "player": "Neymar",
           "team": "Brasil",
           "name": "Neymar (Brasil)",
-          "price": 2.75
+          "price": 2.77
         },
         {
           "player": "Igor Thiago",
           "team": "Brasil",
           "name": "Igor Thiago (Brasil)",
-          "price": 2.8
+          "price": 2.82
         },
         {
           "player": "Luiz Henrique",
@@ -2565,13 +2565,13 @@
           "player": "Jorgen Strand Larsen",
           "team": "Noruega",
           "name": "Jorgen Strand Larsen (Noruega)",
-          "price": 4.35
+          "price": 4.3
         },
         {
           "player": "Alexander Sörloth",
           "team": "Noruega",
           "name": "Alexander Sörloth (Noruega)",
-          "price": 4.35
+          "price": 4.3
         },
         {
           "player": "Jens Petter Hauge",
@@ -2604,28 +2604,28 @@
           "price": 6.0
         },
         {
+          "player": "Antonio Nusa",
+          "team": "Noruega",
+          "name": "Antonio Nusa (Noruega)",
+          "price": 6.0
+        },
+        {
           "player": "Kristian Thorstvedt",
           "team": "Noruega",
           "name": "Kristian Thorstvedt (Noruega)",
           "price": 6.0
         },
         {
-          "player": "Antonio Nusa",
-          "team": "Noruega",
-          "name": "Antonio Nusa (Noruega)",
-          "price": 6.5
-        },
-        {
           "player": "Andreas Schjelderup",
           "team": "Noruega",
           "name": "Andreas Schjelderup (Noruega)",
-          "price": 6.5
+          "price": 6.4
         },
         {
           "player": "Martin Odegaard",
           "team": "Noruega",
           "name": "Martin Odegaard (Noruega)",
-          "price": 7.5
+          "price": 7.4
         },
         {
           "player": "Casemiro",
@@ -2638,12 +2638,6 @@
           "team": "Brasil",
           "name": "Bruno Guimarães (Brasil)",
           "price": 8.0
-        },
-        {
-          "player": "Gabriel Magalhães",
-          "team": "Brasil",
-          "name": "Gabriel Magalhães (Brasil)",
-          "price": 8.25
         },
         {
           "player": "Morten Thorsby",
@@ -2668,6 +2662,12 @@
           "team": "Brasil",
           "name": "Roger Ibañez (Brasil)",
           "price": 9.5
+        },
+        {
+          "player": "Gabriel Magalhães",
+          "team": "Brasil",
+          "name": "Gabriel Magalhães (Brasil)",
+          "price": 11.0
         },
         {
           "player": "Danilo",
@@ -2777,7 +2777,7 @@
           "player": "Erling Haaland",
           "team": "Noruega",
           "name": "Erling Haaland (Noruega)",
-          "price": 4.7
+          "price": 4.65
         },
         {
           "player": "Matheus Cunha",
@@ -2864,16 +2864,16 @@
           "price": 13.0
         },
         {
+          "player": "Antonio Nusa",
+          "team": "Noruega",
+          "name": "Antonio Nusa (Noruega)",
+          "price": 13.0
+        },
+        {
           "player": "Kristian Thorstvedt",
           "team": "Noruega",
           "name": "Kristian Thorstvedt (Noruega)",
           "price": 13.0
-        },
-        {
-          "player": "Antonio Nusa",
-          "team": "Noruega",
-          "name": "Antonio Nusa (Noruega)",
-          "price": 14.0
         },
         {
           "player": "Andreas Schjelderup",
@@ -2900,12 +2900,6 @@
           "price": 16.5
         },
         {
-          "player": "Gabriel Magalhães",
-          "team": "Brasil",
-          "name": "Gabriel Magalhães (Brasil)",
-          "price": 16.5
-        },
-        {
           "player": "Morten Thorsby",
           "team": "Noruega",
           "name": "Morten Thorsby (Noruega)",
@@ -2928,6 +2922,12 @@
           "team": "Brasil",
           "name": "Roger Ibañez (Brasil)",
           "price": 19.5
+        },
+        {
+          "player": "Gabriel Magalhães",
+          "team": "Brasil",
+          "name": "Gabriel Magalhães (Brasil)",
+          "price": 22.0
         },
         {
           "player": "Danilo",
@@ -2993,7 +2993,7 @@
           "player": "David Möller Wolfe",
           "team": "Noruega",
           "name": "David Möller Wolfe (Noruega)",
-          "price": 35.0
+          "price": 32.0
         },
         {
           "player": "Marquinhos",
@@ -3037,7 +3037,7 @@
           "player": "Erling Haaland",
           "team": "Noruega",
           "name": "Erling Haaland (Noruega)",
-          "price": 4.7
+          "price": 4.65
         },
         {
           "player": "Matheus Cunha",
@@ -3085,13 +3085,13 @@
           "player": "Jorgen Strand Larsen",
           "team": "Noruega",
           "name": "Jorgen Strand Larsen (Noruega)",
-          "price": 9.5
+          "price": 9.25
         },
         {
           "player": "Alexander Sörloth",
           "team": "Noruega",
           "name": "Alexander Sörloth (Noruega)",
-          "price": 9.5
+          "price": 9.25
         },
         {
           "player": "Jens Petter Hauge",
@@ -3103,13 +3103,13 @@
           "player": "Danilo dos Santos",
           "team": "Brasil",
           "name": "Danilo dos Santos (Brasil)",
-          "price": 11.5
+          "price": 11.75
         },
         {
           "player": "Éderson",
           "team": "Brasil",
           "name": "Éderson (Brasil)",
-          "price": 11.5
+          "price": 11.75
         },
         {
           "player": "Thelo Aasgaard",
@@ -3124,16 +3124,16 @@
           "price": 13.0
         },
         {
+          "player": "Antonio Nusa",
+          "team": "Noruega",
+          "name": "Antonio Nusa (Noruega)",
+          "price": 13.0
+        },
+        {
           "player": "Kristian Thorstvedt",
           "team": "Noruega",
           "name": "Kristian Thorstvedt (Noruega)",
           "price": 13.0
-        },
-        {
-          "player": "Antonio Nusa",
-          "team": "Noruega",
-          "name": "Antonio Nusa (Noruega)",
-          "price": 14.0
         },
         {
           "player": "Andreas Schjelderup",
@@ -3151,43 +3151,43 @@
           "player": "Casemiro",
           "team": "Brasil",
           "name": "Casemiro (Brasil)",
-          "price": 16.5
+          "price": 17.0
         },
         {
           "player": "Bruno Guimarães",
           "team": "Brasil",
           "name": "Bruno Guimarães (Brasil)",
-          "price": 16.5
-        },
-        {
-          "player": "Gabriel Magalhães",
-          "team": "Brasil",
-          "name": "Gabriel Magalhães (Brasil)",
           "price": 17.0
         },
         {
           "player": "Morten Thorsby",
           "team": "Noruega",
           "name": "Morten Thorsby (Noruega)",
-          "price": 19.5
+          "price": 19.0
         },
         {
           "player": "Fabinho",
           "team": "Brasil",
           "name": "Fabinho (Brasil)",
-          "price": 19.5
+          "price": 20.0
         },
         {
           "player": "Bremer",
           "team": "Brasil",
           "name": "Bremer (Brasil)",
-          "price": 19.5
+          "price": 20.0
         },
         {
           "player": "Roger Ibañez",
           "team": "Brasil",
           "name": "Roger Ibañez (Brasil)",
-          "price": 19.5
+          "price": 20.0
+        },
+        {
+          "player": "Gabriel Magalhães",
+          "team": "Brasil",
+          "name": "Gabriel Magalhães (Brasil)",
+          "price": 23.0
         },
         {
           "player": "Danilo",
@@ -3265,13 +3265,13 @@
           "player": "Torbjorn Heggem",
           "team": "Noruega",
           "name": "Torbjorn Heggem (Noruega)",
-          "price": 45.0
+          "price": 40.0
         },
         {
           "player": "Sondre Langas",
           "team": "Noruega",
           "name": "Sondre Langas (Noruega)",
-          "price": 45.0
+          "price": 40.0
         },
         {
           "player": "Kristoffer Ajer",
@@ -3358,7 +3358,7 @@
       },
       {
         "name": "Menos 0.5",
-        "price": 4.8,
+        "price": 4.75,
         "handicap": 0.5
       },
       {
@@ -3380,12 +3380,12 @@
     "home_totals": [
       {
         "name": "Mais de 0.5",
-        "price": 1.45,
+        "price": 1.44,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 2.4,
+        "price": 2.42,
         "handicap": 0.5
       },
       {
@@ -3400,12 +3400,12 @@
       },
       {
         "name": "Mais de 2.5",
-        "price": 5.8,
+        "price": 5.9,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.07,
+        "price": 1.06,
         "handicap": 2.5
       },
       {
@@ -3417,7 +3417,7 @@
     "away_totals": [
       {
         "name": "Mais de 1.5",
-        "price": 2.47,
+        "price": 2.45,
         "handicap": 1.5
       },
       {
@@ -3427,33 +3427,38 @@
       },
       {
         "name": "Mais de 0.5",
-        "price": 1.33,
+        "price": 1.34,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 2.8,
+        "price": 2.75,
         "handicap": 0.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 5.0,
+        "price": 4.85,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.1,
+        "price": 1.11,
         "handicap": 2.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 7.7,
+        "price": 7.6,
         "handicap": 3.5
       },
       {
         "name": "Menos 3.5",
         "price": 1.02,
         "handicap": 3.5
+      },
+      {
+        "name": "Mais de 4.5",
+        "price": 12.0,
+        "handicap": 4.5
       }
     ],
     "win_by_2": [],
@@ -3484,7 +3489,7 @@
         "selections": [
           {
             "name": "México -2",
-            "price": 12.0
+            "price": 12.5
           },
           {
             "name": "Empate -2",
@@ -3492,7 +3497,7 @@
           },
           {
             "name": "Inglaterra -2",
-            "price": 9.5
+            "price": 9.25
           }
         ]
       },
@@ -3501,15 +3506,15 @@
         "selections": [
           {
             "name": "México -1",
-            "price": 6.1
+            "price": 6.2
           },
           {
             "name": "Empate -1",
-            "price": 3.95
+            "price": 3.9
           },
           {
             "name": "Inglaterra -1",
-            "price": 4.55
+            "price": 4.5
           }
         ]
       },
@@ -3833,175 +3838,175 @@
           "player": "Harry Kane",
           "team": "Inglaterra",
           "name": "Harry Kane (Inglaterra)",
-          "price": 4.5
+          "price": 4.4
         },
         {
           "player": "Ivan Toney",
           "team": "Inglaterra",
           "name": "Ivan Toney (Inglaterra)",
-          "price": 5.0
+          "price": 4.85
         },
         {
           "player": "Ollie Watkins",
           "team": "Inglaterra",
           "name": "Ollie Watkins (Inglaterra)",
-          "price": 5.0
+          "price": 4.85
         },
         {
           "player": "Raul Jimenez",
           "team": "México",
           "name": "Raul Jimenez (México)",
-          "price": 6.1
+          "price": 6.3
         },
         {
           "player": "Armando Gonzalez",
           "team": "México",
           "name": "Armando Gonzalez (México)",
-          "price": 6.6
+          "price": 6.9
         },
         {
           "player": "Santiago Giménez",
           "team": "México",
           "name": "Santiago Giménez (México)",
-          "price": 7.0
+          "price": 7.2
         },
         {
           "player": "Guillermo Martínez",
           "team": "México",
           "name": "Guillermo Martínez (México)",
-          "price": 7.0
+          "price": 7.2
         },
         {
           "player": "Julián Quiñones",
           "team": "México",
           "name": "Julián Quiñones (México)",
-          "price": 7.0
+          "price": 7.2
         },
         {
           "player": "Jude Bellingham",
           "team": "Inglaterra",
           "name": "Jude Bellingham (Inglaterra)",
-          "price": 8.0
+          "price": 7.8
         },
         {
           "player": "Anthony Gordon",
           "team": "Inglaterra",
           "name": "Anthony Gordon (Inglaterra)",
-          "price": 9.0
+          "price": 8.75
         },
         {
           "player": "Marcus Rashford",
           "team": "Inglaterra",
           "name": "Marcus Rashford (Inglaterra)",
-          "price": 9.0
+          "price": 8.75
         },
         {
           "player": "Morgan Rogers",
           "team": "Inglaterra",
           "name": "Morgan Rogers (Inglaterra)",
-          "price": 9.0
+          "price": 8.75
         },
         {
           "player": "Bukayo Saka",
           "team": "Inglaterra",
           "name": "Bukayo Saka (Inglaterra)",
-          "price": 9.0
-        },
-        {
-          "player": "César Huerta",
-          "team": "México",
-          "name": "César Huerta (México)",
-          "price": 9.75
-        },
-        {
-          "player": "Alexis Vega",
-          "team": "México",
-          "name": "Alexis Vega (México)",
-          "price": 9.75
-        },
-        {
-          "player": "Gilberto Mora",
-          "team": "México",
-          "name": "Gilberto Mora (México)",
-          "price": 9.75
+          "price": 8.75
         },
         {
           "player": "Noni Madueke",
           "team": "Inglaterra",
           "name": "Noni Madueke (Inglaterra)",
-          "price": 9.75
+          "price": 9.5
         },
         {
           "player": "Eberechi Eze",
           "team": "Inglaterra",
           "name": "Eberechi Eze (Inglaterra)",
-          "price": 9.75
+          "price": 9.5
+        },
+        {
+          "player": "César Huerta",
+          "team": "México",
+          "name": "César Huerta (México)",
+          "price": 10.0
+        },
+        {
+          "player": "Alexis Vega",
+          "team": "México",
+          "name": "Alexis Vega (México)",
+          "price": 10.0
+        },
+        {
+          "player": "Gilberto Mora",
+          "team": "México",
+          "name": "Gilberto Mora (México)",
+          "price": 10.0
         },
         {
           "player": "Roberto Alvarado",
           "team": "México",
           "name": "Roberto Alvarado (México)",
-          "price": 10.5
+          "price": 10.75
         },
         {
           "player": "Brian Gutierrez",
           "team": "México",
           "name": "Brian Gutierrez (México)",
-          "price": 10.5
+          "price": 10.75
         },
         {
           "player": "Orbelín Pineda",
           "team": "México",
           "name": "Orbelín Pineda (México)",
-          "price": 10.5
+          "price": 10.75
         },
         {
           "player": "Alvaro Fidalgo",
           "team": "México",
           "name": "Alvaro Fidalgo (México)",
-          "price": 12.0
+          "price": 12.5
         },
         {
           "player": "Luis Chávez",
           "team": "México",
           "name": "Luis Chávez (México)",
-          "price": 13.0
-        },
-        {
-          "player": "Luis Romo",
-          "team": "México",
-          "name": "Luis Romo (México)",
-          "price": 16.0
+          "price": 13.5
         },
         {
           "player": "Declan Rice",
           "team": "Inglaterra",
           "name": "Declan Rice (Inglaterra)",
-          "price": 16.5
+          "price": 16.0
+        },
+        {
+          "player": "Luis Romo",
+          "team": "México",
+          "name": "Luis Romo (México)",
+          "price": 17.0
         },
         {
           "player": "Nico O'Reilly",
           "team": "Inglaterra",
           "name": "Nico O'Reilly (Inglaterra)",
-          "price": 17.5
-        },
-        {
-          "player": "César Montes",
-          "team": "México",
-          "name": "César Montes (México)",
-          "price": 18.5
+          "price": 17.0
         },
         {
           "player": "Kobbie Mainoo",
           "team": "Inglaterra",
           "name": "Kobbie Mainoo (Inglaterra)",
+          "price": 18.5
+        },
+        {
+          "player": "César Montes",
+          "team": "México",
+          "name": "César Montes (México)",
           "price": 19.0
         },
         {
           "player": "Elliot Anderson",
           "team": "Inglaterra",
           "name": "Elliot Anderson (Inglaterra)",
-          "price": 21.0
+          "price": 20.0
         },
         {
           "player": "Edson Álvarez",
@@ -4037,25 +4042,291 @@
           "player": "Marc Guehi",
           "team": "Inglaterra",
           "name": "Marc Guehi (Inglaterra)",
+          "price": 27.0
+        },
+        {
+          "player": "Dan Burn",
+          "team": "Inglaterra",
+          "name": "Dan Burn (Inglaterra)",
+          "price": 30.0
+        },
+        {
+          "player": "Obed Vargas",
+          "team": "México",
+          "name": "Obed Vargas (México)",
+          "price": 32.0
+        },
+        {
+          "player": "Jorge Sánchez",
+          "team": "México",
+          "name": "Jorge Sánchez (México)",
+          "price": 32.0
+        },
+        {
+          "player": "Mateo Chavez",
+          "team": "México",
+          "name": "Mateo Chavez (México)",
+          "price": 32.0
+        },
+        {
+          "player": "Ezri Konsa",
+          "team": "Inglaterra",
+          "name": "Ezri Konsa (Inglaterra)",
+          "price": 32.0
+        },
+        {
+          "player": "John Stones",
+          "team": "Inglaterra",
+          "name": "John Stones (Inglaterra)",
+          "price": 32.0
+        },
+        {
+          "player": "Djed Spence",
+          "team": "Inglaterra",
+          "name": "Djed Spence (Inglaterra)",
+          "price": 35.0
+        },
+        {
+          "player": "Israel Reyes",
+          "team": "México",
+          "name": "Israel Reyes (México)",
+          "price": 50.0
+        },
+        {
+          "player": "Erik Lira",
+          "team": "México",
+          "name": "Erik Lira (México)",
+          "price": 50.0
+        }
+      ],
+      "last": [
+        {
+          "player": "Harry Kane",
+          "team": "Inglaterra",
+          "name": "Harry Kane (Inglaterra)",
+          "price": 4.4
+        },
+        {
+          "player": "Ivan Toney",
+          "team": "Inglaterra",
+          "name": "Ivan Toney (Inglaterra)",
+          "price": 4.85
+        },
+        {
+          "player": "Ollie Watkins",
+          "team": "Inglaterra",
+          "name": "Ollie Watkins (Inglaterra)",
+          "price": 4.85
+        },
+        {
+          "player": "Raul Jimenez",
+          "team": "México",
+          "name": "Raul Jimenez (México)",
+          "price": 6.3
+        },
+        {
+          "player": "Armando Gonzalez",
+          "team": "México",
+          "name": "Armando Gonzalez (México)",
+          "price": 6.9
+        },
+        {
+          "player": "Santiago Giménez",
+          "team": "México",
+          "name": "Santiago Giménez (México)",
+          "price": 7.3
+        },
+        {
+          "player": "Guillermo Martínez",
+          "team": "México",
+          "name": "Guillermo Martínez (México)",
+          "price": 7.3
+        },
+        {
+          "player": "Julián Quiñones",
+          "team": "México",
+          "name": "Julián Quiñones (México)",
+          "price": 7.3
+        },
+        {
+          "player": "Jude Bellingham",
+          "team": "Inglaterra",
+          "name": "Jude Bellingham (Inglaterra)",
+          "price": 7.9
+        },
+        {
+          "player": "Anthony Gordon",
+          "team": "Inglaterra",
+          "name": "Anthony Gordon (Inglaterra)",
+          "price": 8.75
+        },
+        {
+          "player": "Marcus Rashford",
+          "team": "Inglaterra",
+          "name": "Marcus Rashford (Inglaterra)",
+          "price": 8.75
+        },
+        {
+          "player": "Morgan Rogers",
+          "team": "Inglaterra",
+          "name": "Morgan Rogers (Inglaterra)",
+          "price": 8.75
+        },
+        {
+          "player": "Bukayo Saka",
+          "team": "Inglaterra",
+          "name": "Bukayo Saka (Inglaterra)",
+          "price": 8.75
+        },
+        {
+          "player": "Noni Madueke",
+          "team": "Inglaterra",
+          "name": "Noni Madueke (Inglaterra)",
+          "price": 9.75
+        },
+        {
+          "player": "Eberechi Eze",
+          "team": "Inglaterra",
+          "name": "Eberechi Eze (Inglaterra)",
+          "price": 9.75
+        },
+        {
+          "player": "César Huerta",
+          "team": "México",
+          "name": "César Huerta (México)",
+          "price": 10.0
+        },
+        {
+          "player": "Alexis Vega",
+          "team": "México",
+          "name": "Alexis Vega (México)",
+          "price": 10.0
+        },
+        {
+          "player": "Gilberto Mora",
+          "team": "México",
+          "name": "Gilberto Mora (México)",
+          "price": 10.0
+        },
+        {
+          "player": "Roberto Alvarado",
+          "team": "México",
+          "name": "Roberto Alvarado (México)",
+          "price": 11.0
+        },
+        {
+          "player": "Brian Gutierrez",
+          "team": "México",
+          "name": "Brian Gutierrez (México)",
+          "price": 11.0
+        },
+        {
+          "player": "Orbelín Pineda",
+          "team": "México",
+          "name": "Orbelín Pineda (México)",
+          "price": 11.0
+        },
+        {
+          "player": "Alvaro Fidalgo",
+          "team": "México",
+          "name": "Alvaro Fidalgo (México)",
+          "price": 12.5
+        },
+        {
+          "player": "Luis Chávez",
+          "team": "México",
+          "name": "Luis Chávez (México)",
+          "price": 13.5
+        },
+        {
+          "player": "Declan Rice",
+          "team": "Inglaterra",
+          "name": "Declan Rice (Inglaterra)",
+          "price": 16.5
+        },
+        {
+          "player": "Luis Romo",
+          "team": "México",
+          "name": "Luis Romo (México)",
+          "price": 17.0
+        },
+        {
+          "player": "Nico O'Reilly",
+          "team": "Inglaterra",
+          "name": "Nico O'Reilly (Inglaterra)",
+          "price": 17.0
+        },
+        {
+          "player": "Kobbie Mainoo",
+          "team": "Inglaterra",
+          "name": "Kobbie Mainoo (Inglaterra)",
+          "price": 19.0
+        },
+        {
+          "player": "César Montes",
+          "team": "México",
+          "name": "César Montes (México)",
+          "price": 19.5
+        },
+        {
+          "player": "Elliot Anderson",
+          "team": "Inglaterra",
+          "name": "Elliot Anderson (Inglaterra)",
+          "price": 21.0
+        },
+        {
+          "player": "Jordan Henderson",
+          "team": "Inglaterra",
+          "name": "Jordan Henderson (Inglaterra)",
+          "price": 22.0
+        },
+        {
+          "player": "Edson Álvarez",
+          "team": "México",
+          "name": "Edson Álvarez (México)",
+          "price": 23.0
+        },
+        {
+          "player": "Jesus Gallardo",
+          "team": "México",
+          "name": "Jesus Gallardo (México)",
+          "price": 23.0
+        },
+        {
+          "player": "Trevoh Chalobah",
+          "team": "Inglaterra",
+          "name": "Trevoh Chalobah (Inglaterra)",
+          "price": 25.0
+        },
+        {
+          "player": "Johan Vásquez",
+          "team": "México",
+          "name": "Johan Vásquez (México)",
+          "price": 26.0
+        },
+        {
+          "player": "Marc Guehi",
+          "team": "Inglaterra",
+          "name": "Marc Guehi (Inglaterra)",
           "price": 28.0
         },
         {
           "player": "Obed Vargas",
           "team": "México",
           "name": "Obed Vargas (México)",
-          "price": 30.0
+          "price": 32.0
         },
         {
           "player": "Jorge Sánchez",
           "team": "México",
           "name": "Jorge Sánchez (México)",
-          "price": 30.0
+          "price": 32.0
         },
         {
           "player": "Mateo Chavez",
           "team": "México",
           "name": "Mateo Chavez (México)",
-          "price": 30.0
+          "price": 32.0
         },
         {
           "player": "Dan Burn",
@@ -4085,272 +4356,6 @@
           "player": "Israel Reyes",
           "team": "México",
           "name": "Israel Reyes (México)",
-          "price": 45.0
-        },
-        {
-          "player": "Erik Lira",
-          "team": "México",
-          "name": "Erik Lira (México)",
-          "price": 50.0
-        }
-      ],
-      "last": [
-        {
-          "player": "Harry Kane",
-          "team": "Inglaterra",
-          "name": "Harry Kane (Inglaterra)",
-          "price": 4.5
-        },
-        {
-          "player": "Ivan Toney",
-          "team": "Inglaterra",
-          "name": "Ivan Toney (Inglaterra)",
-          "price": 5.0
-        },
-        {
-          "player": "Ollie Watkins",
-          "team": "Inglaterra",
-          "name": "Ollie Watkins (Inglaterra)",
-          "price": 5.0
-        },
-        {
-          "player": "Raul Jimenez",
-          "team": "México",
-          "name": "Raul Jimenez (México)",
-          "price": 6.1
-        },
-        {
-          "player": "Armando Gonzalez",
-          "team": "México",
-          "name": "Armando Gonzalez (México)",
-          "price": 6.7
-        },
-        {
-          "player": "Santiago Giménez",
-          "team": "México",
-          "name": "Santiago Giménez (México)",
-          "price": 7.0
-        },
-        {
-          "player": "Guillermo Martínez",
-          "team": "México",
-          "name": "Guillermo Martínez (México)",
-          "price": 7.0
-        },
-        {
-          "player": "Julián Quiñones",
-          "team": "México",
-          "name": "Julián Quiñones (México)",
-          "price": 7.0
-        },
-        {
-          "player": "Jude Bellingham",
-          "team": "Inglaterra",
-          "name": "Jude Bellingham (Inglaterra)",
-          "price": 8.0
-        },
-        {
-          "player": "Anthony Gordon",
-          "team": "Inglaterra",
-          "name": "Anthony Gordon (Inglaterra)",
-          "price": 9.0
-        },
-        {
-          "player": "Marcus Rashford",
-          "team": "Inglaterra",
-          "name": "Marcus Rashford (Inglaterra)",
-          "price": 9.0
-        },
-        {
-          "player": "Morgan Rogers",
-          "team": "Inglaterra",
-          "name": "Morgan Rogers (Inglaterra)",
-          "price": 9.0
-        },
-        {
-          "player": "Bukayo Saka",
-          "team": "Inglaterra",
-          "name": "Bukayo Saka (Inglaterra)",
-          "price": 9.0
-        },
-        {
-          "player": "César Huerta",
-          "team": "México",
-          "name": "César Huerta (México)",
-          "price": 9.75
-        },
-        {
-          "player": "Alexis Vega",
-          "team": "México",
-          "name": "Alexis Vega (México)",
-          "price": 9.75
-        },
-        {
-          "player": "Gilberto Mora",
-          "team": "México",
-          "name": "Gilberto Mora (México)",
-          "price": 9.75
-        },
-        {
-          "player": "Noni Madueke",
-          "team": "Inglaterra",
-          "name": "Noni Madueke (Inglaterra)",
-          "price": 10.0
-        },
-        {
-          "player": "Eberechi Eze",
-          "team": "Inglaterra",
-          "name": "Eberechi Eze (Inglaterra)",
-          "price": 10.0
-        },
-        {
-          "player": "Roberto Alvarado",
-          "team": "México",
-          "name": "Roberto Alvarado (México)",
-          "price": 10.5
-        },
-        {
-          "player": "Brian Gutierrez",
-          "team": "México",
-          "name": "Brian Gutierrez (México)",
-          "price": 10.5
-        },
-        {
-          "player": "Orbelín Pineda",
-          "team": "México",
-          "name": "Orbelín Pineda (México)",
-          "price": 10.5
-        },
-        {
-          "player": "Alvaro Fidalgo",
-          "team": "México",
-          "name": "Alvaro Fidalgo (México)",
-          "price": 12.5
-        },
-        {
-          "player": "Luis Chávez",
-          "team": "México",
-          "name": "Luis Chávez (México)",
-          "price": 13.0
-        },
-        {
-          "player": "Luis Romo",
-          "team": "México",
-          "name": "Luis Romo (México)",
-          "price": 16.5
-        },
-        {
-          "player": "Declan Rice",
-          "team": "Inglaterra",
-          "name": "Declan Rice (Inglaterra)",
-          "price": 17.0
-        },
-        {
-          "player": "Nico O'Reilly",
-          "team": "Inglaterra",
-          "name": "Nico O'Reilly (Inglaterra)",
-          "price": 17.5
-        },
-        {
-          "player": "César Montes",
-          "team": "México",
-          "name": "César Montes (México)",
-          "price": 19.0
-        },
-        {
-          "player": "Kobbie Mainoo",
-          "team": "Inglaterra",
-          "name": "Kobbie Mainoo (Inglaterra)",
-          "price": 19.5
-        },
-        {
-          "player": "Elliot Anderson",
-          "team": "Inglaterra",
-          "name": "Elliot Anderson (Inglaterra)",
-          "price": 21.0
-        },
-        {
-          "player": "Edson Álvarez",
-          "team": "México",
-          "name": "Edson Álvarez (México)",
-          "price": 22.0
-        },
-        {
-          "player": "Jesus Gallardo",
-          "team": "México",
-          "name": "Jesus Gallardo (México)",
-          "price": 22.0
-        },
-        {
-          "player": "Jordan Henderson",
-          "team": "Inglaterra",
-          "name": "Jordan Henderson (Inglaterra)",
-          "price": 23.0
-        },
-        {
-          "player": "Johan Vásquez",
-          "team": "México",
-          "name": "Johan Vásquez (México)",
-          "price": 25.0
-        },
-        {
-          "player": "Trevoh Chalobah",
-          "team": "Inglaterra",
-          "name": "Trevoh Chalobah (Inglaterra)",
-          "price": 26.0
-        },
-        {
-          "player": "Marc Guehi",
-          "team": "Inglaterra",
-          "name": "Marc Guehi (Inglaterra)",
-          "price": 29.0
-        },
-        {
-          "player": "Obed Vargas",
-          "team": "México",
-          "name": "Obed Vargas (México)",
-          "price": 32.0
-        },
-        {
-          "player": "Jorge Sánchez",
-          "team": "México",
-          "name": "Jorge Sánchez (México)",
-          "price": 32.0
-        },
-        {
-          "player": "Mateo Chavez",
-          "team": "México",
-          "name": "Mateo Chavez (México)",
-          "price": 32.0
-        },
-        {
-          "player": "Dan Burn",
-          "team": "Inglaterra",
-          "name": "Dan Burn (Inglaterra)",
-          "price": 32.0
-        },
-        {
-          "player": "Ezri Konsa",
-          "team": "Inglaterra",
-          "name": "Ezri Konsa (Inglaterra)",
-          "price": 35.0
-        },
-        {
-          "player": "John Stones",
-          "team": "Inglaterra",
-          "name": "John Stones (Inglaterra)",
-          "price": 35.0
-        },
-        {
-          "player": "Djed Spence",
-          "team": "Inglaterra",
-          "name": "Djed Spence (Inglaterra)",
-          "price": 40.0
-        },
-        {
-          "player": "Israel Reyes",
-          "team": "México",
-          "name": "Israel Reyes (México)",
           "price": 50.0
         },
         {
@@ -4373,7 +4378,7 @@
       },
       {
         "name": "X",
-        "price": 3.6,
+        "price": 3.65,
         "handicap": 0.0
       },
       {
@@ -4390,7 +4395,7 @@
       },
       {
         "name": "Não",
-        "price": 2.0,
+        "price": 1.98,
         "handicap": 0.0
       }
     ],
@@ -4427,17 +4432,17 @@
       },
       {
         "name": "Mais de 0.5",
-        "price": 1.05,
+        "price": 1.04,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 5.7,
+        "price": 5.8,
         "handicap": 0.5
       },
       {
         "name": "Mais de 4.5",
-        "price": 4.05,
+        "price": 4.1,
         "handicap": 4.5
       },
       {
@@ -4447,34 +4452,34 @@
       },
       {
         "name": "Mais de 5.5",
-        "price": 5.7,
+        "price": 5.8,
         "handicap": 5.5
       },
       {
         "name": "Menos 5.5",
-        "price": 1.05,
+        "price": 1.04,
         "handicap": 5.5
       },
       {
         "name": "Mais de 6.5",
-        "price": 7.3,
+        "price": 7.4,
         "handicap": 6.5
       }
     ],
     "home_totals": [
       {
         "name": "Mais de 0.5",
-        "price": 1.37,
+        "price": 1.39,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 2.65,
+        "price": 2.57,
         "handicap": 0.5
       },
       {
         "name": "Mais de 1.5",
-        "price": 2.67,
+        "price": 2.65,
         "handicap": 1.5
       },
       {
@@ -4484,17 +4489,22 @@
       },
       {
         "name": "Mais de 2.5",
-        "price": 5.5,
+        "price": 5.3,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.08,
+        "price": 1.09,
         "handicap": 2.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 8.25,
+        "price": 8.0,
+        "handicap": 3.5
+      },
+      {
+        "name": "Menos 3.5",
+        "price": 1.02,
         "handicap": 3.5
       }
     ],
@@ -4511,42 +4521,37 @@
       },
       {
         "name": "Mais de 0.5",
-        "price": 1.18,
+        "price": 1.17,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 3.8,
+        "price": 3.95,
         "handicap": 0.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 3.25,
+        "price": 3.35,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.24,
+        "price": 1.23,
         "handicap": 2.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 5.7,
+        "price": 5.9,
         "handicap": 3.5
       },
       {
         "name": "Menos 3.5",
-        "price": 1.07,
+        "price": 1.06,
         "handicap": 3.5
       },
       {
         "name": "Mais de 4.5",
-        "price": 8.0,
-        "handicap": 4.5
-      },
-      {
-        "name": "Menos 4.5",
-        "price": 1.02,
+        "price": 8.25,
         "handicap": 4.5
       }
     ],
@@ -4554,12 +4559,12 @@
     "qualify": [
       {
         "name": "Portugal",
-        "price": 2.55,
+        "price": 2.5,
         "handicap": 0.0
       },
       {
         "name": "Espanha",
-        "price": 1.47,
+        "price": 1.5,
         "handicap": 0.0
       }
     ],
@@ -4569,7 +4574,7 @@
         "selections": [
           {
             "name": "Espanha -3",
-            "price": 10.75
+            "price": 11.0
           }
         ]
       },
@@ -4578,7 +4583,7 @@
         "selections": [
           {
             "name": "Portugal -2",
-            "price": 13.5
+            "price": 12.5
           },
           {
             "name": "Empate -2",
@@ -4586,7 +4591,7 @@
           },
           {
             "name": "Espanha -2",
-            "price": 6.1
+            "price": 6.3
           }
         ]
       },
@@ -4595,15 +4600,15 @@
         "selections": [
           {
             "name": "Portugal -1",
-            "price": 7.2
+            "price": 7.0
           },
           {
             "name": "Empate -1",
-            "price": 4.5
+            "price": 4.55
           },
           {
             "name": "Espanha -1",
-            "price": 3.2
+            "price": 3.25
           }
         ]
       },
@@ -4620,7 +4625,7 @@
           },
           {
             "name": "Empate +1",
-            "price": 3.45
+            "price": 3.4
           }
         ]
       },
@@ -4629,7 +4634,7 @@
         "selections": [
           {
             "name": "Espanha +2",
-            "price": 1.06
+            "price": 1.07
           },
           {
             "name": "Portugal +2",
@@ -4646,7 +4651,7 @@
         "selections": [
           {
             "name": "Portugal +3",
-            "price": 1.09
+            "price": 1.08
           },
           {
             "name": "Empate +3",
@@ -4664,22 +4669,22 @@
           "price": 2.02
         },
         {
-          "player": "Lamine Yamal",
-          "team": "Espanha",
-          "name": "Lamine Yamal (Espanha)",
-          "price": 2.5
-        },
-        {
           "player": "Cristiano Ronaldo",
           "team": "Portugal",
           "name": "Cristiano Ronaldo (Portugal)",
           "price": 2.55
         },
         {
+          "player": "Lamine Yamal",
+          "team": "Espanha",
+          "name": "Lamine Yamal (Espanha)",
+          "price": 2.55
+        },
+        {
           "player": "Ferran Torres",
           "team": "Espanha",
           "name": "Ferran Torres (Espanha)",
-          "price": 2.57
+          "price": 2.6
         },
         {
           "player": "Gonçalo Ramos",
@@ -4688,70 +4693,70 @@
           "price": 3.05
         },
         {
-          "player": "Victor Munoz",
-          "team": "Espanha",
-          "name": "Victor Munoz (Espanha)",
-          "price": 3.7
-        },
-        {
           "player": "Gonçalo Guedes",
           "team": "Portugal",
           "name": "Gonçalo Guedes (Portugal)",
-          "price": 3.8
-        },
-        {
-          "player": "Álex Baena",
-          "team": "Espanha",
-          "name": "Álex Baena (Espanha)",
-          "price": 3.85
-        },
-        {
-          "player": "Mikel Merino",
-          "team": "Espanha",
-          "name": "Mikel Merino (Espanha)",
-          "price": 3.85
+          "price": 3.75
         },
         {
           "player": "Dani Olmo",
           "team": "Espanha",
           "name": "Dani Olmo (Espanha)",
-          "price": 3.85
+          "price": 3.75
+        },
+        {
+          "player": "Victor Munoz",
+          "team": "Espanha",
+          "name": "Victor Munoz (Espanha)",
+          "price": 3.75
+        },
+        {
+          "player": "Álex Baena",
+          "team": "Espanha",
+          "name": "Álex Baena (Espanha)",
+          "price": 3.9
+        },
+        {
+          "player": "Mikel Merino",
+          "team": "Espanha",
+          "name": "Mikel Merino (Espanha)",
+          "price": 3.9
         },
         {
           "player": "Rafael Leão",
           "team": "Portugal",
           "name": "Rafael Leão (Portugal)",
-          "price": 4.2
-        },
-        {
-          "player": "Yeremy Pino",
-          "team": "Espanha",
-          "name": "Yeremy Pino (Espanha)",
-          "price": 4.2
+          "price": 4.25
         },
         {
           "player": "João Félix",
           "team": "Portugal",
           "name": "João Félix (Portugal)",
-          "price": 4.55
+          "price": 4.25
+        },
+        {
+          "player": "Yeremy Pino",
+          "team": "Espanha",
+          "name": "Yeremy Pino (Espanha)",
+          "price": 4.3
         },
         {
           "player": "Francisco Trincão",
           "team": "Portugal",
           "name": "Francisco Trincão (Portugal)",
-          "price": 4.55
+          "price": 4.65
         },
         {
           "player": "Bruno Fernandes",
           "team": "Portugal",
           "name": "Bruno Fernandes (Portugal)",
-          "price": 4.55
+          "price": 4.65
         },
         {
           "player": "Francisco Conceição",
           "team": "Portugal",
           "name": "Francisco Conceição (Portugal)",
-          "price": 4.9
+          "price": 5.0
         },
         {
           "player": "Fabián Ruiz",
@@ -4763,73 +4768,73 @@
           "player": "Bernardo Silva",
           "team": "Portugal",
           "name": "Bernardo Silva (Portugal)",
-          "price": 5.6
+          "price": 5.7
         },
         {
           "player": "Pedro Neto",
           "team": "Portugal",
           "name": "Pedro Neto (Portugal)",
-          "price": 6.0
+          "price": 6.1
         },
         {
           "player": "Samu Costa",
           "team": "Portugal",
           "name": "Samu Costa (Portugal)",
-          "price": 6.0
+          "price": 6.1
         },
         {
           "player": "Martin Zubimendi",
           "team": "Espanha",
           "name": "Martin Zubimendi (Espanha)",
-          "price": 6.0
+          "price": 6.1
         },
         {
           "player": "Rodri",
           "team": "Espanha",
           "name": "Rodri (Espanha)",
-          "price": 6.4
+          "price": 6.5
         },
         {
           "player": "Gavi",
           "team": "Espanha",
           "name": "Gavi (Espanha)",
-          "price": 6.4
+          "price": 6.5
         },
         {
           "player": "Pedri",
           "team": "Espanha",
           "name": "Pedri (Espanha)",
-          "price": 6.7
+          "price": 6.8
         },
         {
           "player": "Nuno Mendes",
           "team": "Portugal",
           "name": "Nuno Mendes (Portugal)",
-          "price": 7.3
+          "price": 7.5
         },
         {
           "player": "Rúben Neves",
           "team": "Portugal",
           "name": "Rúben Neves (Portugal)",
-          "price": 7.7
+          "price": 7.8
         },
         {
           "player": "Vitinha",
           "team": "Portugal",
           "name": "Vitinha (Portugal)",
-          "price": 7.7
+          "price": 7.8
         },
         {
           "player": "João Neves",
           "team": "Portugal",
           "name": "João Neves (Portugal)",
-          "price": 7.7
+          "price": 7.8
         },
         {
           "player": "Álex Grimaldo",
           "team": "Espanha",
           "name": "Álex Grimaldo (Espanha)",
-          "price": 7.7
+          "price": 7.9
         },
         {
           "player": "Eric Garcia",
@@ -4847,13 +4852,13 @@
           "player": "Marc Cucurella",
           "team": "Espanha",
           "name": "Marc Cucurella (Espanha)",
-          "price": 9.0
+          "price": 9.25
         },
         {
           "player": "João Cancelo",
           "team": "Portugal",
           "name": "João Cancelo (Portugal)",
-          "price": 9.5
+          "price": 9.75
         },
         {
           "player": "Marcos Llorente",
@@ -4877,49 +4882,49 @@
           "player": "Matheus Nunes",
           "team": "Portugal",
           "name": "Matheus Nunes (Portugal)",
-          "price": 10.75
+          "price": 11.0
         },
         {
           "player": "Tomas Araujo",
           "team": "Portugal",
           "name": "Tomas Araujo (Portugal)",
-          "price": 10.75
+          "price": 11.0
         },
         {
           "player": "Rúben Dias",
           "team": "Portugal",
           "name": "Rúben Dias (Portugal)",
-          "price": 10.75
+          "price": 11.0
         },
         {
           "player": "Gonçalo Inácio",
           "team": "Portugal",
           "name": "Gonçalo Inácio (Portugal)",
-          "price": 10.75
+          "price": 11.0
         },
         {
           "player": "Renato Veiga",
           "team": "Portugal",
           "name": "Renato Veiga (Portugal)",
-          "price": 13.0
+          "price": 12.0
         },
         {
           "player": "Diogo Dalot",
           "team": "Portugal",
           "name": "Diogo Dalot (Portugal)",
-          "price": 13.0
+          "price": 12.0
         },
         {
           "player": "Pau Cubarsi",
           "team": "Espanha",
           "name": "Pau Cubarsi (Espanha)",
-          "price": 13.0
+          "price": 13.5
         },
         {
           "player": "Nélson Semedo",
           "team": "Portugal",
           "name": "Nélson Semedo (Portugal)",
-          "price": 15.5
+          "price": 14.5
         }
       ],
       "first": [
@@ -4927,49 +4932,37 @@
           "player": "Mikel Oyarzabal",
           "team": "Espanha",
           "name": "Mikel Oyarzabal (Espanha)",
-          "price": 4.05
-        },
-        {
-          "player": "Lamine Yamal",
-          "team": "Espanha",
-          "name": "Lamine Yamal (Espanha)",
-          "price": 5.4
-        },
-        {
-          "player": "Ferran Torres",
-          "team": "Espanha",
-          "name": "Ferran Torres (Espanha)",
-          "price": 5.5
+          "price": 4.3
         },
         {
           "player": "Cristiano Ronaldo",
           "team": "Portugal",
           "name": "Cristiano Ronaldo (Portugal)",
-          "price": 6.0
+          "price": 5.5
+        },
+        {
+          "player": "Lamine Yamal",
+          "team": "Espanha",
+          "name": "Lamine Yamal (Espanha)",
+          "price": 5.7
+        },
+        {
+          "player": "Ferran Torres",
+          "team": "Espanha",
+          "name": "Ferran Torres (Espanha)",
+          "price": 5.9
         },
         {
           "player": "Gonçalo Ramos",
           "team": "Portugal",
           "name": "Gonçalo Ramos (Portugal)",
-          "price": 7.4
+          "price": 6.8
         },
         {
-          "player": "Victor Munoz",
-          "team": "Espanha",
-          "name": "Victor Munoz (Espanha)",
-          "price": 8.5
-        },
-        {
-          "player": "Álex Baena",
-          "team": "Espanha",
-          "name": "Álex Baena (Espanha)",
-          "price": 9.0
-        },
-        {
-          "player": "Mikel Merino",
-          "team": "Espanha",
-          "name": "Mikel Merino (Espanha)",
-          "price": 9.0
+          "player": "Gonçalo Guedes",
+          "team": "Portugal",
+          "name": "Gonçalo Guedes (Portugal)",
+          "price": 8.75
         },
         {
           "player": "Dani Olmo",
@@ -4978,160 +4971,420 @@
           "price": 9.0
         },
         {
-          "player": "Gonçalo Guedes",
-          "team": "Portugal",
-          "name": "Gonçalo Guedes (Portugal)",
+          "player": "Victor Munoz",
+          "team": "Espanha",
+          "name": "Victor Munoz (Espanha)",
+          "price": 9.0
+        },
+        {
+          "player": "Álex Baena",
+          "team": "Espanha",
+          "name": "Álex Baena (Espanha)",
           "price": 9.5
         },
         {
-          "player": "Yeremy Pino",
+          "player": "Mikel Merino",
           "team": "Espanha",
-          "name": "Yeremy Pino (Espanha)",
-          "price": 10.0
+          "name": "Mikel Merino (Espanha)",
+          "price": 9.5
         },
         {
           "player": "Rafael Leão",
           "team": "Portugal",
           "name": "Rafael Leão (Portugal)",
-          "price": 10.75
+          "price": 10.25
         },
         {
           "player": "João Félix",
           "team": "Portugal",
           "name": "João Félix (Portugal)",
-          "price": 11.75
+          "price": 10.25
+        },
+        {
+          "player": "Yeremy Pino",
+          "team": "Espanha",
+          "name": "Yeremy Pino (Espanha)",
+          "price": 10.5
         },
         {
           "player": "Francisco Trincão",
           "team": "Portugal",
           "name": "Francisco Trincão (Portugal)",
-          "price": 11.75
+          "price": 11.25
         },
         {
           "player": "Bruno Fernandes",
           "team": "Portugal",
           "name": "Bruno Fernandes (Portugal)",
-          "price": 11.75
-        },
-        {
-          "player": "Fabián Ruiz",
-          "team": "Espanha",
-          "name": "Fabián Ruiz (Espanha)",
-          "price": 11.75
+          "price": 11.25
         },
         {
           "player": "Francisco Conceição",
           "team": "Portugal",
           "name": "Francisco Conceição (Portugal)",
+          "price": 12.0
+        },
+        {
+          "player": "Fabián Ruiz",
+          "team": "Espanha",
+          "name": "Fabián Ruiz (Espanha)",
           "price": 12.5
         },
         {
           "player": "Bernardo Silva",
           "team": "Portugal",
           "name": "Bernardo Silva (Portugal)",
-          "price": 14.5
-        },
-        {
-          "player": "Martin Zubimendi",
-          "team": "Espanha",
-          "name": "Martin Zubimendi (Espanha)",
-          "price": 14.5
+          "price": 14.0
         },
         {
           "player": "Pedro Neto",
           "team": "Portugal",
           "name": "Pedro Neto (Portugal)",
-          "price": 15.5
+          "price": 15.0
         },
         {
           "player": "Samu Costa",
           "team": "Portugal",
           "name": "Samu Costa (Portugal)",
+          "price": 15.0
+        },
+        {
+          "player": "Martin Zubimendi",
+          "team": "Espanha",
+          "name": "Martin Zubimendi (Espanha)",
           "price": 15.5
         },
         {
           "player": "Rodri",
           "team": "Espanha",
           "name": "Rodri (Espanha)",
-          "price": 15.5
+          "price": 16.5
         },
         {
           "player": "Gavi",
           "team": "Espanha",
           "name": "Gavi (Espanha)",
-          "price": 15.5
+          "price": 16.5
         },
         {
           "player": "Pedri",
           "team": "Espanha",
           "name": "Pedri (Espanha)",
-          "price": 16.5
-        },
-        {
-          "player": "Álex Grimaldo",
-          "team": "Espanha",
-          "name": "Álex Grimaldo (Espanha)",
-          "price": 19.0
+          "price": 17.5
         },
         {
           "player": "Nuno Mendes",
           "team": "Portugal",
           "name": "Nuno Mendes (Portugal)",
-          "price": 19.5
+          "price": 18.5
         },
         {
           "player": "Rúben Neves",
           "team": "Portugal",
           "name": "Rúben Neves (Portugal)",
-          "price": 21.0
+          "price": 19.5
         },
         {
           "player": "Vitinha",
           "team": "Portugal",
           "name": "Vitinha (Portugal)",
-          "price": 21.0
+          "price": 19.5
         },
         {
           "player": "João Neves",
           "team": "Portugal",
           "name": "João Neves (Portugal)",
+          "price": 19.5
+        },
+        {
+          "player": "Álex Grimaldo",
+          "team": "Espanha",
+          "name": "Álex Grimaldo (Espanha)",
+          "price": 20.0
+        },
+        {
+          "player": "Eric Garcia",
+          "team": "Espanha",
+          "name": "Eric Garcia (Espanha)",
+          "price": 22.0
+        },
+        {
+          "player": "Pedro Porro",
+          "team": "Espanha",
+          "name": "Pedro Porro (Espanha)",
+          "price": 22.0
+        },
+        {
+          "player": "Marc Cucurella",
+          "team": "Espanha",
+          "name": "Marc Cucurella (Espanha)",
+          "price": 24.0
+        },
+        {
+          "player": "João Cancelo",
+          "team": "Portugal",
+          "name": "João Cancelo (Portugal)",
+          "price": 25.0
+        },
+        {
+          "player": "Marcos Llorente",
+          "team": "Espanha",
+          "name": "Marcos Llorente (Espanha)",
+          "price": 26.0
+        },
+        {
+          "player": "Aymeric Laporte",
+          "team": "Espanha",
+          "name": "Aymeric Laporte (Espanha)",
+          "price": 26.0
+        },
+        {
+          "player": "Marc Pubill",
+          "team": "Espanha",
+          "name": "Marc Pubill (Espanha)",
+          "price": 26.0
+        },
+        {
+          "player": "Matheus Nunes",
+          "team": "Portugal",
+          "name": "Matheus Nunes (Portugal)",
+          "price": 28.0
+        },
+        {
+          "player": "Tomas Araujo",
+          "team": "Portugal",
+          "name": "Tomas Araujo (Portugal)",
+          "price": 28.0
+        },
+        {
+          "player": "Rúben Dias",
+          "team": "Portugal",
+          "name": "Rúben Dias (Portugal)",
+          "price": 28.0
+        },
+        {
+          "player": "Gonçalo Inácio",
+          "team": "Portugal",
+          "name": "Gonçalo Inácio (Portugal)",
+          "price": 28.0
+        },
+        {
+          "player": "Renato Veiga",
+          "team": "Portugal",
+          "name": "Renato Veiga (Portugal)",
+          "price": 32.0
+        },
+        {
+          "player": "Diogo Dalot",
+          "team": "Portugal",
+          "name": "Diogo Dalot (Portugal)",
+          "price": 32.0
+        },
+        {
+          "player": "Pau Cubarsi",
+          "team": "Espanha",
+          "name": "Pau Cubarsi (Espanha)",
+          "price": 37.0
+        },
+        {
+          "player": "Nélson Semedo",
+          "team": "Portugal",
+          "name": "Nélson Semedo (Portugal)",
+          "price": 37.0
+        }
+      ],
+      "last": [
+        {
+          "player": "Mikel Oyarzabal",
+          "team": "Espanha",
+          "name": "Mikel Oyarzabal (Espanha)",
+          "price": 4.3
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "team": "Portugal",
+          "name": "Cristiano Ronaldo (Portugal)",
+          "price": 5.5
+        },
+        {
+          "player": "Lamine Yamal",
+          "team": "Espanha",
+          "name": "Lamine Yamal (Espanha)",
+          "price": 5.7
+        },
+        {
+          "player": "Ferran Torres",
+          "team": "Espanha",
+          "name": "Ferran Torres (Espanha)",
+          "price": 5.9
+        },
+        {
+          "player": "Gonçalo Ramos",
+          "team": "Portugal",
+          "name": "Gonçalo Ramos (Portugal)",
+          "price": 6.9
+        },
+        {
+          "player": "Gonçalo Guedes",
+          "team": "Portugal",
+          "name": "Gonçalo Guedes (Portugal)",
+          "price": 8.75
+        },
+        {
+          "player": "Dani Olmo",
+          "team": "Espanha",
+          "name": "Dani Olmo (Espanha)",
+          "price": 9.25
+        },
+        {
+          "player": "Victor Munoz",
+          "team": "Espanha",
+          "name": "Victor Munoz (Espanha)",
+          "price": 9.25
+        },
+        {
+          "player": "Álex Baena",
+          "team": "Espanha",
+          "name": "Álex Baena (Espanha)",
+          "price": 9.5
+        },
+        {
+          "player": "Mikel Merino",
+          "team": "Espanha",
+          "name": "Mikel Merino (Espanha)",
+          "price": 9.5
+        },
+        {
+          "player": "Rafael Leão",
+          "team": "Portugal",
+          "name": "Rafael Leão (Portugal)",
+          "price": 10.25
+        },
+        {
+          "player": "João Félix",
+          "team": "Portugal",
+          "name": "João Félix (Portugal)",
+          "price": 10.25
+        },
+        {
+          "player": "Yeremy Pino",
+          "team": "Espanha",
+          "name": "Yeremy Pino (Espanha)",
+          "price": 10.5
+        },
+        {
+          "player": "Francisco Trincão",
+          "team": "Portugal",
+          "name": "Francisco Trincão (Portugal)",
+          "price": 11.25
+        },
+        {
+          "player": "Bruno Fernandes",
+          "team": "Portugal",
+          "name": "Bruno Fernandes (Portugal)",
+          "price": 11.25
+        },
+        {
+          "player": "Francisco Conceição",
+          "team": "Portugal",
+          "name": "Francisco Conceição (Portugal)",
+          "price": 12.0
+        },
+        {
+          "player": "Fabián Ruiz",
+          "team": "Espanha",
+          "name": "Fabián Ruiz (Espanha)",
+          "price": 12.5
+        },
+        {
+          "player": "Bernardo Silva",
+          "team": "Portugal",
+          "name": "Bernardo Silva (Portugal)",
+          "price": 14.0
+        },
+        {
+          "player": "Pedro Neto",
+          "team": "Portugal",
+          "name": "Pedro Neto (Portugal)",
+          "price": 15.0
+        },
+        {
+          "player": "Samu Costa",
+          "team": "Portugal",
+          "name": "Samu Costa (Portugal)",
+          "price": 15.0
+        },
+        {
+          "player": "Martin Zubimendi",
+          "team": "Espanha",
+          "name": "Martin Zubimendi (Espanha)",
+          "price": 16.0
+        },
+        {
+          "player": "Rodri",
+          "team": "Espanha",
+          "name": "Rodri (Espanha)",
+          "price": 17.0
+        },
+        {
+          "player": "Gavi",
+          "team": "Espanha",
+          "name": "Gavi (Espanha)",
+          "price": 17.0
+        },
+        {
+          "player": "Pedri",
+          "team": "Espanha",
+          "name": "Pedri (Espanha)",
+          "price": 18.0
+        },
+        {
+          "player": "Nuno Mendes",
+          "team": "Portugal",
+          "name": "Nuno Mendes (Portugal)",
+          "price": 19.0
+        },
+        {
+          "player": "Rúben Neves",
+          "team": "Portugal",
+          "name": "Rúben Neves (Portugal)",
+          "price": 20.0
+        },
+        {
+          "player": "Vitinha",
+          "team": "Portugal",
+          "name": "Vitinha (Portugal)",
+          "price": 20.0
+        },
+        {
+          "player": "João Neves",
+          "team": "Portugal",
+          "name": "João Neves (Portugal)",
+          "price": 20.0
+        },
+        {
+          "player": "Álex Grimaldo",
+          "team": "Espanha",
+          "name": "Álex Grimaldo (Espanha)",
           "price": 21.0
         },
         {
           "player": "Eric Garcia",
           "team": "Espanha",
           "name": "Eric Garcia (Espanha)",
-          "price": 21.0
+          "price": 23.0
         },
         {
           "player": "Pedro Porro",
           "team": "Espanha",
           "name": "Pedro Porro (Espanha)",
-          "price": 21.0
+          "price": 23.0
         },
         {
           "player": "Marc Cucurella",
           "team": "Espanha",
           "name": "Marc Cucurella (Espanha)",
-          "price": 23.0
-        },
-        {
-          "player": "Marcos Llorente",
-          "team": "Espanha",
-          "name": "Marcos Llorente (Espanha)",
-          "price": 24.0
-        },
-        {
-          "player": "Aymeric Laporte",
-          "team": "Espanha",
-          "name": "Aymeric Laporte (Espanha)",
-          "price": 24.0
-        },
-        {
-          "player": "Marc Pubill",
-          "team": "Espanha",
-          "name": "Marc Pubill (Espanha)",
-          "price": 24.0
+          "price": 25.0
         },
         {
           "player": "João Cancelo",
@@ -5140,318 +5393,70 @@
           "price": 26.0
         },
         {
-          "player": "Matheus Nunes",
-          "team": "Portugal",
-          "name": "Matheus Nunes (Portugal)",
-          "price": 30.0
-        },
-        {
-          "player": "Tomas Araujo",
-          "team": "Portugal",
-          "name": "Tomas Araujo (Portugal)",
-          "price": 30.0
-        },
-        {
-          "player": "Rúben Dias",
-          "team": "Portugal",
-          "name": "Rúben Dias (Portugal)",
-          "price": 30.0
-        },
-        {
-          "player": "Gonçalo Inácio",
-          "team": "Portugal",
-          "name": "Gonçalo Inácio (Portugal)",
-          "price": 30.0
-        },
-        {
-          "player": "Pau Cubarsi",
-          "team": "Espanha",
-          "name": "Pau Cubarsi (Espanha)",
-          "price": 35.0
-        },
-        {
-          "player": "Renato Veiga",
-          "team": "Portugal",
-          "name": "Renato Veiga (Portugal)",
-          "price": 37.0
-        },
-        {
-          "player": "Diogo Dalot",
-          "team": "Portugal",
-          "name": "Diogo Dalot (Portugal)",
-          "price": 37.0
-        },
-        {
-          "player": "Nélson Semedo",
-          "team": "Portugal",
-          "name": "Nélson Semedo (Portugal)",
-          "price": 45.0
-        }
-      ],
-      "last": [
-        {
-          "player": "Mikel Oyarzabal",
-          "team": "Espanha",
-          "name": "Mikel Oyarzabal (Espanha)",
-          "price": 4.05
-        },
-        {
-          "player": "Lamine Yamal",
-          "team": "Espanha",
-          "name": "Lamine Yamal (Espanha)",
-          "price": 5.4
-        },
-        {
-          "player": "Ferran Torres",
-          "team": "Espanha",
-          "name": "Ferran Torres (Espanha)",
-          "price": 5.5
-        },
-        {
-          "player": "Cristiano Ronaldo",
-          "team": "Portugal",
-          "name": "Cristiano Ronaldo (Portugal)",
-          "price": 6.0
-        },
-        {
-          "player": "Gonçalo Ramos",
-          "team": "Portugal",
-          "name": "Gonçalo Ramos (Portugal)",
-          "price": 7.4
-        },
-        {
-          "player": "Victor Munoz",
-          "team": "Espanha",
-          "name": "Victor Munoz (Espanha)",
-          "price": 8.5
-        },
-        {
-          "player": "Álex Baena",
-          "team": "Espanha",
-          "name": "Álex Baena (Espanha)",
-          "price": 9.0
-        },
-        {
-          "player": "Mikel Merino",
-          "team": "Espanha",
-          "name": "Mikel Merino (Espanha)",
-          "price": 9.0
-        },
-        {
-          "player": "Dani Olmo",
-          "team": "Espanha",
-          "name": "Dani Olmo (Espanha)",
-          "price": 9.0
-        },
-        {
-          "player": "Gonçalo Guedes",
-          "team": "Portugal",
-          "name": "Gonçalo Guedes (Portugal)",
-          "price": 9.75
-        },
-        {
-          "player": "Yeremy Pino",
-          "team": "Espanha",
-          "name": "Yeremy Pino (Espanha)",
-          "price": 10.0
-        },
-        {
-          "player": "Rafael Leão",
-          "team": "Portugal",
-          "name": "Rafael Leão (Portugal)",
-          "price": 10.75
-        },
-        {
-          "player": "João Félix",
-          "team": "Portugal",
-          "name": "João Félix (Portugal)",
-          "price": 11.75
-        },
-        {
-          "player": "Francisco Trincão",
-          "team": "Portugal",
-          "name": "Francisco Trincão (Portugal)",
-          "price": 11.75
-        },
-        {
-          "player": "Bruno Fernandes",
-          "team": "Portugal",
-          "name": "Bruno Fernandes (Portugal)",
-          "price": 11.75
-        },
-        {
-          "player": "Fabián Ruiz",
-          "team": "Espanha",
-          "name": "Fabián Ruiz (Espanha)",
-          "price": 12.0
-        },
-        {
-          "player": "Francisco Conceição",
-          "team": "Portugal",
-          "name": "Francisco Conceição (Portugal)",
-          "price": 13.0
-        },
-        {
-          "player": "Bernardo Silva",
-          "team": "Portugal",
-          "name": "Bernardo Silva (Portugal)",
-          "price": 15.0
-        },
-        {
-          "player": "Martin Zubimendi",
-          "team": "Espanha",
-          "name": "Martin Zubimendi (Espanha)",
-          "price": 15.0
-        },
-        {
-          "player": "Pedro Neto",
-          "team": "Portugal",
-          "name": "Pedro Neto (Portugal)",
-          "price": 16.0
-        },
-        {
-          "player": "Samu Costa",
-          "team": "Portugal",
-          "name": "Samu Costa (Portugal)",
-          "price": 16.0
-        },
-        {
-          "player": "Rodri",
-          "team": "Espanha",
-          "name": "Rodri (Espanha)",
-          "price": 16.0
-        },
-        {
-          "player": "Gavi",
-          "team": "Espanha",
-          "name": "Gavi (Espanha)",
-          "price": 16.0
-        },
-        {
-          "player": "Pedri",
-          "team": "Espanha",
-          "name": "Pedri (Espanha)",
-          "price": 17.0
-        },
-        {
-          "player": "Álex Grimaldo",
-          "team": "Espanha",
-          "name": "Álex Grimaldo (Espanha)",
-          "price": 19.5
-        },
-        {
-          "player": "Nuno Mendes",
-          "team": "Portugal",
-          "name": "Nuno Mendes (Portugal)",
-          "price": 20.0
-        },
-        {
-          "player": "Rúben Neves",
-          "team": "Portugal",
-          "name": "Rúben Neves (Portugal)",
-          "price": 21.0
-        },
-        {
-          "player": "Vitinha",
-          "team": "Portugal",
-          "name": "Vitinha (Portugal)",
-          "price": 21.0
-        },
-        {
-          "player": "João Neves",
-          "team": "Portugal",
-          "name": "João Neves (Portugal)",
-          "price": 21.0
-        },
-        {
-          "player": "Eric Garcia",
-          "team": "Espanha",
-          "name": "Eric Garcia (Espanha)",
-          "price": 21.0
-        },
-        {
-          "player": "Pedro Porro",
-          "team": "Espanha",
-          "name": "Pedro Porro (Espanha)",
-          "price": 21.0
-        },
-        {
-          "player": "Marc Cucurella",
-          "team": "Espanha",
-          "name": "Marc Cucurella (Espanha)",
-          "price": 23.0
-        },
-        {
           "player": "Marcos Llorente",
           "team": "Espanha",
           "name": "Marcos Llorente (Espanha)",
-          "price": 25.0
+          "price": 27.0
         },
         {
           "player": "Aymeric Laporte",
           "team": "Espanha",
           "name": "Aymeric Laporte (Espanha)",
-          "price": 25.0
+          "price": 27.0
         },
         {
           "player": "Marc Pubill",
           "team": "Espanha",
           "name": "Marc Pubill (Espanha)",
-          "price": 25.0
-        },
-        {
-          "player": "João Cancelo",
-          "team": "Portugal",
-          "name": "João Cancelo (Portugal)",
           "price": 27.0
         },
         {
           "player": "Matheus Nunes",
           "team": "Portugal",
           "name": "Matheus Nunes (Portugal)",
-          "price": 30.0
+          "price": 29.0
         },
         {
           "player": "Tomas Araujo",
           "team": "Portugal",
           "name": "Tomas Araujo (Portugal)",
-          "price": 30.0
+          "price": 29.0
         },
         {
           "player": "Rúben Dias",
           "team": "Portugal",
           "name": "Rúben Dias (Portugal)",
-          "price": 30.0
+          "price": 29.0
         },
         {
           "player": "Gonçalo Inácio",
           "team": "Portugal",
           "name": "Gonçalo Inácio (Portugal)",
-          "price": 30.0
-        },
-        {
-          "player": "Pau Cubarsi",
-          "team": "Espanha",
-          "name": "Pau Cubarsi (Espanha)",
-          "price": 35.0
+          "price": 29.0
         },
         {
           "player": "Renato Veiga",
           "team": "Portugal",
           "name": "Renato Veiga (Portugal)",
-          "price": 37.0
+          "price": 32.0
         },
         {
           "player": "Diogo Dalot",
           "team": "Portugal",
           "name": "Diogo Dalot (Portugal)",
+          "price": 32.0
+        },
+        {
+          "player": "Pau Cubarsi",
+          "team": "Espanha",
+          "name": "Pau Cubarsi (Espanha)",
           "price": 37.0
         },
         {
           "player": "Nélson Semedo",
           "team": "Portugal",
           "name": "Nélson Semedo (Portugal)",
-          "price": 45.0
+          "price": 40.0
         }
       ]
     }
@@ -5472,19 +5477,19 @@
       },
       {
         "name": "2",
-        "price": 2.6,
+        "price": 2.57,
         "handicap": 0.0
       }
     ],
     "btts": [
       {
         "name": "Sim",
-        "price": 1.5,
+        "price": 1.52,
         "handicap": 0.0
       },
       {
         "name": "Não",
-        "price": 2.15,
+        "price": 2.12,
         "handicap": 0.0
       }
     ],
@@ -5551,12 +5556,7 @@
       },
       {
         "name": "Mais de 6.5",
-        "price": 6.9,
-        "handicap": 6.5
-      },
-      {
-        "name": "Menos 6.5",
-        "price": 1.02,
+        "price": 7.1,
         "handicap": 6.5
       }
     ],
@@ -5583,7 +5583,7 @@
       },
       {
         "name": "Mais de 2.5",
-        "price": 4.1,
+        "price": 4.15,
         "handicap": 2.5
       },
       {
@@ -5593,12 +5593,12 @@
       },
       {
         "name": "Mais de 3.5",
-        "price": 6.9,
+        "price": 7.0,
         "handicap": 3.5
       },
       {
         "name": "Menos 3.5",
-        "price": 1.04,
+        "price": 1.03,
         "handicap": 3.5
       },
       {
@@ -5630,17 +5630,17 @@
       },
       {
         "name": "Mais de 2.5",
-        "price": 4.0,
+        "price": 3.95,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.16,
+        "price": 1.17,
         "handicap": 2.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 6.8,
+        "price": 6.7,
         "handicap": 3.5
       },
       {
@@ -5690,7 +5690,7 @@
           },
           {
             "name": "Bélgica -2",
-            "price": 9.0
+            "price": 8.75
           }
         ]
       },
@@ -5699,7 +5699,7 @@
         "selections": [
           {
             "name": "EUA -1",
-            "price": 4.75
+            "price": 4.8
           },
           {
             "name": "Empate -1",
@@ -5707,7 +5707,7 @@
           },
           {
             "name": "Bélgica -1",
-            "price": 4.6
+            "price": 4.5
           }
         ]
       },
@@ -5741,7 +5741,7 @@
           },
           {
             "name": "Empate +2",
-            "price": 5.7
+            "price": 5.6
           }
         ]
       },
@@ -5754,7 +5754,7 @@
           },
           {
             "name": "Empate +3",
-            "price": 7.9
+            "price": 7.8
           }
         ]
       }
@@ -6025,7 +6025,7 @@
           "player": "Romelu Lukaku",
           "team": "Bélgica",
           "name": "Romelu Lukaku (Bélgica)",
-          "price": 4.75
+          "price": 4.7
         },
         {
           "player": "Ricardo Pepi",
@@ -6043,7 +6043,7 @@
           "player": "Haji Wright",
           "team": "EUA",
           "name": "Haji Wright (EUA)",
-          "price": 6.2
+          "price": 6.3
         },
         {
           "player": "Giovanni Reyna",
@@ -6055,13 +6055,13 @@
           "player": "Matias Fernandez Pardo",
           "team": "Bélgica",
           "name": "Matias Fernandez Pardo (Bélgica)",
-          "price": 8.5
+          "price": 8.25
         },
         {
           "player": "Charles De Ketelaere",
           "team": "Bélgica",
           "name": "Charles De Ketelaere (Bélgica)",
-          "price": 8.5
+          "price": 8.25
         },
         {
           "player": "Kevin De Bruyne",
@@ -6100,12 +6100,6 @@
           "price": 9.5
         },
         {
-          "player": "Timothy Weah",
-          "team": "EUA",
-          "name": "Timothy Weah (EUA)",
-          "price": 10.5
-        },
-        {
           "player": "Jérémy Doku",
           "team": "Bélgica",
           "name": "Jérémy Doku (Bélgica)",
@@ -6116,6 +6110,12 @@
           "team": "Bélgica",
           "name": "Hans Vanaken (Bélgica)",
           "price": 10.5
+        },
+        {
+          "player": "Timothy Weah",
+          "team": "EUA",
+          "name": "Timothy Weah (EUA)",
+          "price": 10.75
         },
         {
           "player": "Diego Moreira",
@@ -6136,28 +6136,28 @@
           "price": 11.75
         },
         {
-          "player": "Sebastian Berhalter",
-          "team": "EUA",
-          "name": "Sebastian Berhalter (EUA)",
-          "price": 13.5
-        },
-        {
           "player": "Alexis Saelemaekers",
           "team": "Bélgica",
           "name": "Alexis Saelemaekers (Bélgica)",
           "price": 13.5
         },
         {
-          "player": "Sergiño Dest",
+          "player": "Sebastian Berhalter",
           "team": "EUA",
-          "name": "Sergiño Dest (EUA)",
-          "price": 14.5
+          "name": "Sebastian Berhalter (EUA)",
+          "price": 14.0
         },
         {
           "player": "Maxim De Cuyper",
           "team": "Bélgica",
           "name": "Maxim De Cuyper (Bélgica)",
           "price": 14.5
+        },
+        {
+          "player": "Sergiño Dest",
+          "team": "EUA",
+          "name": "Sergiño Dest (EUA)",
+          "price": 15.0
         },
         {
           "player": "Thomas Meunier",
@@ -6285,7 +6285,7 @@
           "player": "Romelu Lukaku",
           "team": "Bélgica",
           "name": "Romelu Lukaku (Bélgica)",
-          "price": 4.75
+          "price": 4.7
         },
         {
           "player": "Ricardo Pepi",
@@ -6324,6 +6324,18 @@
           "price": 8.5
         },
         {
+          "player": "Kevin De Bruyne",
+          "team": "Bélgica",
+          "name": "Kevin De Bruyne (Bélgica)",
+          "price": 8.75
+        },
+        {
+          "player": "Leandro Trossard",
+          "team": "Bélgica",
+          "name": "Leandro Trossard (Bélgica)",
+          "price": 8.75
+        },
+        {
           "player": "Alex Zendejas",
           "team": "EUA",
           "name": "Alex Zendejas (EUA)",
@@ -6336,28 +6348,16 @@
           "price": 9.0
         },
         {
-          "player": "Kevin De Bruyne",
+          "player": "Dodi Lukébakio",
           "team": "Bélgica",
-          "name": "Kevin De Bruyne (Bélgica)",
-          "price": 9.0
-        },
-        {
-          "player": "Leandro Trossard",
-          "team": "Bélgica",
-          "name": "Leandro Trossard (Bélgica)",
-          "price": 9.0
+          "name": "Dodi Lukébakio (Bélgica)",
+          "price": 9.5
         },
         {
           "player": "Weston McKennie",
           "team": "EUA",
           "name": "Weston McKennie (EUA)",
-          "price": 9.5
-        },
-        {
-          "player": "Dodi Lukébakio",
-          "team": "Bélgica",
-          "name": "Dodi Lukébakio (Bélgica)",
-          "price": 9.5
+          "price": 9.75
         },
         {
           "player": "Jérémy Doku",
@@ -6396,27 +6396,27 @@
           "price": 11.75
         },
         {
+          "player": "Alexis Saelemaekers",
+          "team": "Bélgica",
+          "name": "Alexis Saelemaekers (Bélgica)",
+          "price": 13.5
+        },
+        {
           "player": "Sebastian Berhalter",
           "team": "EUA",
           "name": "Sebastian Berhalter (EUA)",
           "price": 14.0
         },
         {
-          "player": "Alexis Saelemaekers",
+          "player": "Maxim De Cuyper",
           "team": "Bélgica",
-          "name": "Alexis Saelemaekers (Bélgica)",
-          "price": 14.0
+          "name": "Maxim De Cuyper (Bélgica)",
+          "price": 14.5
         },
         {
           "player": "Sergiño Dest",
           "team": "EUA",
           "name": "Sergiño Dest (EUA)",
-          "price": 15.0
-        },
-        {
-          "player": "Maxim De Cuyper",
-          "team": "Bélgica",
-          "name": "Maxim De Cuyper (Bélgica)",
           "price": 15.0
         },
         {
@@ -6912,7 +6912,7 @@
           "player": "Mohamed Salah",
           "team": "Egito",
           "name": "Mohamed Salah (Egito)",
-          "price": 4.65
+          "price": 4.7
         },
         {
           "player": "Leandro Paredes",
@@ -6990,13 +6990,13 @@
           "player": "Emam Ashour",
           "team": "Egito",
           "name": "Emam Ashour (Egito)",
-          "price": 7.1
+          "price": 7.2
         },
         {
           "player": "Zizo",
           "team": "Egito",
           "name": "Zizo (Egito)",
-          "price": 7.1
+          "price": 7.2
         },
         {
           "player": "Nicolás Otamendi",
@@ -7014,7 +7014,7 @@
           "player": "Mahmoud Saber",
           "team": "Egito",
           "name": "Mahmoud Saber (Egito)",
-          "price": 7.8
+          "price": 7.9
         },
         {
           "player": "Lisandro Martínez",
@@ -7044,13 +7044,13 @@
           "player": "Hamdi Fathi",
           "team": "Egito",
           "name": "Hamdi Fathi (Egito)",
-          "price": 12.0
+          "price": 12.5
         },
         {
           "player": "Ramy Rabia",
           "team": "Egito",
           "name": "Ramy Rabia (Egito)",
-          "price": 12.0
+          "price": 12.5
         },
         {
           "player": "Karim Hafez",
@@ -7063,6 +7063,12 @@
           "team": "Egito",
           "name": "Hossam Abdelmaguid (Egito)",
           "price": 14.5
+        },
+        {
+          "player": "Nabil Dunga",
+          "team": "Egito",
+          "name": "Nabil Dunga (Egito)",
+          "price": 16.0
         },
         {
           "player": "Marwan Attia",
@@ -7220,13 +7226,13 @@
           "player": "Hamza Abdelkarim",
           "team": "Egito",
           "name": "Hamza Abdelkarim (Egito)",
-          "price": 14.5
+          "price": 15.0
         },
         {
           "player": "Ibrahim Adel",
           "team": "Egito",
           "name": "Ibrahim Adel (Egito)",
-          "price": 15.5
+          "price": 16.0
         },
         {
           "player": "Cristian Romero",
@@ -7268,7 +7274,7 @@
           "player": "Mahmoud Saber",
           "team": "Egito",
           "name": "Mahmoud Saber (Egito)",
-          "price": 19.0
+          "price": 19.5
         },
         {
           "player": "Lisandro Martínez",
@@ -7292,7 +7298,7 @@
           "player": "Haissem Hassan",
           "team": "Egito",
           "name": "Haissem Hassan (Egito)",
-          "price": 24.0
+          "price": 25.0
         },
         {
           "player": "Hamdi Fathi",
@@ -7317,6 +7323,12 @@
           "team": "Egito",
           "name": "Hossam Abdelmaguid (Egito)",
           "price": 37.0
+        },
+        {
+          "player": "Nabil Dunga",
+          "team": "Egito",
+          "name": "Nabil Dunga (Egito)",
+          "price": 40.0
         },
         {
           "player": "Marwan Attia",
@@ -7522,7 +7534,7 @@
           "player": "Mahmoud Saber",
           "team": "Egito",
           "name": "Mahmoud Saber (Egito)",
-          "price": 19.5
+          "price": 20.0
         },
         {
           "player": "Lisandro Martínez",
@@ -7573,6 +7585,12 @@
           "price": 40.0
         },
         {
+          "player": "Nabil Dunga",
+          "team": "Egito",
+          "name": "Nabil Dunga (Egito)",
+          "price": 45.0
+        },
+        {
           "player": "Marwan Attia",
           "team": "Egito",
           "name": "Marwan Attia (Egito)",
@@ -7621,14 +7639,14 @@
       },
       {
         "name": "2",
-        "price": 2.22,
+        "price": 2.25,
         "handicap": 0.0
       }
     ],
     "btts": [
       {
         "name": "Sim",
-        "price": 1.82,
+        "price": 1.83,
         "handicap": 0.0
       },
       {
@@ -7640,27 +7658,27 @@
     "totals": [
       {
         "name": "Mais de 2.5",
-        "price": 2.07,
+        "price": 2.1,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.55,
+        "price": 1.53,
         "handicap": 2.5
       },
       {
         "name": "Mais de 1.5",
-        "price": 1.37,
+        "price": 1.38,
         "handicap": 1.5
       },
       {
         "name": "Menos 1.5",
-        "price": 2.5,
+        "price": 2.47,
         "handicap": 1.5
       },
       {
         "name": "Mais de 3.5",
-        "price": 3.35,
+        "price": 3.4,
         "handicap": 3.5
       },
       {
@@ -7680,12 +7698,12 @@
       },
       {
         "name": "Mais de 4.5",
-        "price": 5.2,
+        "price": 5.3,
         "handicap": 4.5
       },
       {
         "name": "Menos 4.5",
-        "price": 1.07,
+        "price": 1.06,
         "handicap": 4.5
       },
       {
@@ -7707,12 +7725,12 @@
       },
       {
         "name": "Menos 0.5",
-        "price": 2.35,
+        "price": 2.32,
         "handicap": 0.5
       },
       {
         "name": "Mais de 1.5",
-        "price": 2.95,
+        "price": 3.0,
         "handicap": 1.5
       },
       {
@@ -7722,7 +7740,7 @@
       },
       {
         "name": "Mais de 2.5",
-        "price": 5.9,
+        "price": 6.0,
         "handicap": 2.5
       },
       {
@@ -7739,7 +7757,7 @@
     "away_totals": [
       {
         "name": "Mais de 1.5",
-        "price": 2.25,
+        "price": 2.27,
         "handicap": 1.5
       },
       {
@@ -7749,22 +7767,22 @@
       },
       {
         "name": "Mais de 0.5",
-        "price": 1.27,
+        "price": 1.28,
         "handicap": 0.5
       },
       {
         "name": "Menos 0.5",
-        "price": 3.1,
+        "price": 3.05,
         "handicap": 0.5
       },
       {
         "name": "Mais de 2.5",
-        "price": 4.5,
+        "price": 4.55,
         "handicap": 2.5
       },
       {
         "name": "Menos 2.5",
-        "price": 1.13,
+        "price": 1.12,
         "handicap": 2.5
       },
       {
@@ -7828,11 +7846,11 @@
         "selections": [
           {
             "name": "Suíça -1",
-            "price": 6.9
+            "price": 6.8
           },
           {
             "name": "Empate -1",
-            "price": 4.2
+            "price": 4.15
           },
           {
             "name": "Colômbia -1",
@@ -7853,7 +7871,7 @@
           },
           {
             "name": "Empate +1",
-            "price": 3.35
+            "price": 3.4
           }
         ]
       },
@@ -7903,12 +7921,6 @@
           "price": 2.95
         },
         {
-          "player": "Jhon Córdoba",
-          "team": "Colômbia",
-          "name": "Jhon Córdoba (Colômbia)",
-          "price": 3.05
-        },
-        {
           "player": "Cucho Hernández",
           "team": "Colômbia",
           "name": "Cucho Hernández (Colômbia)",
@@ -7918,19 +7930,19 @@
           "player": "Breel Embolo",
           "team": "Suíça",
           "name": "Breel Embolo (Suíça)",
-          "price": 3.15
+          "price": 3.1
         },
         {
           "player": "Cedric Itten",
           "team": "Suíça",
           "name": "Cedric Itten (Suíça)",
-          "price": 3.55
+          "price": 3.5
         },
         {
           "player": "Zeki Amdouni",
           "team": "Suíça",
           "name": "Zeki Amdouni (Suíça)",
-          "price": 3.7
+          "price": 3.65
         },
         {
           "player": "Andres Gomez",
@@ -7942,19 +7954,19 @@
           "player": "Dan Ndoye",
           "team": "Suíça",
           "name": "Dan Ndoye (Suíça)",
-          "price": 4.3
+          "price": 4.25
         },
         {
           "player": "Noah Okafor",
           "team": "Suíça",
           "name": "Noah Okafor (Suíça)",
-          "price": 4.3
+          "price": 4.25
         },
         {
           "player": "Johan Manzambi",
           "team": "Suíça",
           "name": "Johan Manzambi (Suíça)",
-          "price": 4.3
+          "price": 4.25
         },
         {
           "player": "Jaminton Campaz",
@@ -7978,37 +7990,37 @@
           "player": "Christian Fassnacht",
           "team": "Suíça",
           "name": "Christian Fassnacht (Suíça)",
-          "price": 4.7
+          "price": 4.65
         },
         {
           "player": "Jhon Arias",
           "team": "Colômbia",
           "name": "Jhon Arias (Colômbia)",
-          "price": 4.7
+          "price": 4.65
         },
         {
           "player": "Jorge Carrascal",
           "team": "Colômbia",
           "name": "Jorge Carrascal (Colômbia)",
-          "price": 4.7
+          "price": 4.65
         },
         {
           "player": "Rubén Vargas",
           "team": "Suíça",
           "name": "Rubén Vargas (Suíça)",
-          "price": 5.1
+          "price": 5.0
         },
         {
           "player": "Fabian Rieder",
           "team": "Suíça",
           "name": "Fabian Rieder (Suíça)",
-          "price": 6.2
+          "price": 6.1
         },
         {
           "player": "Gustavo Puerta",
           "team": "Colômbia",
           "name": "Gustavo Puerta (Colômbia)",
-          "price": 6.2
+          "price": 6.1
         },
         {
           "player": "Granit Xhaka",
@@ -8038,25 +8050,25 @@
           "player": "Remo Freuler",
           "team": "Suíça",
           "name": "Remo Freuler (Suíça)",
-          "price": 7.6
+          "price": 7.5
         },
         {
           "player": "Michel Aebischer",
           "team": "Suíça",
           "name": "Michel Aebischer (Suíça)",
-          "price": 7.9
+          "price": 7.8
         },
         {
           "player": "Djibril Sow",
           "team": "Suíça",
           "name": "Djibril Sow (Suíça)",
-          "price": 7.9
+          "price": 7.8
         },
         {
           "player": "Kevin Castaño",
           "team": "Colômbia",
           "name": "Kevin Castaño (Colômbia)",
-          "price": 7.9
+          "price": 7.8
         },
         {
           "player": "Denis Zakaria",
@@ -8083,6 +8095,12 @@
           "price": 9.25
         },
         {
+          "player": "Ardon Jashari",
+          "team": "Suíça",
+          "name": "Ardon Jashari (Suíça)",
+          "price": 9.75
+        },
+        {
           "player": "Yerry Mina",
           "team": "Colômbia",
           "name": "Yerry Mina (Colômbia)",
@@ -8101,45 +8119,33 @@
           "price": 9.75
         },
         {
-          "player": "Ardon Jashari",
-          "team": "Suíça",
-          "name": "Ardon Jashari (Suíça)",
-          "price": 10.0
-        },
-        {
           "player": "Manuel Akanji",
           "team": "Suíça",
           "name": "Manuel Akanji (Suíça)",
-          "price": 12.5
+          "price": 12.0
         },
         {
           "player": "Nico Elvedi",
           "team": "Suíça",
           "name": "Nico Elvedi (Suíça)",
-          "price": 12.5
+          "price": 12.0
         },
         {
           "player": "Miro Muheim",
           "team": "Suíça",
           "name": "Miro Muheim (Suíça)",
-          "price": 12.5
+          "price": 12.0
         },
         {
           "player": "Ricardo Rodríguez",
           "team": "Suíça",
           "name": "Ricardo Rodríguez (Suíça)",
-          "price": 12.5
+          "price": 12.0
         },
         {
           "player": "Eray Cömert",
           "team": "Suíça",
           "name": "Eray Cömert (Suíça)",
-          "price": 13.5
-        },
-        {
-          "player": "Luca Jaquez",
-          "team": "Suíça",
-          "name": "Luca Jaquez (Suíça)",
           "price": 13.5
         },
         {
@@ -8172,49 +8178,43 @@
           "player": "Luis Díaz",
           "team": "Colômbia",
           "name": "Luis Díaz (Colômbia)",
-          "price": 6.1
+          "price": 6.0
         },
         {
           "player": "Luis Suárez",
           "team": "Colômbia",
           "name": "Luis Suárez (Colômbia)",
-          "price": 6.1
-        },
-        {
-          "player": "Jhon Córdoba",
-          "team": "Colômbia",
-          "name": "Jhon Córdoba (Colômbia)",
-          "price": 6.3
+          "price": 6.0
         },
         {
           "player": "Cucho Hernández",
           "team": "Colômbia",
           "name": "Cucho Hernández (Colômbia)",
-          "price": 6.3
+          "price": 6.2
         },
         {
           "player": "Breel Embolo",
           "team": "Suíça",
           "name": "Breel Embolo (Suíça)",
-          "price": 6.3
+          "price": 6.2
         },
         {
           "player": "Cedric Itten",
           "team": "Suíça",
           "name": "Cedric Itten (Suíça)",
-          "price": 7.2
+          "price": 7.1
         },
         {
           "player": "Zeki Amdouni",
           "team": "Suíça",
           "name": "Zeki Amdouni (Suíça)",
-          "price": 7.6
+          "price": 7.5
         },
         {
           "player": "Andres Gomez",
           "team": "Colômbia",
           "name": "Andres Gomez (Colômbia)",
-          "price": 8.5
+          "price": 8.25
         },
         {
           "player": "Dan Ndoye",
@@ -8238,25 +8238,291 @@
           "player": "Jaminton Campaz",
           "team": "Colômbia",
           "name": "Jaminton Campaz (Colômbia)",
-          "price": 9.5
+          "price": 9.25
         },
         {
           "player": "Juan Quintero",
           "team": "Colômbia",
           "name": "Juan Quintero (Colômbia)",
-          "price": 9.5
+          "price": 9.25
         },
         {
           "player": "James Rodríguez",
           "team": "Colômbia",
           "name": "James Rodríguez (Colômbia)",
-          "price": 9.5
+          "price": 9.25
         },
         {
           "player": "Christian Fassnacht",
           "team": "Suíça",
           "name": "Christian Fassnacht (Suíça)",
-          "price": 10.0
+          "price": 9.75
+        },
+        {
+          "player": "Jhon Arias",
+          "team": "Colômbia",
+          "name": "Jhon Arias (Colômbia)",
+          "price": 10.25
+        },
+        {
+          "player": "Jorge Carrascal",
+          "team": "Colômbia",
+          "name": "Jorge Carrascal (Colômbia)",
+          "price": 10.25
+        },
+        {
+          "player": "Rubén Vargas",
+          "team": "Suíça",
+          "name": "Rubén Vargas (Suíça)",
+          "price": 10.75
+        },
+        {
+          "player": "Fabian Rieder",
+          "team": "Suíça",
+          "name": "Fabian Rieder (Suíça)",
+          "price": 13.0
+        },
+        {
+          "player": "Gustavo Puerta",
+          "team": "Colômbia",
+          "name": "Gustavo Puerta (Colômbia)",
+          "price": 13.5
+        },
+        {
+          "player": "Granit Xhaka",
+          "team": "Suíça",
+          "name": "Granit Xhaka (Suíça)",
+          "price": 14.0
+        },
+        {
+          "player": "Juan Portilla",
+          "team": "Colômbia",
+          "name": "Juan Portilla (Colômbia)",
+          "price": 14.5
+        },
+        {
+          "player": "Daniel Muñoz",
+          "team": "Colômbia",
+          "name": "Daniel Muñoz (Colômbia)",
+          "price": 14.5
+        },
+        {
+          "player": "Richard Ríos",
+          "team": "Colômbia",
+          "name": "Richard Ríos (Colômbia)",
+          "price": 14.5
+        },
+        {
+          "player": "Remo Freuler",
+          "team": "Suíça",
+          "name": "Remo Freuler (Suíça)",
+          "price": 16.5
+        },
+        {
+          "player": "Michel Aebischer",
+          "team": "Suíça",
+          "name": "Michel Aebischer (Suíça)",
+          "price": 17.5
+        },
+        {
+          "player": "Djibril Sow",
+          "team": "Suíça",
+          "name": "Djibril Sow (Suíça)",
+          "price": 17.5
+        },
+        {
+          "player": "Kevin Castaño",
+          "team": "Colômbia",
+          "name": "Kevin Castaño (Colômbia)",
+          "price": 18.0
+        },
+        {
+          "player": "Denis Zakaria",
+          "team": "Suíça",
+          "name": "Denis Zakaria (Suíça)",
+          "price": 20.0
+        },
+        {
+          "player": "Silvan Widmer",
+          "team": "Suíça",
+          "name": "Silvan Widmer (Suíça)",
+          "price": 20.0
+        },
+        {
+          "player": "Jefferson Lerma",
+          "team": "Colômbia",
+          "name": "Jefferson Lerma (Colômbia)",
+          "price": 21.0
+        },
+        {
+          "player": "Deiver Machado",
+          "team": "Colômbia",
+          "name": "Deiver Machado (Colômbia)",
+          "price": 21.0
+        },
+        {
+          "player": "Ardon Jashari",
+          "team": "Suíça",
+          "name": "Ardon Jashari (Suíça)",
+          "price": 22.0
+        },
+        {
+          "player": "Yerry Mina",
+          "team": "Colômbia",
+          "name": "Yerry Mina (Colômbia)",
+          "price": 23.0
+        },
+        {
+          "player": "Johan Mojica",
+          "team": "Colômbia",
+          "name": "Johan Mojica (Colômbia)",
+          "price": 23.0
+        },
+        {
+          "player": "Davinson Sánchez",
+          "team": "Colômbia",
+          "name": "Davinson Sánchez (Colômbia)",
+          "price": 23.0
+        },
+        {
+          "player": "Manuel Akanji",
+          "team": "Suíça",
+          "name": "Manuel Akanji (Suíça)",
+          "price": 28.0
+        },
+        {
+          "player": "Nico Elvedi",
+          "team": "Suíça",
+          "name": "Nico Elvedi (Suíça)",
+          "price": 28.0
+        },
+        {
+          "player": "Miro Muheim",
+          "team": "Suíça",
+          "name": "Miro Muheim (Suíça)",
+          "price": 28.0
+        },
+        {
+          "player": "Ricardo Rodríguez",
+          "team": "Suíça",
+          "name": "Ricardo Rodríguez (Suíça)",
+          "price": 28.0
+        },
+        {
+          "player": "Eray Cömert",
+          "team": "Suíça",
+          "name": "Eray Cömert (Suíça)",
+          "price": 30.0
+        },
+        {
+          "player": "Santiago Arias",
+          "team": "Colômbia",
+          "name": "Santiago Arias (Colômbia)",
+          "price": 32.0
+        },
+        {
+          "player": "Willer Ditta",
+          "team": "Colômbia",
+          "name": "Willer Ditta (Colômbia)",
+          "price": 32.0
+        },
+        {
+          "player": "Jhon Lucumí",
+          "team": "Colômbia",
+          "name": "Jhon Lucumí (Colômbia)",
+          "price": 32.0
+        },
+        {
+          "player": "Aurele Amenda",
+          "team": "Suíça",
+          "name": "Aurele Amenda (Suíça)",
+          "price": 37.0
+        }
+      ],
+      "last": [
+        {
+          "player": "Luis Díaz",
+          "team": "Colômbia",
+          "name": "Luis Díaz (Colômbia)",
+          "price": 6.0
+        },
+        {
+          "player": "Luis Suárez",
+          "team": "Colômbia",
+          "name": "Luis Suárez (Colômbia)",
+          "price": 6.0
+        },
+        {
+          "player": "Cucho Hernández",
+          "team": "Colômbia",
+          "name": "Cucho Hernández (Colômbia)",
+          "price": 6.2
+        },
+        {
+          "player": "Breel Embolo",
+          "team": "Suíça",
+          "name": "Breel Embolo (Suíça)",
+          "price": 6.2
+        },
+        {
+          "player": "Cedric Itten",
+          "team": "Suíça",
+          "name": "Cedric Itten (Suíça)",
+          "price": 7.1
+        },
+        {
+          "player": "Zeki Amdouni",
+          "team": "Suíça",
+          "name": "Zeki Amdouni (Suíça)",
+          "price": 7.5
+        },
+        {
+          "player": "Andres Gomez",
+          "team": "Colômbia",
+          "name": "Andres Gomez (Colômbia)",
+          "price": 8.25
+        },
+        {
+          "player": "Dan Ndoye",
+          "team": "Suíça",
+          "name": "Dan Ndoye (Suíça)",
+          "price": 9.0
+        },
+        {
+          "player": "Noah Okafor",
+          "team": "Suíça",
+          "name": "Noah Okafor (Suíça)",
+          "price": 9.0
+        },
+        {
+          "player": "Johan Manzambi",
+          "team": "Suíça",
+          "name": "Johan Manzambi (Suíça)",
+          "price": 9.0
+        },
+        {
+          "player": "Jaminton Campaz",
+          "team": "Colômbia",
+          "name": "Jaminton Campaz (Colômbia)",
+          "price": 9.25
+        },
+        {
+          "player": "Juan Quintero",
+          "team": "Colômbia",
+          "name": "Juan Quintero (Colômbia)",
+          "price": 9.25
+        },
+        {
+          "player": "James Rodríguez",
+          "team": "Colômbia",
+          "name": "James Rodríguez (Colômbia)",
+          "price": 9.25
+        },
+        {
+          "player": "Christian Fassnacht",
+          "team": "Suíça",
+          "name": "Christian Fassnacht (Suíça)",
+          "price": 9.75
         },
         {
           "player": "Jhon Arias",
@@ -8364,7 +8630,7 @@
           "player": "Ardon Jashari",
           "team": "Suíça",
           "name": "Ardon Jashari (Suíça)",
-          "price": 22.0
+          "price": 23.0
         },
         {
           "player": "Yerry Mina",
@@ -8388,36 +8654,30 @@
           "player": "Manuel Akanji",
           "team": "Suíça",
           "name": "Manuel Akanji (Suíça)",
-          "price": 28.0
+          "price": 29.0
         },
         {
           "player": "Nico Elvedi",
           "team": "Suíça",
           "name": "Nico Elvedi (Suíça)",
-          "price": 28.0
+          "price": 29.0
         },
         {
           "player": "Miro Muheim",
           "team": "Suíça",
           "name": "Miro Muheim (Suíça)",
-          "price": 28.0
+          "price": 29.0
         },
         {
           "player": "Ricardo Rodríguez",
           "team": "Suíça",
           "name": "Ricardo Rodríguez (Suíça)",
-          "price": 28.0
+          "price": 29.0
         },
         {
           "player": "Eray Cömert",
           "team": "Suíça",
           "name": "Eray Cömert (Suíça)",
-          "price": 32.0
-        },
-        {
-          "player": "Luca Jaquez",
-          "team": "Suíça",
-          "name": "Luca Jaquez (Suíça)",
           "price": 32.0
         },
         {
@@ -8443,284 +8703,6 @@
           "team": "Suíça",
           "name": "Aurele Amenda (Suíça)",
           "price": 37.0
-        }
-      ],
-      "last": [
-        {
-          "player": "Luis Díaz",
-          "team": "Colômbia",
-          "name": "Luis Díaz (Colômbia)",
-          "price": 6.2
-        },
-        {
-          "player": "Luis Suárez",
-          "team": "Colômbia",
-          "name": "Luis Suárez (Colômbia)",
-          "price": 6.2
-        },
-        {
-          "player": "Breel Embolo",
-          "team": "Suíça",
-          "name": "Breel Embolo (Suíça)",
-          "price": 6.3
-        },
-        {
-          "player": "Jhon Córdoba",
-          "team": "Colômbia",
-          "name": "Jhon Córdoba (Colômbia)",
-          "price": 6.4
-        },
-        {
-          "player": "Cucho Hernández",
-          "team": "Colômbia",
-          "name": "Cucho Hernández (Colômbia)",
-          "price": 6.4
-        },
-        {
-          "player": "Cedric Itten",
-          "team": "Suíça",
-          "name": "Cedric Itten (Suíça)",
-          "price": 7.2
-        },
-        {
-          "player": "Zeki Amdouni",
-          "team": "Suíça",
-          "name": "Zeki Amdouni (Suíça)",
-          "price": 7.6
-        },
-        {
-          "player": "Andres Gomez",
-          "team": "Colômbia",
-          "name": "Andres Gomez (Colômbia)",
-          "price": 8.5
-        },
-        {
-          "player": "Dan Ndoye",
-          "team": "Suíça",
-          "name": "Dan Ndoye (Suíça)",
-          "price": 9.0
-        },
-        {
-          "player": "Noah Okafor",
-          "team": "Suíça",
-          "name": "Noah Okafor (Suíça)",
-          "price": 9.0
-        },
-        {
-          "player": "Johan Manzambi",
-          "team": "Suíça",
-          "name": "Johan Manzambi (Suíça)",
-          "price": 9.0
-        },
-        {
-          "player": "Jaminton Campaz",
-          "team": "Colômbia",
-          "name": "Jaminton Campaz (Colômbia)",
-          "price": 9.5
-        },
-        {
-          "player": "Juan Quintero",
-          "team": "Colômbia",
-          "name": "Juan Quintero (Colômbia)",
-          "price": 9.5
-        },
-        {
-          "player": "James Rodríguez",
-          "team": "Colômbia",
-          "name": "James Rodríguez (Colômbia)",
-          "price": 9.5
-        },
-        {
-          "player": "Christian Fassnacht",
-          "team": "Suíça",
-          "name": "Christian Fassnacht (Suíça)",
-          "price": 10.0
-        },
-        {
-          "player": "Jhon Arias",
-          "team": "Colômbia",
-          "name": "Jhon Arias (Colômbia)",
-          "price": 10.5
-        },
-        {
-          "player": "Jorge Carrascal",
-          "team": "Colômbia",
-          "name": "Jorge Carrascal (Colômbia)",
-          "price": 10.5
-        },
-        {
-          "player": "Rubén Vargas",
-          "team": "Suíça",
-          "name": "Rubén Vargas (Suíça)",
-          "price": 11.0
-        },
-        {
-          "player": "Fabian Rieder",
-          "team": "Suíça",
-          "name": "Fabian Rieder (Suíça)",
-          "price": 13.5
-        },
-        {
-          "player": "Gustavo Puerta",
-          "team": "Colômbia",
-          "name": "Gustavo Puerta (Colômbia)",
-          "price": 14.0
-        },
-        {
-          "player": "Granit Xhaka",
-          "team": "Suíça",
-          "name": "Granit Xhaka (Suíça)",
-          "price": 14.5
-        },
-        {
-          "player": "Juan Portilla",
-          "team": "Colômbia",
-          "name": "Juan Portilla (Colômbia)",
-          "price": 15.0
-        },
-        {
-          "player": "Daniel Muñoz",
-          "team": "Colômbia",
-          "name": "Daniel Muñoz (Colômbia)",
-          "price": 15.0
-        },
-        {
-          "player": "Richard Ríos",
-          "team": "Colômbia",
-          "name": "Richard Ríos (Colômbia)",
-          "price": 15.0
-        },
-        {
-          "player": "Remo Freuler",
-          "team": "Suíça",
-          "name": "Remo Freuler (Suíça)",
-          "price": 17.0
-        },
-        {
-          "player": "Michel Aebischer",
-          "team": "Suíça",
-          "name": "Michel Aebischer (Suíça)",
-          "price": 18.0
-        },
-        {
-          "player": "Djibril Sow",
-          "team": "Suíça",
-          "name": "Djibril Sow (Suíça)",
-          "price": 18.0
-        },
-        {
-          "player": "Kevin Castaño",
-          "team": "Colômbia",
-          "name": "Kevin Castaño (Colômbia)",
-          "price": 18.5
-        },
-        {
-          "player": "Denis Zakaria",
-          "team": "Suíça",
-          "name": "Denis Zakaria (Suíça)",
-          "price": 21.0
-        },
-        {
-          "player": "Silvan Widmer",
-          "team": "Suíça",
-          "name": "Silvan Widmer (Suíça)",
-          "price": 21.0
-        },
-        {
-          "player": "Jefferson Lerma",
-          "team": "Colômbia",
-          "name": "Jefferson Lerma (Colômbia)",
-          "price": 22.0
-        },
-        {
-          "player": "Deiver Machado",
-          "team": "Colômbia",
-          "name": "Deiver Machado (Colômbia)",
-          "price": 22.0
-        },
-        {
-          "player": "Ardon Jashari",
-          "team": "Suíça",
-          "name": "Ardon Jashari (Suíça)",
-          "price": 23.0
-        },
-        {
-          "player": "Yerry Mina",
-          "team": "Colômbia",
-          "name": "Yerry Mina (Colômbia)",
-          "price": 24.0
-        },
-        {
-          "player": "Johan Mojica",
-          "team": "Colômbia",
-          "name": "Johan Mojica (Colômbia)",
-          "price": 24.0
-        },
-        {
-          "player": "Davinson Sánchez",
-          "team": "Colômbia",
-          "name": "Davinson Sánchez (Colômbia)",
-          "price": 24.0
-        },
-        {
-          "player": "Manuel Akanji",
-          "team": "Suíça",
-          "name": "Manuel Akanji (Suíça)",
-          "price": 29.0
-        },
-        {
-          "player": "Nico Elvedi",
-          "team": "Suíça",
-          "name": "Nico Elvedi (Suíça)",
-          "price": 29.0
-        },
-        {
-          "player": "Miro Muheim",
-          "team": "Suíça",
-          "name": "Miro Muheim (Suíça)",
-          "price": 29.0
-        },
-        {
-          "player": "Ricardo Rodríguez",
-          "team": "Suíça",
-          "name": "Ricardo Rodríguez (Suíça)",
-          "price": 29.0
-        },
-        {
-          "player": "Eray Cömert",
-          "team": "Suíça",
-          "name": "Eray Cömert (Suíça)",
-          "price": 32.0
-        },
-        {
-          "player": "Luca Jaquez",
-          "team": "Suíça",
-          "name": "Luca Jaquez (Suíça)",
-          "price": 32.0
-        },
-        {
-          "player": "Santiago Arias",
-          "team": "Colômbia",
-          "name": "Santiago Arias (Colômbia)",
-          "price": 35.0
-        },
-        {
-          "player": "Willer Ditta",
-          "team": "Colômbia",
-          "name": "Willer Ditta (Colômbia)",
-          "price": 35.0
-        },
-        {
-          "player": "Jhon Lucumí",
-          "team": "Colômbia",
-          "name": "Jhon Lucumí (Colômbia)",
-          "price": 35.0
-        },
-        {
-          "player": "Aurele Amenda",
-          "team": "Suíça",
-          "name": "Aurele Amenda (Suíça)",
-          "price": 40.0
         }
       ]
     }

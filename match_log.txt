@@ -223,7 +223,7 @@ MATCH  'Déiver Machado'                         -> 'Deiver Machado'            
 MATCH  'Johan Mojica'                           -> 'Johan Mojica'                            score=100.0  team=Colombia
 MATCH  'Santiago Arias'                         -> 'Santiago Arias'                          score=100.0  team=Colombia
 MATCH  'Luis Díaz'                              -> 'Luis Díaz'                               score=100.0  team=Colombia
-MATCH  'Jhon Córdoba'                           -> 'Jhon Córdoba'                            score=100.0  team=Colombia
+NO_MATCH  'Jhon Córdoba'                            team=Colombia
 MATCH  'Luis Suárez'                            -> 'Luis Suárez'                             score=100.0  team=Colombia
 MATCH  'Andrés Gómez'                           -> 'Andres Gomez'                            score=100.0  team=Colombia
 NO_MATCH  'Camilo Vargas'                           team=Colombia
@@ -712,7 +712,7 @@ NO_MATCH  'Yoel Bárcenas'                           team=Panama
 TEAM_MISMATCH  'José Luis Rodríguez' matched 'James Rodríguez' score=76.47058823529412 but team Panama != Colombia
 NO_MATCH  'Aníbal Godoy'                            team=Panama
 NO_MATCH  'Amir Murillo'                            team=Panama
-TEAM_MISMATCH  'José Córdoba' matched 'Jhon Córdoba' score=83.33333333333334 but team Panama != Colombia
+NO_MATCH  'José Córdoba'                            team=Panama
 NO_MATCH  'Éric Davis'                              team=Panama
 NO_MATCH  'César Blackman'                          team=Panama
 NO_MATCH  'Andrés Andrade'                          team=Panama
@@ -936,7 +936,7 @@ MATCH  'Silvan Widmer'                          -> 'Silvan Widmer'              
 MATCH  'Miro Muheim'                            -> 'Miro Muheim'                             score=100.0  team=Switzerland
 MATCH  'Eray Cömert'                            -> 'Eray Cömert'                             score=100.0  team=Switzerland
 MATCH  'Aurèle Amenda'                          -> 'Aurele Amenda'                           score=100.0  team=Switzerland
-MATCH  'Luca Jaquez'                            -> 'Luca Jaquez'                             score=100.0  team=Switzerland
+NO_MATCH  'Luca Jaquez'                             team=Switzerland
 MATCH  'Breel Embolo'                           -> 'Breel Embolo'                            score=100.0  team=Switzerland
 MATCH  'Noah Okafor'                            -> 'Noah Okafor'                             score=100.0  team=Switzerland
 MATCH  'Dan Ndoye'                              -> 'Dan Ndoye'                               score=100.0  team=Switzerland
@@ -1273,7 +1273,7 @@ NO_MATCH  'Can Uzun'                                team=Turkiye
 NO_MATCH  'Yusuf Sari'                              team=Turkiye
 NO_MATCH  'Aaron Tshibola'                          team=Congo DR
 MATCH  'Karim Hafez'                            -> 'Karim Hafez'                             score=100.0  team=Egypt
-NO_MATCH  'Nabil Emad Dunga'                        team=Egypt
+MATCH  'Nabil Emad Dunga'                       -> 'Nabil Dunga'                             score=81.4814814814815  team=Egypt
 MATCH  'Mostafa Zico'                           -> 'Mostafa Ziko'                            score=91.66666666666666  team=Egypt
 NO_MATCH  'Aqtay Abdallah'                          team=Egypt
 MATCH  'Hamza Abdelkarim'                       -> 'Hamza Abdelkarim'                        score=100.0  team=Egypt
