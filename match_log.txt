@@ -25,35 +25,35 @@ NO_MATCH  'Hicham Boudaoui'                         team=Algeria
 NO_MATCH  'Adil Aouchiche'                          team=Algeria
 NO_MATCH  'Houssem Aouar'                           team=Algeria
 NO_MATCH  'Farès Chaïbi'                            team=Algeria
-TEAM_MISMATCH  'Cristian Romero' matched 'Cristiano Ronaldo' score=75.0 but team Argentina != Portugal
-NO_MATCH  'Marcos Senesi'                           team=Argentina
-NO_MATCH  'Nahuel Molina'                           team=Argentina
-NO_MATCH  'Nicolás Otamendi'                        team=Argentina
+MATCH  'Cristian Romero'                        -> 'Cristian Romero'                         score=100.0  team=Argentina
+MATCH  'Marcos Senesi'                          -> 'Marcos Senesi'                           score=100.0  team=Argentina
+MATCH  'Nahuel Molina'                          -> 'Nahuel Molina'                           score=100.0  team=Argentina
+MATCH  'Nicolás Otamendi'                       -> 'Nicolás Otamendi'                        score=100.0  team=Argentina
 NO_MATCH  'Marcos Acuña'                            team=Argentina
 NO_MATCH  'Lucas Martínez Quarta'                   team=Argentina
-NO_MATCH  'Nicolás Tagliafico'                      team=Argentina
+MATCH  'Nicolás Tagliafico'                     -> 'Nicolás Tagliafico'                      score=100.0  team=Argentina
 NO_MATCH  'Gabriel Rojas'                           team=Argentina
 NO_MATCH  'Agustín Giay'                            team=Argentina
-NO_MATCH  'Lionel Messi'                            team=Argentina
-NO_MATCH  'Julián Alvarez'                          team=Argentina
+MATCH  'Lionel Messi'                           -> 'Lionel Messi'                            score=100.0  team=Argentina
+MATCH  'Julián Alvarez'                         -> 'Julián Álvarez'                          score=100.0  team=Argentina
 NO_MATCH  'Gianluca Prestianni'                     team=Argentina
-NO_MATCH  'Giuliano Simeone'                        team=Argentina
-NO_MATCH  'Nico González'                           team=Argentina
-NO_MATCH  'José Manuel López'                       team=Argentina
+MATCH  'Giuliano Simeone'                       -> 'Giuliano Simeone'                        score=100.0  team=Argentina
+MATCH  'Nico González'                          -> 'Nico Gonzalez'                           score=100.0  team=Argentina
+OVERRIDE  'José Manuel López' -> 'Flaco Lopez'
 NO_MATCH  'Franco Mastantuono'                      team=Argentina
-NO_MATCH  'Emiliano Martínez'                       team=Argentina
+MATCH  'Emiliano Martínez'                      -> 'Lisandro Martínez'                       score=82.35294117647058  team=Argentina
 NO_MATCH  'Gerónimo Rulli'                          team=Argentina
 NO_MATCH  'Juan Musso'                              team=Argentina
-NO_MATCH  'Leandro Paredes'                         team=Argentina
+MATCH  'Leandro Paredes'                        -> 'Leandro Paredes'                         score=100.0  team=Argentina
 NO_MATCH  'Máximo Perrone'                          team=Argentina
-NO_MATCH  'Rodrigo De Paul'                         team=Argentina
-NO_MATCH  'Nico Paz'                                team=Argentina
+MATCH  'Rodrigo De Paul'                        -> 'Rodrigo de Paul'                         score=100.0  team=Argentina
+MATCH  'Nico Paz'                               -> 'Nico Paz'                                score=100.0  team=Argentina
 NO_MATCH  'Alejandro Garnacho'                      team=Argentina
-NO_MATCH  'Valentín Barco'                          team=Argentina
-NO_MATCH  'Exequiel Palacios'                       team=Argentina
-NO_MATCH  'Thiago Almada'                           team=Argentina
-NO_MATCH  'Alexis Mac Allister'                     team=Argentina
-TEAM_MISMATCH  'Enzo Fernández' matched 'Bruno Fernandes' score=75.86206896551724 but team Argentina != Portugal
+MATCH  'Valentín Barco'                         -> 'Valentin Barco'                          score=100.0  team=Argentina
+MATCH  'Exequiel Palacios'                      -> 'Exequiel Palacios'                       score=100.0  team=Argentina
+MATCH  'Thiago Almada'                          -> 'Thiago Almada'                           score=100.0  team=Argentina
+MATCH  'Alexis Mac Allister'                    -> 'Alexis Mac Allister'                     score=100.0  team=Argentina
+MATCH  'Enzo Fernández'                         -> 'Enzo Fernández'                          score=100.0  team=Argentina
 NO_MATCH  'Jordan Bos'                              team=Australia
 NO_MATCH  'Kye Rowles'                              team=Australia
 NO_MATCH  'Alessandro Circati'                      team=Australia
@@ -250,7 +250,7 @@ NO_MATCH  'Meschack Elia'                           team=Congo DR
 NO_MATCH  'Fiston Mayele'                           team=Congo DR
 NO_MATCH  'Nathanaël Mbuku'                         team=Congo DR
 NO_MATCH  'Brian Cipenga'                           team=Congo DR
-NO_MATCH  'Lionel Mpasi'                            team=Congo DR
+TEAM_MISMATCH  'Lionel Mpasi' matched 'Lionel Messi' score=83.33333333333334 but team Congo DR != Argentina
 NO_MATCH  'Matthieu Epolo'                          team=Congo DR
 NO_MATCH  'Timothy Fayulu'                          team=Congo DR
 NO_MATCH  "Ngal'ayel Mukau"                         team=Congo DR
@@ -277,7 +277,7 @@ NO_MATCH  'Evann Guessand'                          team=Cote d Ivoire
 NO_MATCH  'Bazoumana Touré'                         team=Cote d Ivoire
 NO_MATCH  'Alban Lafont'                            team=Cote d Ivoire
 NO_MATCH  'Yahia Fofana'                            team=Cote d Ivoire
-NO_MATCH  'Mohamed Koné'                            team=Cote d Ivoire
+TEAM_MISMATCH  'Mohamed Koné' matched 'Mohamed Hany' score=75.0 but team Cote d Ivoire != Egypt
 NO_MATCH  'Parfait Guiagon'                         team=Cote d Ivoire
 NO_MATCH  'Jean Michaël Seri'                       team=Cote d Ivoire
 TEAM_MISMATCH  'Ibrahim Sangaré' matched 'Ibrahima Konaté' score=73.33333333333334 but team Cote d Ivoire != France
@@ -375,27 +375,27 @@ NO_MATCH  'Kendry Páez'                             team=Ecuador
 NO_MATCH  'Alan Franco'                             team=Ecuador
 NO_MATCH  'Pedro Vite'                              team=Ecuador
 NO_MATCH  'Moisés Caicedo'                          team=Ecuador
-NO_MATCH  'Marwan Attia'                            team=Egypt
-NO_MATCH  'Zizo'                                    team=Egypt
-NO_MATCH  'Hamdi Fathy'                             team=Egypt
-NO_MATCH  'Emam Ashour'                             team=Egypt
-NO_MATCH  'Mahmoud Saber'                           team=Egypt
+MATCH  'Marwan Attia'                           -> 'Marwan Attia'                            score=100.0  team=Egypt
+MATCH  'Zizo'                                   -> 'Zizo'                                    score=100.0  team=Egypt
+MATCH  'Hamdi Fathy'                            -> 'Hamdi Fathi'                             score=90.9090909090909  team=Egypt
+MATCH  'Emam Ashour'                            -> 'Emam Ashour'                             score=100.0  team=Egypt
+MATCH  'Mahmoud Saber'                          -> 'Mahmoud Saber'                           score=100.0  team=Egypt
 NO_MATCH  'Mohamed Abdelmonem'                      team=Egypt
 NO_MATCH  'Ahmed Fatouh'                            team=Egypt
-NO_MATCH  'Mohamed Hany'                            team=Egypt
-NO_MATCH  'Ramy Rabia'                              team=Egypt
-NO_MATCH  'Hossam Abdelmaguid'                      team=Egypt
-NO_MATCH  'Tarek Alaa'                              team=Egypt
-NO_MATCH  'Yasser Ibrahim'                          team=Egypt
-NO_MATCH  'Omar Marmoush'                           team=Egypt
-NO_MATCH  'Trezeguet'                               team=Egypt
-NO_MATCH  'Haissem Hassan'                          team=Egypt
+MATCH  'Mohamed Hany'                           -> 'Mohamed Hany'                            score=100.0  team=Egypt
+MATCH  'Ramy Rabia'                             -> 'Ramy Rabia'                              score=100.0  team=Egypt
+MATCH  'Hossam Abdelmaguid'                     -> 'Hossam Abdelmaguid'                      score=100.0  team=Egypt
+MATCH  'Tarek Alaa'                             -> 'Tarek Alaa'                              score=100.0  team=Egypt
+MATCH  'Yasser Ibrahim'                         -> 'Yasser Ibrahim'                          score=100.0  team=Egypt
+MATCH  'Omar Marmoush'                          -> 'Omar Marmoush'                           score=100.0  team=Egypt
+MATCH  'Trezeguet'                              -> 'Trezeguet'                               score=100.0  team=Egypt
+MATCH  'Haissem Hassan'                         -> 'Haissem Hassan'                          score=100.0  team=Egypt
 NO_MATCH  'Mohamed El Shenawy'                      team=Egypt
 NO_MATCH  'El Mahdy Soliman'                        team=Egypt
 NO_MATCH  'Mostafa Shobeir'                         team=Egypt
-NO_MATCH  'Mohamed Alaa'                            team=Egypt
-NO_MATCH  'Mohanad Lasheen'                         team=Egypt
-NO_MATCH  'Ibrahim Adel'                            team=Egypt
+MATCH  'Mohamed Alaa'                           -> 'Mohamed Hany'                            score=75.0  team=Egypt
+MATCH  'Mohanad Lasheen'                        -> 'Mohanad Lasheen'                         score=100.0  team=Egypt
+MATCH  'Ibrahim Adel'                           -> 'Ibrahim Adel'                            score=100.0  team=Egypt
 MATCH  "Nico O'Reilly"                          -> "Nico O'Reilly"                           score=100.0  team=England
 NO_MATCH  'Tino Livramento'                         team=England
 MATCH  'Marc Guéhi'                             -> 'Marc Guehi'                              score=100.0  team=England
@@ -435,7 +435,7 @@ MATCH  'Adrien Rabiot'                          -> 'Adrien Rabiot'              
 MATCH  'Warren Zaïre-Emery'                     -> 'Warren Zaïre-Emery'                      score=100.0  team=France
 MATCH  'Manu Koné'                              -> 'Manu Kone'                               score=100.0  team=France
 MATCH  'Maghnes Akliouche'                      -> 'Maghnes Akliouche'                       score=100.0  team=France
-MATCH  'Aurélien Tchouaméni'                    -> 'Aurélien Tchouaméni'                     score=100.0  team=France
+NO_MATCH  'Aurélien Tchouaméni'                     team=France
 MATCH  'Rayan Cherki'                           -> 'Rayan Cherki'                            score=100.0  team=France
 MATCH  'Michael Olise'                          -> 'Michael Olise'                           score=100.0  team=France
 NO_MATCH  'Lennart Karl'                            team=Germany
@@ -536,7 +536,7 @@ TEAM_MISMATCH  'Ahmed Basil' matched 'Ali Ahmed' score=80.0 but team Iraq != Can
 NO_MATCH  'Fahad Talib'                             team=Iraq
 NO_MATCH  'Kumel Saadi'                             team=Iraq
 NO_MATCH  'Zidane Iqbal'                            team=Iraq
-NO_MATCH  'Ibrahim Bayesh'                          team=Iraq
+TEAM_MISMATCH  'Ibrahim Bayesh' matched 'Ibrahim Adel' score=76.92307692307692 but team Iraq != Egypt
 NO_MATCH  'Kaishu Sano'                             team=Japan
 NO_MATCH  'Yukinari Sugawara'                       team=Japan
 NO_MATCH  'Tsuyoshi Watanabe'                       team=Japan
@@ -559,7 +559,7 @@ NO_MATCH  'Ao Tanaka'                               team=Japan
 NO_MATCH  'Daichi Kamada'                           team=Japan
 NO_MATCH  'Ritsu Doan'                              team=Japan
 NO_MATCH  'Yousef Qashi'                            team=Jordan
-NO_MATCH  'Ibrahim Sadeh'                           team=Jordan
+TEAM_MISMATCH  'Ibrahim Sadeh' matched 'Yasser Ibrahim' score=74.07407407407408 but team Jordan != Egypt
 NO_MATCH  'Mohammad Al Daoud'                       team=Jordan
 NO_MATCH  'Noor Al Rawabdeh'                        team=Jordan
 NO_MATCH  'Nizar Al Rashdan'                        team=Jordan
@@ -576,7 +576,7 @@ NO_MATCH  'Amer Jamous'                             team=Jordan
 NO_MATCH  'Mousa Al Tamari'                         team=Jordan
 NO_MATCH  'Mohammad Abu Zraiq'                      team=Jordan
 NO_MATCH  'Mahmoud Al Mardi'                        team=Jordan
-NO_MATCH  'Ibrahim Sabra'                           team=Jordan
+TEAM_MISMATCH  'Ibrahim Sabra' matched 'Yasser Ibrahim' score=74.07407407407408 but team Jordan != Egypt
 NO_MATCH  'Ali Azaizeh'                             team=Jordan
 NO_MATCH  'Odeh Fakhoury'                           team=Jordan
 NO_MATCH  'Yazeed  Abulaila'                        team=Jordan
@@ -625,7 +625,7 @@ NO_MATCH  'Carlos Acevedo'                          team=Mexico
 NO_MATCH  'Raúl Rangel'                             team=Mexico
 MATCH  'Brian Gutiérrez'                        -> 'Brian Gutierrez'                         score=100.0  team=Mexico
 MATCH  'Érik Lira'                              -> 'Erik Lira'                               score=100.0  team=Mexico
-TEAM_MISMATCH  'Carlos Rodríguez' matched 'James Rodríguez' score=77.41935483870968 but team Mexico != Colombia
+TEAM_MISMATCH  'Carlos Rodríguez' matched 'Ricardo Rodríguez' score=84.84848484848484 but team Mexico != Switzerland
 NO_MATCH  'Érick Sánchez'                           team=Mexico
 MATCH  'Orbelín Pineda'                         -> 'Orbelín Pineda'                          score=100.0  team=Mexico
 MATCH  'Álvaro Fidalgo'                         -> 'Alvaro Fidalgo'                          score=100.0  team=Mexico
@@ -669,7 +669,7 @@ NO_MATCH  'Quinten Timber'                          team=Netherlands
 NO_MATCH  'Callum McCowatt'                         team=New Zealand
 TEAM_MISMATCH  'Alex Rufer' matched 'Alex Arce' score=73.6842105263158 but team New Zealand != Paraguay
 NO_MATCH  'Joe Bell'                                team=New Zealand
-TEAM_MISMATCH  'Ryan Thomas' matched 'Thomas Partey' score=75.0 but team New Zealand != Ghana
+NO_MATCH  'Ryan Thomas'                             team=New Zealand
 NO_MATCH  'Marko Stamenic'                          team=New Zealand
 NO_MATCH  'Tyler Bindon'                            team=New Zealand
 NO_MATCH  'Francis de Vries'                        team=New Zealand
@@ -707,7 +707,7 @@ MATCH  'Jens Petter Hauge'                      -> 'Jens Petter Hauge'          
 MATCH  'Antonio Nusa'                           -> 'Antonio Nusa'                            score=100.0  team=Norway
 MATCH  'Kristian Thorstvedt'                    -> 'Kristian Thorstvedt'                     score=100.0  team=Norway
 NO_MATCH  'Carlos Harvey'                           team=Panama
-NO_MATCH  'Cristian Martínez'                       team=Panama
+TEAM_MISMATCH  'Cristian Martínez' matched 'Lisandro Martínez' score=76.47058823529412 but team Panama != Argentina
 NO_MATCH  'Yoel Bárcenas'                           team=Panama
 TEAM_MISMATCH  'José Luis Rodríguez' matched 'James Rodríguez' score=76.47058823529412 but team Panama != Colombia
 NO_MATCH  'Aníbal Godoy'                            team=Panama
@@ -781,7 +781,7 @@ NO_MATCH  'Ayoub Al Oui'                            team=Qatar
 NO_MATCH  'Ahmed Fathy'                             team=Qatar
 NO_MATCH  'Karim Boudiaf'                           team=Qatar
 NO_MATCH  'Assim Madibo'                            team=Qatar
-NO_MATCH  'Mohammed Waad'                           team=Qatar
+TEAM_MISMATCH  'Mohammed Waad' matched 'Mohamed Salah' score=76.92307692307692 but team Qatar != Egypt
 NO_MATCH  'Pedro Miguel'                            team=Qatar
 NO_MATCH  'Bassam Al Rawi'                          team=Qatar
 NO_MATCH  'Lucas Mendes'                            team=Qatar
@@ -802,7 +802,7 @@ NO_MATCH  'Shehab Ellethy'                          team=Qatar
 NO_MATCH  'Mahmud Abunada'                          team=Qatar
 NO_MATCH  'Musab Al Juwayr'                         team=Saudi Arabia
 NO_MATCH  'Ziyad Al Johani'                         team=Saudi Arabia
-NO_MATCH  'Mohamed Kanno'                           team=Saudi Arabia
+TEAM_MISMATCH  'Mohamed Kanno' matched 'Mohamed Hany' score=80.0 but team Saudi Arabia != Egypt
 NO_MATCH  'Abdullah Al Khaibari'                    team=Saudi Arabia
 NO_MATCH  'Aiman Yahya'                             team=Saudi Arabia
 NO_MATCH  'Saud Abdulhamid'                         team=Saudi Arabia
@@ -850,14 +850,14 @@ NO_MATCH  'El Hadji Malick Diouf'                   team=Senegal
 NO_MATCH  'Ismail Jakobs'                           team=Senegal
 NO_MATCH  'Kalidou Koulibaly'                       team=Senegal
 NO_MATCH  'Abdoulaye Seck'                          team=Senegal
-TEAM_MISMATCH  'Antoine Mendy' matched 'Antoine Semenyo' score=85.71428571428572 but team Senegal != Ghana
+NO_MATCH  'Antoine Mendy'                           team=Senegal
 NO_MATCH  'Nicolas Jackson'                         team=Senegal
 NO_MATCH  'Iliman Ndiaye'                           team=Senegal
 NO_MATCH  'Ismaïla Sarr'                            team=Senegal
 NO_MATCH  'Assane Diao'                             team=Senegal
 NO_MATCH  'Cherif Ndiaye'                           team=Senegal
 NO_MATCH  'Bamba Dieng'                             team=Senegal
-NO_MATCH  'Ibrahim Mbaye'                           team=Senegal
+TEAM_MISMATCH  'Ibrahim Mbaye' matched 'Yasser Ibrahim' score=74.07407407407408 but team Senegal != Egypt
 NO_MATCH  'Édouard Mendy'                           team=Senegal
 NO_MATCH  'Yehvann Diouf'                           team=Senegal
 NO_MATCH  'Mory Diaw'                               team=Senegal
@@ -923,29 +923,29 @@ NO_MATCH  'Anthony Elanga'                          team=Sweden
 NO_MATCH  'Benjamin Nygren'                         team=Sweden
 NO_MATCH  'Gustaf Nilsson'                          team=Sweden
 NO_MATCH  'Kristoffer Nordfeldt'                    team=Sweden
-NO_MATCH  'Johan Manzambi'                          team=Switzerland
-NO_MATCH  'Granit Xhaka'                            team=Switzerland
-NO_MATCH  'Michel Aebischer'                        team=Switzerland
-NO_MATCH  'Remo Freuler'                            team=Switzerland
-NO_MATCH  'Ardon Jashari'                           team=Switzerland
-TEAM_MISMATCH  'Fabian Rieder' matched 'Fabián Ruiz' score=75.0 but team Switzerland != Spain
-NO_MATCH  'Manuel Akanji'                           team=Switzerland
-NO_MATCH  'Ricardo Rodríguez'                       team=Switzerland
-NO_MATCH  'Nico Elvedi'                             team=Switzerland
-NO_MATCH  'Silvan Widmer'                           team=Switzerland
-NO_MATCH  'Miro Muheim'                             team=Switzerland
-NO_MATCH  'Eray Cömert'                             team=Switzerland
-NO_MATCH  'Aurèle Amenda'                           team=Switzerland
-NO_MATCH  'Luca Jaquez'                             team=Switzerland
-NO_MATCH  'Breel Embolo'                            team=Switzerland
-NO_MATCH  'Noah Okafor'                             team=Switzerland
-NO_MATCH  'Dan Ndoye'                               team=Switzerland
+MATCH  'Johan Manzambi'                         -> 'Johan Manzambi'                          score=100.0  team=Switzerland
+MATCH  'Granit Xhaka'                           -> 'Granit Xhaka'                            score=100.0  team=Switzerland
+MATCH  'Michel Aebischer'                       -> 'Michel Aebischer'                        score=100.0  team=Switzerland
+MATCH  'Remo Freuler'                           -> 'Remo Freuler'                            score=100.0  team=Switzerland
+MATCH  'Ardon Jashari'                          -> 'Ardon Jashari'                           score=100.0  team=Switzerland
+MATCH  'Fabian Rieder'                          -> 'Fabian Rieder'                           score=100.0  team=Switzerland
+MATCH  'Manuel Akanji'                          -> 'Manuel Akanji'                           score=100.0  team=Switzerland
+MATCH  'Ricardo Rodríguez'                      -> 'Ricardo Rodríguez'                       score=100.0  team=Switzerland
+MATCH  'Nico Elvedi'                            -> 'Nico Elvedi'                             score=100.0  team=Switzerland
+MATCH  'Silvan Widmer'                          -> 'Silvan Widmer'                           score=100.0  team=Switzerland
+MATCH  'Miro Muheim'                            -> 'Miro Muheim'                             score=100.0  team=Switzerland
+MATCH  'Eray Cömert'                            -> 'Eray Cömert'                             score=100.0  team=Switzerland
+MATCH  'Aurèle Amenda'                          -> 'Aurele Amenda'                           score=100.0  team=Switzerland
+MATCH  'Luca Jaquez'                            -> 'Luca Jaquez'                             score=100.0  team=Switzerland
+MATCH  'Breel Embolo'                           -> 'Breel Embolo'                            score=100.0  team=Switzerland
+MATCH  'Noah Okafor'                            -> 'Noah Okafor'                             score=100.0  team=Switzerland
+MATCH  'Dan Ndoye'                              -> 'Dan Ndoye'                               score=100.0  team=Switzerland
 NO_MATCH  'Gregor Kobel'                            team=Switzerland
 NO_MATCH  'Yvon Mvogo'                              team=Switzerland
 NO_MATCH  'Marvin Keller'                           team=Switzerland
-NO_MATCH  'Djibril Sow'                             team=Switzerland
-NO_MATCH  'Denis Zakaria'                           team=Switzerland
-TEAM_MISMATCH  'Rubén Vargas' matched 'Obed Vargas' score=78.26086956521739 but team Switzerland != Mexico
+MATCH  'Djibril Sow'                            -> 'Djibril Sow'                             score=100.0  team=Switzerland
+MATCH  'Denis Zakaria'                          -> 'Denis Zakaria'                           score=100.0  team=Switzerland
+MATCH  'Rubén Vargas'                           -> 'Rubén Vargas'                            score=100.0  team=Switzerland
 NO_MATCH  'Ellyes Skhiri'                           team=Tunisia
 NO_MATCH  'Rani Khedira'                            team=Tunisia
 NO_MATCH  'Hadj Mahmoud'                            team=Tunisia
@@ -997,8 +997,8 @@ NO_MATCH  'Arda Güler'                              team=Turkiye
 NO_MATCH  'Hakan Çalhanoglu'                        team=Turkiye
 NO_MATCH  'Pablo Alcoba'                            team=Uruguay
 NO_MATCH  'Juan Manuel Sanabria'                    team=Uruguay
-NO_MATCH  'Emiliano Martínez'                       team=Uruguay
-NO_MATCH  'Luciano González'                        team=Uruguay
+TEAM_MISMATCH  'Emiliano Martínez' matched 'Lisandro Martínez' score=82.35294117647058 but team Uruguay != Argentina
+TEAM_MISMATCH  'Luciano González' matched 'Nico Gonzalez' score=75.86206896551724 but team Uruguay != Argentina
 NO_MATCH  'Nicolás Fonseca'                         team=Uruguay
 NO_MATCH  'Facundo Pellistri'                       team=Uruguay
 TEAM_MISMATCH  'Maxi Araújo' matched 'Tomas Araujo' score=78.26086956521739 but team Uruguay != Portugal
@@ -1016,11 +1016,11 @@ NO_MATCH  'Brian Barboza'                           team=Uruguay
 NO_MATCH  'Benjamín García'                         team=Uruguay
 NO_MATCH  'Darwin Núñez'                            team=Uruguay
 NO_MATCH  'Federico Viñas'                          team=Uruguay
-TEAM_MISMATCH  'Brian Rodríguez' matched 'James Rodríguez' score=73.33333333333334 but team Uruguay != Colombia
+TEAM_MISMATCH  'Brian Rodríguez' matched 'Ricardo Rodríguez' score=81.25 but team Uruguay != Switzerland
 NO_MATCH  'Rodrigo Aguirre'                         team=Uruguay
 TEAM_MISMATCH  'Facundo Torres' matched 'Ferran Torres' score=74.07407407407408 but team Uruguay != Spain
 NO_MATCH  'Agustín Canobbio'                        team=Uruguay
-NO_MATCH  'Facundo Martínez'                        team=Uruguay
+TEAM_MISMATCH  'Facundo Martínez' matched 'Lisandro Martínez' score=78.78787878787878 but team Uruguay != Argentina
 NO_MATCH  'Agustín Álvarez'                         team=Uruguay
 NO_MATCH  'Sergio Rochet'                           team=Uruguay
 NO_MATCH  'Fernando Muslera'                        team=Uruguay
@@ -1086,19 +1086,19 @@ NO_MATCH  'Botirali Ergashev'                       team=Uzbekistan
 NO_MATCH  'Facundo Cambeses'                        team=Argentina
 NO_MATCH  'Walter Benítez'                          team=Argentina
 TEAM_MISMATCH  'Santiago Beltrán' matched 'Santiago Arias' score=73.33333333333334 but team Argentina != Colombia
-NO_MATCH  'Lisandro Martínez'                       team=Argentina
+MATCH  'Lisandro Martínez'                      -> 'Lisandro Martínez'                       score=100.0  team=Argentina
 NO_MATCH  'Germán Pezzella'                         team=Argentina
-NO_MATCH  'Facundo Medina'                          team=Argentina
+MATCH  'Facundo Medina'                         -> 'Facundo Medina'                          score=100.0  team=Argentina
 NO_MATCH  'Zaid Romero'                             team=Argentina
 NO_MATCH  'Lautaro Di Lollo'                        team=Argentina
-NO_MATCH  'Gonzalo Montiel'                         team=Argentina
+MATCH  'Gonzalo Montiel'                        -> 'Gonzalo Montiel'                         score=100.0  team=Argentina
 NO_MATCH  'Kevin Mac Allister'                      team=Argentina
 NO_MATCH  'Leonardo Balerdi'                        team=Argentina
-NO_MATCH  'Giovani Lo Celso'                        team=Argentina
+MATCH  'Giovani Lo Celso'                       -> 'Giovani Lo Celso'                        score=100.0  team=Argentina
 NO_MATCH  'Emiliano Buendía'                        team=Argentina
 NO_MATCH  'Aníbal Moreno'                           team=Argentina
-NO_MATCH  'Equi Fernández'                          team=Argentina
-NO_MATCH  'Guido Rodríguez'                         team=Argentina
+MATCH  'Equi Fernández'                         -> 'Enzo Fernández'                          score=78.57142857142857  team=Argentina
+TEAM_MISMATCH  'Guido Rodríguez' matched 'Ricardo Rodríguez' score=81.25 but team Argentina != Switzerland
 NO_MATCH  'Alan Varela'                             team=Argentina
 TEAM_MISMATCH  'Tomás Aranda' matched 'Tomas Araujo' score=75.0 but team Argentina != Portugal
 NO_MATCH  'Nicolás Domínguez'                       team=Argentina
@@ -1106,7 +1106,7 @@ NO_MATCH  'Claudio Echeverri'                       team=Argentina
 NO_MATCH  'Matías Soulé'                            team=Argentina
 NO_MATCH  'Nicolás Capaldo'                         team=Argentina
 NO_MATCH  'Milton Delgado'                          team=Argentina
-NO_MATCH  'Lautaro Martínez'                        team=Argentina
+MATCH  'Lautaro Martínez'                       -> 'Lautaro Martínez'                        score=100.0  team=Argentina
 NO_MATCH  'Mateo Pellegrino'                        team=Argentina
 TEAM_MISMATCH  'Santiago Castro' matched 'Santiago Arias' score=75.86206896551724 but team Argentina != Colombia
 NO_MATCH  'Dennis Hadzikadunic'                     team=Bosnia and Herzegovina
@@ -1136,7 +1136,7 @@ MATCH  'Bradley Barcola'                        -> 'Bradley Barcola'            
 MATCH  'Jean-Philippe Mateta'                   -> 'Jean-Philippe Mateta'                    score=100.0  team=France
 NO_MATCH  'Paul Reverson'                           team=Ghana
 NO_MATCH  'Solomon Agbasi'                          team=Ghana
-MATCH  'Augustine Boakye'                       -> 'Augustine Boakye'                        score=100.0  team=Ghana
+NO_MATCH  'Augustine Boakye'                        team=Ghana
 NO_MATCH  'Ko Itakura'                              team=Japan
 NO_MATCH  'Takehiro Tomiyasu'                       team=Japan
 NO_MATCH  'Yuto Nagatomo'                           team=Japan
@@ -1184,7 +1184,7 @@ NO_MATCH  'Agustín Sández'                          team=Paraguay
 NO_MATCH  'Alan Núñez'                              team=Paraguay
 NO_MATCH  'Saúl Salcedo'                            team=Paraguay
 NO_MATCH  'Diego León'                              team=Paraguay
-NO_MATCH  'Tarek Salman'                            team=Qatar
+TEAM_MISMATCH  'Tarek Salman' matched 'Tarek Alaa' score=81.81818181818181 but team Qatar != Egypt
 NO_MATCH  'Rayyan Al Ali'                           team=Qatar
 NO_MATCH  'Homam El Amin'                           team=Qatar
 NO_MATCH  'Sultan Al Brake'                         team=Qatar
@@ -1261,9 +1261,9 @@ NO_MATCH  'Aaron Hickey'                            team=Scotland
 NO_MATCH  'Ben Gannon-Doak'                         team=Scotland
 NO_MATCH  'Ross Stewart'                            team=Scotland
 NO_MATCH  'Lawrence Shankland'                      team=Scotland
-NO_MATCH  'Christian Fassnacht'                     team=Switzerland
-NO_MATCH  'Zeki Amdouni'                            team=Switzerland
-NO_MATCH  'Cedric Itten'                            team=Switzerland
+MATCH  'Christian Fassnacht'                    -> 'Christian Fassnacht'                     score=100.0  team=Switzerland
+MATCH  'Zeki Amdouni'                           -> 'Zeki Amdouni'                            score=100.0  team=Switzerland
+MATCH  'Cedric Itten'                           -> 'Cedric Itten'                            score=100.0  team=Switzerland
 NO_MATCH  'Ersin Destanoglu'                        team=Turkiye
 NO_MATCH  'Yusuf Akçiçek'                           team=Turkiye
 NO_MATCH  'Çaglar Söyüncü'                          team=Turkiye
@@ -1272,12 +1272,12 @@ NO_MATCH  'Demir Ege Tiknaz'                        team=Turkiye
 NO_MATCH  'Can Uzun'                                team=Turkiye
 NO_MATCH  'Yusuf Sari'                              team=Turkiye
 NO_MATCH  'Aaron Tshibola'                          team=Congo DR
-NO_MATCH  'Karim Hafez'                             team=Egypt
+MATCH  'Karim Hafez'                            -> 'Karim Hafez'                             score=100.0  team=Egypt
 NO_MATCH  'Nabil Emad Dunga'                        team=Egypt
-NO_MATCH  'Mostafa Zico'                            team=Egypt
+MATCH  'Mostafa Zico'                           -> 'Mostafa Ziko'                            score=91.66666666666666  team=Egypt
 NO_MATCH  'Aqtay Abdallah'                          team=Egypt
-NO_MATCH  'Hamza Abdelkarim'                        team=Egypt
-NO_MATCH  'Mohamed Salah'                           team=Egypt
+MATCH  'Hamza Abdelkarim'                       -> 'Hamza Abdelkarim'                        score=100.0  team=Egypt
+MATCH  'Mohamed Salah'                          -> 'Mohamed Salah'                           score=100.0  team=Egypt
 NO_MATCH  'Manuel Neuer'                            team=Germany
 NO_MATCH  'Nadiem Amiri'                            team=Germany
 NO_MATCH  'Jamal Musiala'                           team=Germany
@@ -1348,7 +1348,7 @@ MATCH  'Ollie Watkins'                          -> 'Ollie Watkins'              
 MATCH  'Ivan Toney'                             -> 'Ivan Toney'                              score=100.0  team=England
 MATCH  'Amine Sbaï'                             -> 'Amine Sbai'                              score=100.0  team=Morocco
 MATCH  'Sondre Langås'                          -> 'Sondre Langas'                           score=100.0  team=Norway
-NO_MATCH  'Cristhian Loor'                          team=Ecuador
+TEAM_MISMATCH  'Cristhian Loor' matched 'Cristian Romero' score=75.86206896551724 but team Ecuador != Argentina
 NO_MATCH  'Deinner Ordóñez'                         team=Ecuador
 NO_MATCH  'Fricio Caicedo'                          team=Ecuador
 NO_MATCH  'Ederson Castillo'                        team=Ecuador
@@ -1380,34 +1380,34 @@ MATCH  'Jayden Nelson'                          -> 'Jayden Nelson'              
 MATCH  'Promise David'                          -> 'Promise David'                           score=100.0  team=Canada
 NO_MATCH  'Lawrence Ati Zigi'                       team=Ghana
 NO_MATCH  'Joseph Anang'                            team=Ghana
-OVERRIDE  'Abdul Baba' -> 'Rahman Baba'
-MATCH  'Alidu Seidu'                            -> 'Alidu Seidu'                             score=100.0  team=Ghana
+NO_MATCH  'Abdul Baba'                              team=Ghana
+NO_MATCH  'Alidu Seidu'                             team=Ghana
 NO_MATCH  'Kojo Peprah Oppong'                      team=Ghana
-MATCH  'Jonas Adjetey'                          -> 'Jonas Adjetey'                           score=100.0  team=Ghana
-MATCH  'Abdul Mumin'                            -> 'Abdul Mumin'                             score=100.0  team=Ghana
+NO_MATCH  'Jonas Adjetey'                           team=Ghana
+NO_MATCH  'Abdul Mumin'                             team=Ghana
 NO_MATCH  'Alexander Djiku'                         team=Ghana
-MATCH  'Marvin Senaya'                          -> 'Marvin Senaya'                           score=100.0  team=Ghana
-MATCH  'Jerome Opoku'                           -> 'Jerome Opoku'                            score=100.0  team=Ghana
-MATCH  'Gideon Mensah'                          -> 'Gideon Mensah'                           score=100.0  team=Ghana
-MATCH  'Caleb Yirenkyi'                         -> 'Caleb Yirenkyi'                          score=100.0  team=Ghana
-MATCH  'Thomas Partey'                          -> 'Thomas Partey'                           score=100.0  team=Ghana
-MATCH  'Elisha Owusu'                           -> 'Elisha Owusu'                            score=100.0  team=Ghana
-MATCH  'Kwasi Sibo'                             -> 'Kwasi Sibo'                              score=100.0  team=Ghana
-MATCH  'Jordan Ayew'                            -> 'Jordan Ayew'                             score=100.0  team=Ghana
-MATCH  'Iñaki Williams'                         -> 'Inaki Williams'                          score=100.0  team=Ghana
-MATCH  'Ernest Nuamah'                          -> 'Ernest Nuamah'                           score=100.0  team=Ghana
-OVERRIDE  'Prince Adu' -> 'Prince Kwabena Adu'
-OVERRIDE  'Abdul Fatawu' -> 'Abdul Fatawu Issahaku'
-MATCH  'Christopher Bonsu Baah'                 -> 'Christopher Bonsu Baah'                  score=100.0  team=Ghana
-MATCH  'Antoine Semenyo'                        -> 'Antoine Semenyo'                         score=100.0  team=Ghana
-MATCH  'Brandon Thomas-Asante'                  -> 'Brandon Thomas-Asante'                   score=100.0  team=Ghana
-MATCH  'Kamaldeen Sulemana'                     -> 'Kamaldeen Sulemana'                      score=100.0  team=Ghana
+NO_MATCH  'Marvin Senaya'                           team=Ghana
+NO_MATCH  'Jerome Opoku'                            team=Ghana
+NO_MATCH  'Gideon Mensah'                           team=Ghana
+NO_MATCH  'Caleb Yirenkyi'                          team=Ghana
+NO_MATCH  'Thomas Partey'                           team=Ghana
+NO_MATCH  'Elisha Owusu'                            team=Ghana
+NO_MATCH  'Kwasi Sibo'                              team=Ghana
+NO_MATCH  'Jordan Ayew'                             team=Ghana
+NO_MATCH  'Iñaki Williams'                          team=Ghana
+NO_MATCH  'Ernest Nuamah'                           team=Ghana
+NO_MATCH  'Prince Adu'                              team=Ghana
+NO_MATCH  'Abdul Fatawu'                            team=Ghana
+NO_MATCH  'Christopher Bonsu Baah'                  team=Ghana
+NO_MATCH  'Antoine Semenyo'                         team=Ghana
+NO_MATCH  'Brandon Thomas-Asante'                   team=Ghana
+NO_MATCH  'Kamaldeen Sulemana'                      team=Ghana
 MATCH  'Eric García'                            -> 'Eric Garcia'                             score=100.0  team=Spain
 MATCH  'Marc Pubill'                            -> 'Marc Pubill'                             score=100.0  team=Spain
 MATCH  'Mikel Merino'                           -> 'Mikel Merino'                            score=100.0  team=Spain
 MATCH  'Fabián Ruiz'                            -> 'Fabián Ruiz'                             score=100.0  team=Spain
 MATCH  'Gavi'                                   -> 'Gavi'                                    score=100.0  team=Spain
-TEAM_MISMATCH  'Nico Williams' matched 'Inaki Williams' score=81.4814814814815 but team Spain != Ghana
+NO_MATCH  'Nico Williams'                           team=Spain
 NO_MATCH  'Joe Gauci'                               team=Australia
 NO_MATCH  'Harry Souttar'                           team=Australia
 NO_MATCH  'Cameron Devlin'                          team=Australia
@@ -1475,7 +1475,7 @@ NO_MATCH  'Rodrigo Bentancur'                       team=Uruguay
 NO_MATCH  'Rodrigo Zalazar'                         team=Uruguay
 NO_MATCH  'Jaouen Hadjam'                           team=Algeria
 NO_MATCH  'Mladen Jurkas'                           team=Bosnia and Herzegovina
-MATCH  'Derrick Luckassen'                      -> 'Derrick Luckassen'                       score=100.0  team=Ghana
+NO_MATCH  'Derrick Luckassen'                       team=Ghana
 NO_MATCH  'Shahriyar Moghanlou'                     team=IR Iran
 NO_MATCH  'Cho Wi-Je'                               team=Korea Republic
 NO_MATCH  'Sebastian Nanasi'                        team=Sweden
