@@ -25,35 +25,35 @@ NO_MATCH  'Hicham Boudaoui'                         team=Algeria
 NO_MATCH  'Adil Aouchiche'                          team=Algeria
 NO_MATCH  'Houssem Aouar'                           team=Algeria
 NO_MATCH  'Farès Chaïbi'                            team=Algeria
-MATCH  'Cristian Romero'                        -> 'Cristian Romero'                         score=100.0  team=Argentina
-MATCH  'Marcos Senesi'                          -> 'Marcos Senesi'                           score=100.0  team=Argentina
-MATCH  'Nahuel Molina'                          -> 'Nahuel Molina'                           score=100.0  team=Argentina
+TEAM_MISMATCH  'Cristian Romero' matched 'Cristiano Ronaldo' score=75.0 but team Argentina != Portugal
+NO_MATCH  'Marcos Senesi'                           team=Argentina
+NO_MATCH  'Nahuel Molina'                           team=Argentina
 NO_MATCH  'Nicolás Otamendi'                        team=Argentina
 NO_MATCH  'Marcos Acuña'                            team=Argentina
 NO_MATCH  'Lucas Martínez Quarta'                   team=Argentina
-MATCH  'Nicolás Tagliafico'                     -> 'Nicolás Tagliafico'                      score=100.0  team=Argentina
+NO_MATCH  'Nicolás Tagliafico'                      team=Argentina
 NO_MATCH  'Gabriel Rojas'                           team=Argentina
 NO_MATCH  'Agustín Giay'                            team=Argentina
-MATCH  'Lionel Messi'                           -> 'Lionel Messi'                            score=100.0  team=Argentina
-MATCH  'Julián Alvarez'                         -> 'Julián Álvarez'                          score=100.0  team=Argentina
+NO_MATCH  'Lionel Messi'                            team=Argentina
+NO_MATCH  'Julián Alvarez'                          team=Argentina
 NO_MATCH  'Gianluca Prestianni'                     team=Argentina
-MATCH  'Giuliano Simeone'                       -> 'Giuliano Simeone'                        score=100.0  team=Argentina
-MATCH  'Nico González'                          -> 'Nico Gonzalez'                           score=100.0  team=Argentina
-OVERRIDE  'José Manuel López' -> 'Flaco Lopez'
+NO_MATCH  'Giuliano Simeone'                        team=Argentina
+NO_MATCH  'Nico González'                           team=Argentina
+NO_MATCH  'José Manuel López'                       team=Argentina
 NO_MATCH  'Franco Mastantuono'                      team=Argentina
-MATCH  'Emiliano Martínez'                      -> 'Lisandro Martínez'                       score=82.35294117647058  team=Argentina
+NO_MATCH  'Emiliano Martínez'                       team=Argentina
 NO_MATCH  'Gerónimo Rulli'                          team=Argentina
 NO_MATCH  'Juan Musso'                              team=Argentina
-MATCH  'Leandro Paredes'                        -> 'Leandro Paredes'                         score=100.0  team=Argentina
+NO_MATCH  'Leandro Paredes'                         team=Argentina
 NO_MATCH  'Máximo Perrone'                          team=Argentina
-MATCH  'Rodrigo De Paul'                        -> 'Rodrigo de Paul'                         score=100.0  team=Argentina
-MATCH  'Nico Paz'                               -> 'Nico Paz'                                score=100.0  team=Argentina
+NO_MATCH  'Rodrigo De Paul'                         team=Argentina
+NO_MATCH  'Nico Paz'                                team=Argentina
 NO_MATCH  'Alejandro Garnacho'                      team=Argentina
-MATCH  'Valentín Barco'                         -> 'Valentin Barco'                          score=100.0  team=Argentina
-MATCH  'Exequiel Palacios'                      -> 'Exequiel Palacios'                       score=100.0  team=Argentina
-MATCH  'Thiago Almada'                          -> 'Thiago Almada'                           score=100.0  team=Argentina
-MATCH  'Alexis Mac Allister'                    -> 'Alexis Mac Allister'                     score=100.0  team=Argentina
-MATCH  'Enzo Fernández'                         -> 'Enzo Fernández'                          score=100.0  team=Argentina
+NO_MATCH  'Valentín Barco'                          team=Argentina
+NO_MATCH  'Exequiel Palacios'                       team=Argentina
+NO_MATCH  'Thiago Almada'                           team=Argentina
+NO_MATCH  'Alexis Mac Allister'                     team=Argentina
+TEAM_MISMATCH  'Enzo Fernández' matched 'Bruno Fernandes' score=75.86206896551724 but team Argentina != Portugal
 NO_MATCH  'Jordan Bos'                              team=Australia
 NO_MATCH  'Kye Rowles'                              team=Australia
 NO_MATCH  'Alessandro Circati'                      team=Australia
@@ -73,7 +73,7 @@ NO_MATCH  'Ante Suto'                               team=Australia
 NO_MATCH  'Mathew Ryan'                             team=Australia
 NO_MATCH  'Paul Izzo'                               team=Australia
 TEAM_MISMATCH  'Patrick Beach' matched 'Patrick Berg' score=80.0 but team Australia != Norway
-TEAM_MISMATCH  'Paul Okon' matched 'Joao Paulo' score=73.6842105263158 but team Australia != Cabo Verde
+NO_MATCH  'Paul Okon'                               team=Australia
 NO_MATCH  'Patrick Yazbek'                          team=Australia
 NO_MATCH  'Alex Robertson'                          team=Australia
 NO_MATCH  'Connor Metcalfe'                         team=Australia
@@ -171,27 +171,27 @@ MATCH  'Fabinho'                                -> 'Fabinho'                    
 MATCH  'Danilo'                                 -> 'Danilo'                                  score=100.0  team=Brazil
 MATCH  'Casemiro'                               -> 'Casemiro'                                score=100.0  team=Brazil
 NO_MATCH  'Lucas Paquetá'                           team=Brazil
-MATCH  'João Paulo'                             -> 'Joao Paulo'                              score=100.0  team=Cabo Verde
-MATCH  'Yannick Semedo'                         -> 'Yannick Semedo'                          score=100.0  team=Cabo Verde
-MATCH  'Kevin Pina'                             -> 'Kevin Pina'                              score=100.0  team=Cabo Verde
-MATCH  'Steven Moreira'                         -> 'Steven Moreira'                          score=100.0  team=Cabo Verde
-MATCH  'Wagner Pina'                            -> 'Wagner Pina'                             score=100.0  team=Cabo Verde
-MATCH  'Pico'                                   -> 'Pico'                                    score=100.0  team=Cabo Verde
-MATCH  'Kelvin Pires'                           -> 'Kelvin Pires'                            score=100.0  team=Cabo Verde
-MATCH  'Sidny Cabral'                           -> 'Sidny Lopes Cabral'                      score=80.0  team=Cabo Verde
-MATCH  'Diney'                                  -> 'Diney'                                   score=100.0  team=Cabo Verde
-MATCH  'Ryan Mendes'                            -> 'Ryan Mendes'                             score=100.0  team=Cabo Verde
-MATCH  'Jovane Cabral'                          -> 'Jovane Cabral'                           score=100.0  team=Cabo Verde
-MATCH  'Dailon Livramento'                      -> 'Dailon Livramento'                       score=100.0  team=Cabo Verde
-MATCH  'Nuno da Costa'                          -> 'Nuno Da Costa'                           score=100.0  team=Cabo Verde
-MATCH  'Garry Rodrigues'                        -> 'Garry Rodrigues'                         score=100.0  team=Cabo Verde
-MATCH  'Willy Semedo'                           -> 'Willy Semedo'                            score=100.0  team=Cabo Verde
+NO_MATCH  'João Paulo'                              team=Cabo Verde
+NO_MATCH  'Yannick Semedo'                          team=Cabo Verde
+NO_MATCH  'Kevin Pina'                              team=Cabo Verde
+NO_MATCH  'Steven Moreira'                          team=Cabo Verde
+NO_MATCH  'Wagner Pina'                             team=Cabo Verde
+NO_MATCH  'Pico'                                    team=Cabo Verde
+NO_MATCH  'Kelvin Pires'                            team=Cabo Verde
+NO_MATCH  'Sidny Cabral'                            team=Cabo Verde
+NO_MATCH  'Diney'                                   team=Cabo Verde
+NO_MATCH  'Ryan Mendes'                             team=Cabo Verde
+NO_MATCH  'Jovane Cabral'                           team=Cabo Verde
+NO_MATCH  'Dailon Livramento'                       team=Cabo Verde
+NO_MATCH  'Nuno da Costa'                           team=Cabo Verde
+NO_MATCH  'Garry Rodrigues'                         team=Cabo Verde
+NO_MATCH  'Willy Semedo'                            team=Cabo Verde
 NO_MATCH  'Vozinha'                                 team=Cabo Verde
 TEAM_MISMATCH  'CJ dos Santos' matched 'Douglas Santos' score=74.07407407407408 but team Cabo Verde != Brazil
 NO_MATCH  'Márcio da Rosa'                          team=Cabo Verde
 NO_MATCH  'Telmo Arcanjo'                           team=Cabo Verde
-MATCH  'Deroy Duarte'                           -> 'Deroy Duarte'                            score=100.0  team=Cabo Verde
-MATCH  'Laros Duarte'                           -> 'Laros Duarte'                            score=100.0  team=Cabo Verde
+NO_MATCH  'Deroy Duarte'                            team=Cabo Verde
+NO_MATCH  'Laros Duarte'                            team=Cabo Verde
 MATCH  'Richie Laryea'                          -> 'Richie Laryea'                           score=100.0  team=Canada
 MATCH  'Derek Cornelius'                        -> 'Derek Cornelius'                         score=100.0  team=Canada
 MATCH  'Joel Waterman'                          -> 'Joel Waterman'                           score=100.0  team=Canada
@@ -228,7 +228,7 @@ MATCH  'Luis Suárez'                            -> 'Luis Suárez'              
 MATCH  'Andrés Gómez'                           -> 'Andres Gomez'                            score=100.0  team=Colombia
 NO_MATCH  'Camilo Vargas'                           team=Colombia
 NO_MATCH  'David Ospina'                            team=Colombia
-TEAM_MISMATCH  'Álvaro Montero' matched 'Jamiro Monteiro' score=75.86206896551724 but team Colombia != Cabo Verde
+TEAM_MISMATCH  'Álvaro Montero' matched 'Roberto Alvarado' score=73.33333333333334 but team Colombia != Mexico
 MATCH  'Jefferson Lerma'                        -> 'Jefferson Lerma'                         score=100.0  team=Colombia
 MATCH  'Gustavo Puerta'                         -> 'Gustavo Puerta'                          score=100.0  team=Colombia
 OVERRIDE  'Juan Fernando Quintero' -> 'Juan Quintero'
@@ -250,7 +250,7 @@ NO_MATCH  'Meschack Elia'                           team=Congo DR
 NO_MATCH  'Fiston Mayele'                           team=Congo DR
 NO_MATCH  'Nathanaël Mbuku'                         team=Congo DR
 NO_MATCH  'Brian Cipenga'                           team=Congo DR
-TEAM_MISMATCH  'Lionel Mpasi' matched 'Lionel Messi' score=83.33333333333334 but team Congo DR != Argentina
+NO_MATCH  'Lionel Mpasi'                            team=Congo DR
 NO_MATCH  'Matthieu Epolo'                          team=Congo DR
 NO_MATCH  'Timothy Fayulu'                          team=Congo DR
 NO_MATCH  "Ngal'ayel Mukau"                         team=Congo DR
@@ -707,7 +707,7 @@ MATCH  'Jens Petter Hauge'                      -> 'Jens Petter Hauge'          
 MATCH  'Antonio Nusa'                           -> 'Antonio Nusa'                            score=100.0  team=Norway
 MATCH  'Kristian Thorstvedt'                    -> 'Kristian Thorstvedt'                     score=100.0  team=Norway
 NO_MATCH  'Carlos Harvey'                           team=Panama
-TEAM_MISMATCH  'Cristian Martínez' matched 'Lisandro Martínez' score=76.47058823529412 but team Panama != Argentina
+NO_MATCH  'Cristian Martínez'                       team=Panama
 NO_MATCH  'Yoel Bárcenas'                           team=Panama
 TEAM_MISMATCH  'José Luis Rodríguez' matched 'James Rodríguez' score=76.47058823529412 but team Panama != Colombia
 NO_MATCH  'Aníbal Godoy'                            team=Panama
@@ -997,8 +997,8 @@ NO_MATCH  'Arda Güler'                              team=Turkiye
 NO_MATCH  'Hakan Çalhanoglu'                        team=Turkiye
 NO_MATCH  'Pablo Alcoba'                            team=Uruguay
 NO_MATCH  'Juan Manuel Sanabria'                    team=Uruguay
-TEAM_MISMATCH  'Emiliano Martínez' matched 'Lisandro Martínez' score=82.35294117647058 but team Uruguay != Argentina
-TEAM_MISMATCH  'Luciano González' matched 'Nico Gonzalez' score=75.86206896551724 but team Uruguay != Argentina
+NO_MATCH  'Emiliano Martínez'                       team=Uruguay
+NO_MATCH  'Luciano González'                        team=Uruguay
 NO_MATCH  'Nicolás Fonseca'                         team=Uruguay
 NO_MATCH  'Facundo Pellistri'                       team=Uruguay
 TEAM_MISMATCH  'Maxi Araújo' matched 'Tomas Araujo' score=78.26086956521739 but team Uruguay != Portugal
@@ -1020,7 +1020,7 @@ TEAM_MISMATCH  'Brian Rodríguez' matched 'James Rodríguez' score=73.3333333333
 NO_MATCH  'Rodrigo Aguirre'                         team=Uruguay
 TEAM_MISMATCH  'Facundo Torres' matched 'Ferran Torres' score=74.07407407407408 but team Uruguay != Spain
 NO_MATCH  'Agustín Canobbio'                        team=Uruguay
-TEAM_MISMATCH  'Facundo Martínez' matched 'Lisandro Martínez' score=78.78787878787878 but team Uruguay != Argentina
+NO_MATCH  'Facundo Martínez'                        team=Uruguay
 NO_MATCH  'Agustín Álvarez'                         team=Uruguay
 NO_MATCH  'Sergio Rochet'                           team=Uruguay
 NO_MATCH  'Fernando Muslera'                        team=Uruguay
@@ -1086,18 +1086,18 @@ NO_MATCH  'Botirali Ergashev'                       team=Uzbekistan
 NO_MATCH  'Facundo Cambeses'                        team=Argentina
 NO_MATCH  'Walter Benítez'                          team=Argentina
 TEAM_MISMATCH  'Santiago Beltrán' matched 'Santiago Arias' score=73.33333333333334 but team Argentina != Colombia
-MATCH  'Lisandro Martínez'                      -> 'Lisandro Martínez'                       score=100.0  team=Argentina
+NO_MATCH  'Lisandro Martínez'                       team=Argentina
 NO_MATCH  'Germán Pezzella'                         team=Argentina
-MATCH  'Facundo Medina'                         -> 'Facundo Medina'                          score=100.0  team=Argentina
+NO_MATCH  'Facundo Medina'                          team=Argentina
 NO_MATCH  'Zaid Romero'                             team=Argentina
 NO_MATCH  'Lautaro Di Lollo'                        team=Argentina
-MATCH  'Gonzalo Montiel'                        -> 'Gonzalo Montiel'                         score=100.0  team=Argentina
+NO_MATCH  'Gonzalo Montiel'                         team=Argentina
 NO_MATCH  'Kevin Mac Allister'                      team=Argentina
 NO_MATCH  'Leonardo Balerdi'                        team=Argentina
-MATCH  'Giovani Lo Celso'                       -> 'Giovani Lo Celso'                        score=100.0  team=Argentina
+NO_MATCH  'Giovani Lo Celso'                        team=Argentina
 NO_MATCH  'Emiliano Buendía'                        team=Argentina
 NO_MATCH  'Aníbal Moreno'                           team=Argentina
-MATCH  'Equi Fernández'                         -> 'Enzo Fernández'                          score=78.57142857142857  team=Argentina
+NO_MATCH  'Equi Fernández'                          team=Argentina
 NO_MATCH  'Guido Rodríguez'                         team=Argentina
 NO_MATCH  'Alan Varela'                             team=Argentina
 TEAM_MISMATCH  'Tomás Aranda' matched 'Tomas Araujo' score=75.0 but team Argentina != Portugal
@@ -1106,7 +1106,7 @@ NO_MATCH  'Claudio Echeverri'                       team=Argentina
 NO_MATCH  'Matías Soulé'                            team=Argentina
 NO_MATCH  'Nicolás Capaldo'                         team=Argentina
 NO_MATCH  'Milton Delgado'                          team=Argentina
-MATCH  'Lautaro Martínez'                       -> 'Lautaro Martínez'                        score=100.0  team=Argentina
+NO_MATCH  'Lautaro Martínez'                        team=Argentina
 NO_MATCH  'Mateo Pellegrino'                        team=Argentina
 TEAM_MISMATCH  'Santiago Castro' matched 'Santiago Arias' score=75.86206896551724 but team Argentina != Colombia
 NO_MATCH  'Dennis Hadzikadunic'                     team=Bosnia and Herzegovina
@@ -1208,11 +1208,11 @@ MATCH  'Hans Vanaken'                           -> 'Hans Vanaken'               
 OVERRIDE  'Matias Fernandez-Pardo' -> 'Matias Fernandez Pardo'
 MATCH  'Leandro Trossard'                       -> 'Leandro Trossard'                        score=100.0  team=Belgium
 MATCH  'Diego Moreira'                          -> 'Diego Moreira'                           score=100.0  team=Belgium
-MATCH  'Stopira'                                -> 'Stopira'                                 score=100.0  team=Cabo Verde
-MATCH  'Logan Costa'                            -> 'Logan Costa'                             score=100.0  team=Cabo Verde
-MATCH  'Jamiro Monteiro'                        -> 'Jamiro Monteiro'                         score=100.0  team=Cabo Verde
-MATCH  'Hélio Varela'                           -> 'Helio Varela'                            score=100.0  team=Cabo Verde
-MATCH  'Gilson Benchimol'                       -> 'Gilson Benchimol'                        score=100.0  team=Cabo Verde
+NO_MATCH  'Stopira'                                 team=Cabo Verde
+NO_MATCH  'Logan Costa'                             team=Cabo Verde
+NO_MATCH  'Jamiro Monteiro'                         team=Cabo Verde
+NO_MATCH  'Hélio Varela'                            team=Cabo Verde
+NO_MATCH  'Gilson Benchimol'                        team=Cabo Verde
 NO_MATCH  'Oumar Diakité'                           team=Cote d Ivoire
 NO_MATCH  'Ange-Yoan Bonny'                         team=Cote d Ivoire
 NO_MATCH  'Dominik Kotarski'                        team=Croatia
@@ -1348,7 +1348,7 @@ MATCH  'Ollie Watkins'                          -> 'Ollie Watkins'              
 MATCH  'Ivan Toney'                             -> 'Ivan Toney'                              score=100.0  team=England
 MATCH  'Amine Sbaï'                             -> 'Amine Sbai'                              score=100.0  team=Morocco
 MATCH  'Sondre Langås'                          -> 'Sondre Langas'                           score=100.0  team=Norway
-TEAM_MISMATCH  'Cristhian Loor' matched 'Cristian Romero' score=75.86206896551724 but team Ecuador != Argentina
+NO_MATCH  'Cristhian Loor'                          team=Ecuador
 NO_MATCH  'Deinner Ordóñez'                         team=Ecuador
 NO_MATCH  'Fricio Caicedo'                          team=Ecuador
 NO_MATCH  'Ederson Castillo'                        team=Ecuador

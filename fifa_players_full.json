@@ -2036,7 +2036,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.1,
+      "percent_selected": 2,
       "round_stats": [
         {
           "roundId": 1,
@@ -2797,13 +2797,14 @@
       "position": "DEF",
       "price": 4.9,
       "status": "playing",
-      "total_points": 10,
-      "avg_points": 5,
+      "total_points": 11,
+      "avg_points": 3.7,
       "round_points": {
         "1": 9,
-        "2": 1
+        "2": 1,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 5.5,
       "round_stats": [
         {
@@ -2855,6 +2856,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 2,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -2892,7 +2918,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 2,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 29,
@@ -2906,7 +2950,7 @@
       "round_points": {
         "3": 4
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.3,
       "round_stats": [
         {
@@ -2961,13 +3005,14 @@
       "position": "DEF",
       "price": 4.4,
       "status": "playing",
-      "total_points": 10,
-      "avg_points": 5,
+      "total_points": 11,
+      "avg_points": 3.7,
       "round_points": {
         "1": 1,
-        "2": 9
+        "2": 9,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 4.1,
       "round_stats": [
         {
@@ -3019,6 +3064,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 103,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 3,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -3056,7 +3126,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 1
+      "round_2_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 103,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 3,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 31,
@@ -3072,7 +3160,7 @@
         "2": 1,
         "3": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 1.7,
       "round_stats": [
         {
@@ -3216,7 +3304,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -3230,7 +3318,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -3241,13 +3329,14 @@
       "position": "DEF",
       "price": 4.3,
       "status": "playing",
-      "total_points": 3,
-      "avg_points": 1.5,
+      "total_points": 4,
+      "avg_points": 1.3,
       "round_points": {
         "2": 1,
-        "3": 2
+        "3": 2,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.6,
       "round_stats": [
         {
@@ -3299,6 +3388,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 5,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 2,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_2_SXI": 0,
@@ -3336,7 +3450,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 5,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 2,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 35,
@@ -3348,7 +3480,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -3362,7 +3494,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -3373,15 +3505,16 @@
       "position": "FWD",
       "price": 10,
       "status": "playing",
-      "total_points": 40,
-      "avg_points": 13.3,
+      "total_points": 49,
+      "avg_points": 12.3,
       "round_points": {
         "1": 19,
         "2": 14,
-        "3": 7
+        "3": 7,
+        "4": 9
       },
-      "next_fixture": 80,
-      "percent_selected": 51.1,
+      "next_fixture": null,
+      "percent_selected": 51.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -3457,6 +3590,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 9,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 1,
+            "GC": 2,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 5,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -3512,7 +3670,25 @@
       "round_3_ST": 1,
       "round_3_FK": 1,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 1,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 5,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 39,
@@ -3521,14 +3697,15 @@
       "position": "FWD",
       "price": 8.6,
       "status": "playing",
-      "total_points": 4,
+      "total_points": 5,
       "avg_points": 1.3,
       "round_points": {
         "1": 1,
         "2": 1,
-        "3": 2
+        "3": 2,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 8.1,
       "round_stats": [
         {
@@ -3605,6 +3782,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 27,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -3660,7 +3862,25 @@
       "round_3_ST": 1,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 27,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 40,
@@ -3672,7 +3892,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -3688,7 +3908,7 @@
       "round_points": {
         "3": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.5,
       "round_stats": [
         {
@@ -3743,13 +3963,14 @@
       "position": "MID",
       "price": 5.6,
       "status": "playing",
-      "total_points": 5,
-      "avg_points": 2.5,
+      "total_points": 7,
+      "avg_points": 2.3,
       "round_points": {
         "1": 4,
-        "2": 1
+        "2": 1,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": [
         {
@@ -3801,6 +4022,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 27,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 3,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -3838,7 +4084,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 27,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 3,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 43,
@@ -3852,7 +4116,7 @@
       "round_points": {
         "3": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -3910,7 +4174,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -3921,14 +4185,15 @@
       "position": "GK",
       "price": 5,
       "status": "playing",
-      "total_points": 16,
-      "avg_points": 5.3,
+      "total_points": 17,
+      "avg_points": 4.3,
       "round_points": {
         "1": 7,
         "2": 7,
-        "3": 2
+        "3": 2,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 35.5,
       "round_stats": [
         {
@@ -4005,6 +4270,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 1,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -4060,7 +4350,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 1,
+      "round_4_SB": 0
     },
     {
       "id": 46,
@@ -4072,7 +4380,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": []
     },
@@ -4086,7 +4394,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -4097,13 +4405,14 @@
       "position": "MID",
       "price": 5.6,
       "status": "playing",
-      "total_points": 2,
+      "total_points": 3,
       "avg_points": 1,
       "round_points": {
         "2": 0,
-        "3": 2
+        "3": 2,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": [
         {
@@ -4155,6 +4464,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 7,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 1,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_2_SXI": 0,
@@ -4192,7 +4526,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 7,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 1,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 49,
@@ -4204,7 +4556,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -4215,13 +4567,14 @@
       "position": "MID",
       "price": 5.9,
       "status": "playing",
-      "total_points": 12,
-      "avg_points": 6,
+      "total_points": 14,
+      "avg_points": 4.7,
       "round_points": {
         "1": 9,
-        "2": 3
+        "2": 3,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 2.2,
       "round_stats": [
         {
@@ -4273,6 +4626,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 83,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -4310,7 +4688,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 83,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 51,
@@ -4325,7 +4721,7 @@
         "1": 1,
         "3": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.8,
       "round_stats": [
         {
@@ -4426,7 +4822,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -4442,7 +4838,7 @@
       "round_points": {
         "3": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": [
         {
@@ -4502,7 +4898,7 @@
       "round_points": {
         "3": 3
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": [
         {
@@ -4557,14 +4953,15 @@
       "position": "MID",
       "price": 6.5,
       "status": "playing",
-      "total_points": 6,
+      "total_points": 8,
       "avg_points": 2,
       "round_points": {
         "1": 1,
         "2": 4,
-        "3": 1
+        "3": 1,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.3,
       "round_stats": [
         {
@@ -4641,6 +5038,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 63,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -4696,7 +5118,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 63,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 56,
@@ -4705,15 +5145,16 @@
       "position": "MID",
       "price": 6.6,
       "status": "playing",
-      "total_points": 14,
-      "avg_points": 4.7,
+      "total_points": 22,
+      "avg_points": 5.5,
       "round_points": {
         "1": 8,
         "2": 4,
-        "3": 2
+        "3": 2,
+        "4": 8
       },
-      "next_fixture": 80,
-      "percent_selected": 4.1,
+      "next_fixture": null,
+      "percent_selected": 4.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -4789,6 +5230,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 8,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 1,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 3,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 1
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -4844,7 +5310,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 1,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 3,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 1
     },
     {
       "id": 57,
@@ -4853,13 +5337,14 @@
       "position": "MID",
       "price": 7.5,
       "status": "playing",
-      "total_points": 7,
-      "avg_points": 3.5,
+      "total_points": 9,
+      "avg_points": 3,
       "round_points": {
         "1": 4,
-        "2": 3
+        "2": 3,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 2.7,
       "round_stats": [
         {
@@ -4911,6 +5396,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 2,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -4948,7 +5458,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 2,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 58,
@@ -5255,7 +5783,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -5330,7 +5858,7 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -5539,7 +6067,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -5596,7 +6124,7 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -5739,10 +6267,10 @@
       "position": "DEF",
       "price": 3.5,
       "status": "playing",
-      "total_points": 1,
-      "avg_points": 1,
+      "total_points": 9,
+      "avg_points": 9,
       "round_points": {
-        "4": 1
+        "4": 9
       },
       "next_fixture": null,
       "percent_selected": 0.4,
@@ -5750,10 +6278,10 @@
         {
           "roundId": 4,
           "tournamentId": 81,
-          "points": 1,
+          "points": 9,
           "stats": {
             "SXI": 0,
-            "MP": 45,
+            "MP": 75,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -5769,12 +6297,12 @@
             "ST": 0,
             "FK": 0,
             "S": 0,
-            "SB": 0
+            "SB": 1
           }
         }
       ],
       "round_4_SXI": 0,
-      "round_4_MP": 45,
+      "round_4_MP": 75,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -5790,7 +6318,7 @@
       "round_4_ST": 0,
       "round_4_FK": 0,
       "round_4_S": 0,
-      "round_4_SB": 0
+      "round_4_SB": 1
     },
     {
       "id": 67,
@@ -5839,7 +6367,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -5878,7 +6406,7 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -5995,7 +6523,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 73,
+            "MP": 74,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -6070,7 +6598,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 73,
+      "round_4_MP": 74,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -6345,12 +6873,58 @@
       "position": "GK",
       "price": 4.1,
       "status": "playing",
-      "total_points": 0,
-      "avg_points": 0,
-      "round_points": [],
+      "total_points": 1,
+      "avg_points": 1,
+      "round_points": {
+        "4": 1
+      },
       "next_fixture": null,
       "percent_selected": 0.4,
-      "round_stats": []
+      "round_stats": [
+        {
+          "roundId": 4,
+          "tournamentId": 81,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 1,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 1,
+            "GS": 0,
+            "GC": 0,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
+        }
+      ],
+      "round_4_SXI": 0,
+      "round_4_MP": 1,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 1,
+      "round_4_GS": 0,
+      "round_4_GC": 0,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 75,
@@ -6382,7 +6956,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 4.7,
+      "percent_selected": 4.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -6465,7 +7039,7 @@
           "points": 3,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 119,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -6540,7 +7114,7 @@
       "round_3_S": 2,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 119,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -6565,13 +7139,13 @@
       "position": "MID",
       "price": 4.7,
       "status": "playing",
-      "total_points": 12,
-      "avg_points": 3,
+      "total_points": 13,
+      "avg_points": 3.3,
       "round_points": {
         "1": 9,
         "2": 2,
         "3": 1,
-        "4": 0
+        "4": 1
       },
       "next_fixture": null,
       "percent_selected": 0.1,
@@ -6654,10 +7228,10 @@
         {
           "roundId": 4,
           "tournamentId": 81,
-          "points": 0,
+          "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 0,
+            "MP": 30,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -6732,7 +7306,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 0,
+      "round_4_MP": 30,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -7169,10 +7743,10 @@
       "position": "MID",
       "price": 5.6,
       "status": "playing",
-      "total_points": 0,
-      "avg_points": 0,
+      "total_points": 1,
+      "avg_points": 1,
       "round_points": {
-        "4": 0
+        "4": 1
       },
       "next_fixture": null,
       "percent_selected": 0,
@@ -7180,10 +7754,10 @@
         {
           "roundId": 4,
           "tournamentId": 81,
-          "points": 0,
+          "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 0,
+            "MP": 30,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -7204,7 +7778,7 @@
         }
       ],
       "round_4_SXI": 0,
-      "round_4_MP": 0,
+      "round_4_MP": 30,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -7269,7 +7843,7 @@
           "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 17,
+            "MP": 46,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -7308,7 +7882,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 17,
+      "round_4_MP": 46,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -7356,7 +7930,7 @@
         "4": 0
       },
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -12658,7 +13232,7 @@
         "4": 18
       },
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -16870,7 +17444,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 43.1,
+      "percent_selected": 43.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -18701,7 +19275,7 @@
         "1": 1,
         "3": 3
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -18799,12 +19373,13 @@
       "position": "MID",
       "price": 4.7,
       "status": "playing",
-      "total_points": 1,
-      "avg_points": 1,
+      "total_points": 4,
+      "avg_points": 2,
       "round_points": {
-        "2": 1
+        "2": 1,
+        "4": 3
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -18831,6 +19406,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 3,
+          "stats": {
+            "SXI": 0,
+            "MP": 0,
+            "AS": 1,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 1,
+            "GS": 0,
+            "GC": 0,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_2_SXI": 0,
@@ -18850,7 +19450,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 0,
+      "round_4_AS": 1,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 1,
+      "round_4_GS": 0,
+      "round_4_GC": 0,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 198,
@@ -18859,14 +19477,15 @@
       "position": "MID",
       "price": 4.7,
       "status": "playing",
-      "total_points": 17,
-      "avg_points": 5.7,
+      "total_points": 19,
+      "avg_points": 4.8,
       "round_points": {
         "1": 3,
         "2": 11,
-        "3": 3
+        "3": 3,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -18943,6 +19562,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 99,
+            "AS": 0,
+            "YC": 1,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 3,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -18998,7 +19642,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 99,
+      "round_4_AS": 0,
+      "round_4_YC": 1,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 3,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 199,
@@ -19007,14 +19669,15 @@
       "position": "DEF",
       "price": 3.9,
       "status": "playing",
-      "total_points": 11,
-      "avg_points": 3.7,
+      "total_points": 12,
+      "avg_points": 3,
       "round_points": {
         "1": 9,
         "2": 1,
-        "3": 1
+        "3": 1,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -19091,6 +19754,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19146,7 +19834,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 200,
@@ -19160,7 +19866,7 @@
       "round_points": {
         "3": 8
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -19215,14 +19921,15 @@
       "position": "DEF",
       "price": 3.7,
       "status": "playing",
-      "total_points": 19,
-      "avg_points": 6.3,
+      "total_points": 20,
+      "avg_points": 5,
       "round_points": {
         "1": 9,
         "2": 1,
-        "3": 9
+        "3": 9,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.3,
       "round_stats": [
         {
@@ -19299,6 +20006,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 2,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19354,7 +20086,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 1
+      "round_3_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 2,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 202,
@@ -19366,7 +20116,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -19377,13 +20127,14 @@
       "position": "DEF",
       "price": 3.5,
       "status": "playing",
-      "total_points": 8,
-      "avg_points": 4,
+      "total_points": 18,
+      "avg_points": 6,
       "round_points": {
         "1": 8,
-        "2": 0
+        "2": 0,
+        "4": 10
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": [
         {
@@ -19435,6 +20186,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 10,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 1,
+            "GC": 2,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 1,
+            "FK": 0,
+            "S": 0,
+            "SB": 1
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19472,7 +20248,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 1,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 1,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 1
     },
     {
       "id": 205,
@@ -19481,14 +20275,15 @@
       "position": "DEF",
       "price": 3.5,
       "status": "playing",
-      "total_points": 18,
-      "avg_points": 6,
+      "total_points": 19,
+      "avg_points": 4.8,
       "round_points": {
         "1": 9,
         "2": 0,
-        "3": 9
+        "3": 9,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.3,
       "round_stats": [
         {
@@ -19565,6 +20360,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 2,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19620,7 +20440,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 1
+      "round_3_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 2,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 206,
@@ -19629,14 +20467,15 @@
       "position": "FWD",
       "price": 4.9,
       "status": "playing",
-      "total_points": 6,
-      "avg_points": 2,
+      "total_points": 13,
+      "avg_points": 3.3,
       "round_points": {
         "1": 2,
         "2": 2,
-        "3": 2
+        "3": 2,
+        "4": 7
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -19713,6 +20552,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 7,
+          "stats": {
+            "SXI": 0,
+            "MP": 79,
+            "AS": 1,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 1
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19768,7 +20632,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 79,
+      "round_4_AS": 1,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 1
     },
     {
       "id": 207,
@@ -19777,12 +20659,13 @@
       "position": "FWD",
       "price": 4.9,
       "status": "playing",
-      "total_points": 2,
+      "total_points": 4,
       "avg_points": 2,
       "round_points": {
-        "1": 2
+        "1": 2,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -19809,6 +20692,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 80,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 2,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19828,7 +20736,25 @@
       "round_1_ST": 0,
       "round_1_FK": 0,
       "round_1_S": 0,
-      "round_1_SB": 0
+      "round_1_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 80,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 2,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 208,
@@ -19837,13 +20763,14 @@
       "position": "FWD",
       "price": 4.9,
       "status": "playing",
-      "total_points": 4,
-      "avg_points": 2,
+      "total_points": 5,
+      "avg_points": 1.7,
       "round_points": {
         "1": 2,
-        "3": 2
+        "3": 2,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -19895,6 +20822,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 23,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -19932,7 +20884,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 23,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 209,
@@ -19941,14 +20911,15 @@
       "position": "FWD",
       "price": 4.7,
       "status": "playing",
-      "total_points": 3,
-      "avg_points": 1,
+      "total_points": 5,
+      "avg_points": 1.3,
       "round_points": {
         "1": 1,
         "2": 1,
-        "3": 1
+        "3": 1,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -20025,6 +20996,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 67,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -20080,7 +21076,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 67,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 210,
@@ -20095,7 +21109,7 @@
         "2": 1,
         "3": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -20193,13 +21207,14 @@
       "position": "FWD",
       "price": 4.5,
       "status": "playing",
-      "total_points": 3,
-      "avg_points": 1.5,
+      "total_points": 4,
+      "avg_points": 1.3,
       "round_points": {
         "1": 1,
-        "3": 2
+        "3": 2,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -20251,6 +21266,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 11,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -20288,7 +21328,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 11,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 214,
@@ -20297,15 +21355,16 @@
       "position": "GK",
       "price": 3.9,
       "status": "playing",
-      "total_points": 22,
-      "avg_points": 7.3,
+      "total_points": 25,
+      "avg_points": 6.3,
       "round_points": {
         "1": 11,
         "2": 1,
-        "3": 10
+        "3": 10,
+        "4": 3
       },
-      "next_fixture": 80,
-      "percent_selected": 2.8,
+      "next_fixture": null,
+      "percent_selected": 2.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -20381,6 +21440,31 @@
             "S": 3,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 3,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 2,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 7,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -20436,7 +21520,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 3,
-      "round_3_SB": 1
+      "round_3_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 7,
+      "round_4_SB": 0
     },
     {
       "id": 215,
@@ -20448,7 +21550,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -20462,7 +21564,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -20479,7 +21581,7 @@
         "1": 1,
         "2": 4
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -20577,14 +21679,15 @@
       "position": "MID",
       "price": 4.9,
       "status": "playing",
-      "total_points": 6,
-      "avg_points": 2,
+      "total_points": 16,
+      "avg_points": 4,
       "round_points": {
         "1": 1,
         "2": 1,
-        "3": 4
+        "3": 4,
+        "4": 10
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -20661,6 +21764,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 10,
+          "stats": {
+            "SXI": 0,
+            "MP": 99,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 1,
+            "GC": 2,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 2,
+            "FK": 0,
+            "S": 0,
+            "SB": 1
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -20716,7 +21844,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 99,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 1,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 2,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 1
     },
     {
       "id": 219,
@@ -20725,14 +21871,15 @@
       "position": "MID",
       "price": 5.1,
       "status": "playing",
-      "total_points": 5,
-      "avg_points": 1.7,
+      "total_points": 7,
+      "avg_points": 1.8,
       "round_points": {
         "1": 3,
         "2": 1,
-        "3": 1
+        "3": 1,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -20809,6 +21956,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 67,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 1,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -20864,7 +22036,25 @@
       "round_3_ST": 1,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 67,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 1,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 220,
@@ -21280,7 +22470,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 1,
@@ -24163,7 +25353,7 @@
         "3": 3
       },
       "next_fixture": 86,
-      "percent_selected": 15.7,
+      "percent_selected": 15.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -25570,7 +26760,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -29768,7 +30958,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -30300,7 +31490,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -34126,7 +35316,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -41019,7 +42209,7 @@
           "points": 3,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 119,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -41032,7 +42222,7 @@
             "PS": 0,
             "T": 3,
             "CC": 0,
-            "ST": 1,
+            "ST": 0,
             "FK": 0,
             "S": 0,
             "SB": 0
@@ -41094,7 +42284,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 119,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -41107,7 +42297,7 @@
       "round_4_PS": 0,
       "round_4_T": 3,
       "round_4_CC": 0,
-      "round_4_ST": 1,
+      "round_4_ST": 0,
       "round_4_FK": 0,
       "round_4_S": 0,
       "round_4_SB": 0
@@ -41507,7 +42697,7 @@
           "points": 10,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -41582,7 +42772,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -41607,10 +42797,11 @@
       "position": "MID",
       "price": 4.9,
       "status": "playing",
-      "total_points": 8,
-      "avg_points": 8,
+      "total_points": 9,
+      "avg_points": 4.5,
       "round_points": {
-        "3": 8
+        "3": 8,
+        "4": 1
       },
       "next_fixture": null,
       "percent_selected": 0,
@@ -41639,6 +42830,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 81,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 1,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 1,
+            "GS": 0,
+            "GC": 0,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_3_SXI": 0,
@@ -41658,7 +42874,25 @@
       "round_3_ST": 1,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 1
+      "round_3_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 1,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 1,
+      "round_4_GS": 0,
+      "round_4_GC": 0,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 437,
@@ -42011,7 +43245,7 @@
           "points": 0,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -42086,7 +43320,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -42203,7 +43437,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -42278,7 +43512,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -42343,7 +43577,7 @@
           "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 23,
+            "MP": 53,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -42382,7 +43616,7 @@
       "round_2_S": 0,
       "round_2_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 23,
+      "round_4_MP": 53,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -42421,13 +43655,13 @@
       "position": "DEF",
       "price": 3.5,
       "status": "playing",
-      "total_points": 14,
-      "avg_points": 3.5,
+      "total_points": 13,
+      "avg_points": 3.3,
       "round_points": {
         "1": 2,
         "2": 2,
         "3": 8,
-        "4": 2
+        "4": 1
       },
       "next_fixture": null,
       "percent_selected": 0.6,
@@ -42510,12 +43744,12 @@
         {
           "roundId": 4,
           "tournamentId": 81,
-          "points": 2,
+          "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
-            "YC": 0,
+            "YC": 1,
             "RC": 0,
             "OG": 0,
             "PW": 0,
@@ -42588,9 +43822,9 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
-      "round_4_YC": 0,
+      "round_4_YC": 1,
       "round_4_RC": 0,
       "round_4_OG": 0,
       "round_4_PW": 0,
@@ -42871,7 +44105,7 @@
           "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 11,
+            "MP": 40,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -42928,7 +44162,7 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 11,
+      "round_4_MP": 40,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -42967,7 +44201,7 @@
           "points": 0,
           "stats": {
             "SXI": 0,
-            "MP": 23,
+            "MP": 53,
             "AS": 0,
             "YC": 1,
             "RC": 0,
@@ -42988,7 +44222,7 @@
         }
       ],
       "round_4_SXI": 0,
-      "round_4_MP": 23,
+      "round_4_MP": 53,
       "round_4_AS": 0,
       "round_4_YC": 1,
       "round_4_RC": 0,
@@ -43133,7 +44367,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -43208,7 +44442,7 @@
       "round_3_S": 2,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -44364,7 +45598,7 @@
         "4": 13
       },
       "next_fixture": null,
-      "percent_selected": 40.9,
+      "percent_selected": 41,
       "round_stats": [
         {
           "roundId": 1,
@@ -46462,7 +47696,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 6.2,
+      "percent_selected": 6.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -46726,7 +47960,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 2,
@@ -46980,7 +48214,7 @@
         "4": 14
       },
       "next_fixture": null,
-      "percent_selected": 65.8,
+      "percent_selected": 66,
       "round_stats": [
         {
           "roundId": 1,
@@ -47172,7 +48406,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 36,
+      "percent_selected": 36.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -47616,7 +48850,7 @@
         "4": 8
       },
       "next_fixture": null,
-      "percent_selected": 10.1,
+      "percent_selected": 10.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -48502,7 +49736,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 36.4,
+      "percent_selected": 36.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -48768,7 +50002,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 6.7,
+      "percent_selected": 6.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -49359,7 +50593,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.4,
+      "percent_selected": 5.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -49506,7 +50740,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 3.7,
+      "percent_selected": 3.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -49908,7 +51142,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.6,
+      "percent_selected": 1.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -50100,7 +51334,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.4,
+      "percent_selected": 2.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -50588,7 +51822,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 23,
+      "percent_selected": 22.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -50780,7 +52014,7 @@
         "4": 5
       },
       "next_fixture": null,
-      "percent_selected": 11.2,
+      "percent_selected": 11.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -53273,7 +54507,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": []
     },
     {
@@ -59172,7 +60406,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -59824,7 +61058,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -60252,7 +61486,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -60444,7 +61678,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -65297,7 +66531,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -65637,7 +66871,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 4,
+      "percent_selected": 4.1,
       "round_stats": [
         {
           "roundId": 2,
@@ -68146,7 +69380,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 12.4,
+      "percent_selected": 12.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -68366,7 +69600,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 12.7,
+      "percent_selected": 12.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -68558,7 +69792,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 18,
+      "percent_selected": 17.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -69784,7 +71018,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.4,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -70036,7 +71270,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -72147,7 +73381,7 @@
         "3": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -78953,7 +80187,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 2,
@@ -80834,7 +82068,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.5,
+      "percent_selected": 5.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -82564,7 +83798,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 29.7,
+      "percent_selected": 29.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -88285,7 +89519,7 @@
         "3": 2
       },
       "next_fixture": null,
-      "percent_selected": 3.9,
+      "percent_selected": 3.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -94790,7 +96024,7 @@
         "4": 13
       },
       "next_fixture": null,
-      "percent_selected": 34,
+      "percent_selected": 34.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -95174,7 +96408,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 39.9,
+      "percent_selected": 39.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -95558,7 +96792,7 @@
         "4": 14
       },
       "next_fixture": null,
-      "percent_selected": 9.8,
+      "percent_selected": 9.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -95773,7 +97007,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 7.7,
+      "percent_selected": 7.6,
       "round_stats": []
     },
     {
@@ -99208,7 +100442,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 8.8,
+      "percent_selected": 8.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -108784,7 +110018,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -109256,7 +110490,7 @@
         "4": 4
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 1,
@@ -110853,7 +112087,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 3.8,
+      "percent_selected": 3.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -113986,7 +115220,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114000,7 +115234,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114014,7 +115248,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114025,14 +115259,15 @@
       "position": "DEF",
       "price": 4.6,
       "status": "playing",
-      "total_points": 18,
-      "avg_points": 9,
+      "total_points": 29,
+      "avg_points": 9.7,
       "round_points": {
         "1": 9,
-        "2": 9
+        "2": 9,
+        "4": 11
       },
-      "next_fixture": 80,
-      "percent_selected": 9.5,
+      "next_fixture": null,
+      "percent_selected": 9.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -114083,6 +115318,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 11,
+          "stats": {
+            "SXI": 0,
+            "MP": 90,
+            "AS": 1,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 1,
+            "GC": 2,
+            "PS": 0,
+            "T": 0,
+            "CC": 1,
+            "ST": 1,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -114120,7 +115380,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 1
+      "round_2_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 90,
+      "round_4_AS": 1,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 1,
+      "round_4_GC": 2,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 1,
+      "round_4_ST": 1,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1319,
@@ -114132,7 +115410,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114143,13 +115421,14 @@
       "position": "DEF",
       "price": 4,
       "status": "playing",
-      "total_points": 20,
-      "avg_points": 10,
+      "total_points": 22,
+      "avg_points": 7.3,
       "round_points": {
         "1": 9,
-        "2": 11
+        "2": 11,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 15.4,
       "round_stats": [
         {
@@ -114201,6 +115480,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 85,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 3,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -114238,7 +115542,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 1
+      "round_2_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 85,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 3,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1321,
@@ -114250,7 +115572,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114264,7 +115586,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114276,11 +115598,12 @@
       "price": 4.3,
       "status": "playing",
       "total_points": 1,
-      "avg_points": 1,
+      "avg_points": 0.5,
       "round_points": {
-        "1": 1
+        "1": 1,
+        "4": 0
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.2,
       "round_stats": [
         {
@@ -114307,6 +115630,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 0,
+          "stats": {
+            "SXI": 0,
+            "MP": 0,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 1,
+            "GS": 0,
+            "GC": 0,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -114326,7 +115674,25 @@
       "round_1_ST": 0,
       "round_1_FK": 0,
       "round_1_S": 0,
-      "round_1_SB": 0
+      "round_1_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 0,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 1,
+      "round_4_GS": 0,
+      "round_4_GC": 0,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1324,
@@ -114338,7 +115704,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114352,7 +115718,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114368,7 +115734,7 @@
       "round_points": {
         "3": 11
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": [
         {
@@ -114426,7 +115792,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114440,7 +115806,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114454,7 +115820,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114468,7 +115834,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114482,7 +115848,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114496,7 +115862,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114510,7 +115876,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114524,7 +115890,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114538,7 +115904,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114552,7 +115918,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114566,7 +115932,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114577,14 +115943,15 @@
       "position": "FWD",
       "price": 8.8,
       "status": "playing",
-      "total_points": 14,
-      "avg_points": 4.7,
+      "total_points": 16,
+      "avg_points": 4,
       "round_points": {
         "1": 1,
         "2": 4,
-        "3": 9
+        "3": 9,
+        "4": 2
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 2.6,
       "round_stats": [
         {
@@ -114661,6 +116028,31 @@
             "S": 0,
             "SB": 1
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 63,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 1,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -114716,7 +116108,25 @@
       "round_3_ST": 1,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 1
+      "round_3_SB": 1,
+      "round_4_SXI": 0,
+      "round_4_MP": 63,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 1,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1339,
@@ -114728,7 +116138,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -114742,7 +116152,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": []
     },
@@ -114821,7 +116231,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 2,
@@ -115058,7 +116468,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 6.1,
+      "percent_selected": 6.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -115248,7 +116658,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 8.8,
+      "percent_selected": 8.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -116150,7 +117560,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 6.7,
+      "percent_selected": 6.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -119808,7 +121218,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.7,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -120940,7 +122350,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -120954,7 +122364,7 @@
       "total_points": 0,
       "avg_points": 0,
       "round_points": [],
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.1,
       "round_stats": []
     },
@@ -120965,14 +122375,15 @@
       "position": "MID",
       "price": 4.6,
       "status": "playing",
-      "total_points": 9,
-      "avg_points": 3,
+      "total_points": 10,
+      "avg_points": 2.5,
       "round_points": {
         "1": 4,
         "2": 2,
-        "3": 3
+        "3": 3,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -121049,6 +122460,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 2,
+          "stats": {
+            "SXI": 0,
+            "MP": 23,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 3,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_1_SXI": 0,
@@ -121104,7 +122540,25 @@
       "round_3_ST": 1,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 23,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 3,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1531,
@@ -121113,13 +122567,14 @@
       "position": "MID",
       "price": 4.9,
       "status": "playing",
-      "total_points": 10,
-      "avg_points": 5,
+      "total_points": 11,
+      "avg_points": 3.7,
       "round_points": {
         "2": 9,
-        "3": 1
+        "3": 1,
+        "4": 1
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0,
       "round_stats": [
         {
@@ -121171,6 +122626,31 @@
             "S": 0,
             "SB": 0
           }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 1,
+          "stats": {
+            "SXI": 0,
+            "MP": 11,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 0,
+            "GS": 0,
+            "GC": 1,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
         }
       ],
       "round_2_SXI": 0,
@@ -121208,7 +122688,25 @@
       "round_3_ST": 0,
       "round_3_FK": 0,
       "round_3_S": 0,
-      "round_3_SB": 0
+      "round_3_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 11,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 0,
+      "round_4_GS": 0,
+      "round_4_GC": 1,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1532,
@@ -121218,11 +122716,12 @@
       "price": 5,
       "status": "playing",
       "total_points": 1,
-      "avg_points": 1,
+      "avg_points": 0.5,
       "round_points": {
-        "2": 1
+        "2": 1,
+        "4": 0
       },
-      "next_fixture": 80,
+      "next_fixture": null,
       "percent_selected": 0.6,
       "round_stats": [
         {
@@ -121241,6 +122740,31 @@
             "CS": 0,
             "GS": 0,
             "GC": 2,
+            "PS": 0,
+            "T": 0,
+            "CC": 0,
+            "ST": 0,
+            "FK": 0,
+            "S": 0,
+            "SB": 0
+          }
+        },
+        {
+          "roundId": 4,
+          "tournamentId": 80,
+          "points": 0,
+          "stats": {
+            "SXI": 0,
+            "MP": 0,
+            "AS": 0,
+            "YC": 0,
+            "RC": 0,
+            "OG": 0,
+            "PW": 0,
+            "PC": 0,
+            "CS": 1,
+            "GS": 0,
+            "GC": 0,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -121268,7 +122792,25 @@
       "round_2_ST": 0,
       "round_2_FK": 0,
       "round_2_S": 0,
-      "round_2_SB": 0
+      "round_2_SB": 0,
+      "round_4_SXI": 0,
+      "round_4_MP": 0,
+      "round_4_AS": 0,
+      "round_4_YC": 0,
+      "round_4_RC": 0,
+      "round_4_OG": 0,
+      "round_4_PW": 0,
+      "round_4_PC": 0,
+      "round_4_CS": 1,
+      "round_4_GS": 0,
+      "round_4_GC": 0,
+      "round_4_PS": 0,
+      "round_4_T": 0,
+      "round_4_CC": 0,
+      "round_4_ST": 0,
+      "round_4_FK": 0,
+      "round_4_S": 0,
+      "round_4_SB": 0
     },
     {
       "id": 1533,
@@ -126487,7 +128029,7 @@
           "points": 7,
           "stats": {
             "SXI": 0,
-            "MP": 79,
+            "MP": 80,
             "AS": 1,
             "YC": 0,
             "RC": 0,
@@ -126526,7 +128068,7 @@
       "round_1_S": 0,
       "round_1_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 79,
+      "round_4_MP": 80,
       "round_4_AS": 1,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -126771,13 +128313,13 @@
       "position": "FWD",
       "price": 4.3,
       "status": "playing",
-      "total_points": 3,
-      "avg_points": 0.8,
+      "total_points": 4,
+      "avg_points": 1,
       "round_points": {
         "1": 1,
         "2": 1,
         "3": 1,
-        "4": 0
+        "4": 1
       },
       "next_fixture": null,
       "percent_selected": 0.1,
@@ -126860,10 +128402,10 @@
         {
           "roundId": 4,
           "tournamentId": 81,
-          "points": 0,
+          "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 0,
+            "MP": 15,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -126938,7 +128480,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 0,
+      "round_4_MP": 15,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -127055,7 +128597,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -127130,7 +128672,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -127164,7 +128706,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 8.7,
+      "percent_selected": 8.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -127460,7 +129002,7 @@
         "4": 0
       },
       "next_fixture": null,
-      "percent_selected": 8.4,
+      "percent_selected": 8.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -127652,7 +129194,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 9.7,
+      "percent_selected": 9.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -132270,7 +133812,7 @@
         "4": 13
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -135889,7 +137431,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -135964,7 +137506,7 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -136095,7 +137637,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 90,
+            "MP": 120,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -136170,7 +137712,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 90,
+      "round_4_MP": 120,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -136321,7 +137863,7 @@
           "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 17,
+            "MP": 46,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -136378,7 +137920,7 @@
       "round_2_S": 0,
       "round_2_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 17,
+      "round_4_MP": 46,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -136750,7 +138292,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 26.6,
+      "percent_selected": 26.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -136942,7 +138484,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -137134,7 +138676,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.8,
+      "percent_selected": 1.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -139116,7 +140658,7 @@
         "4": 10
       },
       "next_fixture": null,
-      "percent_selected": 12.2,
+      "percent_selected": 12.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -140242,7 +141784,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 5.4,
+      "percent_selected": 5.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -140831,7 +142373,7 @@
           "points": 2,
           "stats": {
             "SXI": 0,
-            "MP": 73,
+            "MP": 74,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -140888,7 +142430,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 73,
+      "round_4_MP": 74,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -145925,16 +147467,16 @@
         },
         {
           "id": 81,
-          "period": "extra_time_second_half",
-          "minutes": 116,
-          "extraMinutes": 26,
+          "period": "full_time",
+          "minutes": 123,
+          "extraMinutes": 33,
           "venueName": "At&t Stadium",
           "venueCity": "Arlington, Texas",
           "venueNameTranslationKey": null,
           "venueCityTranslationKey": null,
           "venueId": 10,
           "date": "2026-07-03T19:00:00+01:00",
-          "status": "playing",
+          "status": "complete",
           "isSuspended": false,
           "homeSquadId": 3,
           "awaySquadId": 17,
@@ -145943,7 +147485,7 @@
           "homeSquadAbbr": "AUS",
           "awaySquadAbbr": "EGY",
           "homeScore": 1,
-          "homePenaltyScore": null,
+          "homePenaltyScore": 2,
           "homeGoalScorersAssists": [
             {
               "playerId": 439,
@@ -145952,7 +147494,7 @@
             }
           ],
           "awayScore": 1,
-          "awayPenaltyScore": null,
+          "awayPenaltyScore": 4,
           "awayGoalScorersAssists": [
             {
               "playerId": 435,
@@ -145963,16 +147505,16 @@
         },
         {
           "id": 80,
-          "period": "pre_match",
-          "minutes": 0,
-          "extraMinutes": 0,
+          "period": "extra_time_first_half",
+          "minutes": 106,
+          "extraMinutes": 16,
           "venueName": "Hard Rock Stadium",
           "venueCity": "Miami Gardens, Florida",
           "venueNameTranslationKey": null,
           "venueCityTranslationKey": null,
           "venueId": 15,
           "date": "2026-07-03T23:00:00+01:00",
-          "status": "scheduled",
+          "status": "playing",
           "isSuspended": false,
           "homeSquadId": 2,
           "awaySquadId": 8,
@@ -145980,12 +147522,34 @@
           "awaySquadName": "Cabo Verde",
           "homeSquadAbbr": "ARG",
           "awaySquadAbbr": "CPV",
-          "homeScore": null,
+          "homeScore": 2,
           "homePenaltyScore": null,
-          "homeGoalScorersAssists": null,
-          "awayScore": null,
+          "homeGoalScorersAssists": [
+            {
+              "playerId": 38,
+              "assistId": 1318,
+              "isOwnGoal": false
+            },
+            {
+              "playerId": 1318,
+              "assistId": 56,
+              "isOwnGoal": false
+            }
+          ],
+          "awayScore": 2,
           "awayPenaltyScore": null,
-          "awayGoalScorersAssists": null
+          "awayGoalScorersAssists": [
+            {
+              "playerId": 218,
+              "assistId": 206,
+              "isOwnGoal": false
+            },
+            {
+              "playerId": 203,
+              "assistId": 196,
+              "isOwnGoal": false
+            }
+          ]
         },
         {
           "id": 86,
