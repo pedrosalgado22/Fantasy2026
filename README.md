@@ -60,7 +60,54 @@ Going into the round of 16 the model suggested four transfers, all within the fr
 
 I have to confess something here. For a while the model never zeroed out the goal scoring probability for goalkeepers, which meant a keeper's tiny nonzero chance of scoring was quietly stacking on top of everything else. That is a real part of why Emiliano Martínez got picked over Mike Maignan for this squad. I caught the bug and the position specific zeroing you'll find in the final expected points function is the fix, but it happened close enough to the deadline that I'm honestly not certain the goalkeeper pick would have gone the same way if I'd caught it a day sooner.
 
-What actually happens in the round of 16 goes here once I know.
+
+# Round of 16 Review
+
+## Substitution Review
+
+**Kane for Oyarzabal:** Terrible call, horrible. Bookies were putting a lot of faith in a Mexico defense that hadn't conceded, and while that held up for most of one of the best World Cup games so far, it didn't stop the best striker on the planet from getting a goal and an assist, with Bellingham turning in one of the tournament's best performances alongside him. Oyarzabal missed a clear chance and was invisible the whole game. Terrible call.
+
+**Hakimi for Dest:** Amazing call. Best right back on the planet had a great game against a weak, scoreless Canada, while the USA got sent home conceding 3 and playing terribly. Picking the best right back alive isn't exactly revolutionary, but still a great call.
+
+**Martinez (Maignan) for Pickford:** Both conceded 2 in hard matches, same points. But once I zeroed out expected goals for GKs, the algorithm's actual pick was Maignan, clean sheet in an easy game. Counting this one as amazing.
+
+**Olise for Musiala:** Olise had his worst performance of the tournament against the WWE side that is Paraguay, so the swap didn't add much. Better midfield returns that round came from the predictable, common picks, Brahim and Jude, with Ounahi and Vanaken also putting up points.
+
+Overall the striker swap was the genuinely terrible one, and it's heavily influential on its own. Bookies were unfavoring Kane at a large rate, enough that I checked if it was a Betano only thing or a general trend. It was general, a lot of value was placed on that scoreless Mexico defense.
+
+## Result
+
+Optimal selection still put up a great tally, 102 points, the most in my league (small sample size) and strong even against the wider fantasy leaderboard, very few teams hit 100. It had the advantage of unlimited picks versus the 4 transfer limited competitors, but still a good sign of what it can do.
+
+## Highs and Lows
+
+**Lows**
+
+* Oyarzabal sucks, Kane is too good even if the opposition is too.
+* Model kept overvaluing Embolo and I didn't catch it.
+* Argentina's defense got hyped throughout the whole build. Didn't see it before, definitely didn't see it after.
+* Oyarzabal really fucking sucks.
+* Overvalued the French attack, all 4 attackers landed in the top 4 picks for their position. Outlier though, if that game got called correctly the story's totally different. I'll allow it.
+* Undervalued Haaland, overvalued Brazil. Some outliers are harder to predict, but giving more expected points to Oyarzabal, Lautaro, Lukaku or Embolo is straight up disrespectful. Betano was genuinely undervaluing him, better odds on Julián Álvarez and some of the names above, including a benched Lukaku. Shows exactly why relying on one bookie is a real limitation here.
+
+**Highs**
+
+* Bottom 3 expected points GKs all conceded, 3 of the top 4 didn't, Argentina was the exception. Great.
+* France clean sheet vs Paraguay.
+* Dávinson Sánchez.
+* Kept flagging Lukaku across iterations, thought that was dumb since he barely starts, but he kept scoring anyway. Good call tbh.
+* Hakimi, Brahim, Morocco in general, it kept rating them way above Canada and it was dead right.
+* Ignored Portugal in every iteration despite them being an obvious pick at some point. Great call.
+
+## Changes Made
+
+Not what I'd change, what I did change. My project, my call.
+
+* GKs and defenders now take a penalty on attacking stats. Their chance of contributing that way is low and unpredictable, and they were getting inflated purely off the team level coefficient.
+* Goal scoring and clean sheet now weigh Betano about 10% less, tournament data picks up the slack. Should help with misses like Haaland and the Argentina/France clean sheet gap.
+* Expected points get multiplied by the odds of the team qualifying, so a pick likely to get eliminated, and need replacing, gets discounted for it.
+
+<img width="806" height="636" alt="image" src="https://github.com/user-attachments/assets/fdb6199e-5077-418e-8d37-590c99bccb5b" />
 
 ## Known Fragility
 
