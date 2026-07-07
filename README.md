@@ -104,7 +104,7 @@ Optimal selection still put up a great tally, 102 points, the most in my league 
 
 ### Changes Made
 
-* GKs and defenders now take a penalty on attacking stats. Their chance of contributing that way is low and unpredictable, and they were getting inflated purely off the team level coefficient.
+* GKs and defenders now take a penalty on attacking stats. Their chance of contributing that way is low and unpredictable, and they were getting inflated purely off the team level coefficient and the fact they get more expected points per goal (7/9)
 * Goal scoring and clean sheet now weigh Betano about 10% less, tournament data picks up the slack. Should help with misses like Haaland and the Argentina/France clean sheet gap.
 * Expected points get multiplied by the odds of the team qualifying, so a pick likely to get eliminated, and need replacing, gets discounted for it.
 
