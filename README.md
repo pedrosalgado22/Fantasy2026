@@ -106,7 +106,9 @@ Optimal selection still put up a great tally, 102 points, the most in my league 
 
 * GKs and defenders now take a penalty on attacking stats. Their chance of contributing that way is low and unpredictable, and they were getting inflated purely off the team level coefficient and the fact they get more expected points per goal (7/9)
 * Goal scoring and clean sheet now weigh Betano about 10% less, tournament data picks up the slack. Should help with misses like Haaland and the Argentina/France clean sheet gap.
-* Expected points get multiplied by the odds of the team qualifying, so a pick likely to get eliminated, and need replacing, gets discounted for it.
+* Expected points get an adjustment using the odds of the team qualifying, so a pick likely to get eliminated, and need replacing, gets discounted for it.
+* The algorithm will overpick 3 or even 4 defenders of the same team, especially after the devaluing of attacking possibilities for defenders. With that, the model will try to squeeze in as many defenders of the most likely clean sheet as it can. That however is the definition of putting all eggs in one basket, as since defenders will get most of their points for team achievements instead of personal ( clean sheet vs goal ), a single goal losing me 20 points and guaranteeing that at least half of my final defenders won't achieve a CS, with addiitonal goals losing me even more goals * 4. Thus, in order to spread out my team better, defenders must be capped to 2 of the same team. 
+
 
 
 ## Known Fragility
