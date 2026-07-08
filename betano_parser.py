@@ -3,6 +3,7 @@ import time
 import re
 from curl_cffi import requests as cf
 
+
 BASE      = "https://www.betano.pt"
 COMP_API  = f"{BASE}/api/sport/futebol/competicoes/mundial/189813/"
 MATCH_API = f"{BASE}/api/match-odds/{{slug}}/{{eid}}/"
@@ -16,10 +17,6 @@ HEADERS = {
     "sec-fetch-site":   "same-origin",
 }
 
-# ── PT name → canonical English ───────────────────────────────────────────────
-# Translation happens HERE so betano_odds.json stores EN names.
-# This prevents build_parquet.py's PT_TO_EN from being the single point of
-# failure for teams with unusual Portuguese spellings (Bosnia, Ghana = "Gana").
 PT_TO_EN = {
     "paises baixos":                  "Netherlands",
     "países baixos":                  "Netherlands",
@@ -85,7 +82,7 @@ PT_TO_EN = {
     "nova zelândia":                  "New Zealand",
     "panama":                         "Panama",
     "panamá":                         "Panama",
-    "gana":                           "Ghana",       # 4 chars — critical for market matching
+    "gana":                           "Ghana",
     "haiti":                          "Haiti",
     "turquia":                        "Turkiye",
     "turquía":                        "Turkiye",
@@ -102,16 +99,13 @@ PT_TO_EN = {
 }
 
 
-def pt_to_en(name: str) -> str:
-    """Translate Betano PT team name to canonical EN. Returns original if unmapped."""
+def pt_to_en(name):
     result = PT_TO_EN.get(name.lower().strip())
     if result is None:
-        print(f"  [!] PT_TO_EN MISSING: {name!r} — add it to PT_TO_EN")
+        print(f"  [!] unmapped team name: {name!r} — add to PT_TO_EN")
         return name
     return result
 
-
-# ── Session ───────────────────────────────────────────────────────────────────
 
 def make_session():
     s = cf.Session()
@@ -119,8 +113,6 @@ def make_session():
     print(f"Warmup: HTTP {r.status_code}")
     return s
 
-
-# ── Match discovery ───────────────────────────────────────────────────────────
 
 def get_matches(s):
     r = s.get(COMP_API, impersonate="chrome120", headers=HEADERS)
@@ -131,7 +123,8 @@ def get_matches(s):
         text = json.dumps(r.json())
     except Exception:
         text = r.text
-    seen, out = set(), []
+    seen = set()
+    out = []
     for slug, eid in re.findall(r'/odds/([^/"]+)/(\d{7,10})/', text):
         if eid not in seen:
             seen.add(eid)
@@ -140,13 +133,10 @@ def get_matches(s):
     return out
 
 
-# ── Fetch popular tab ─────────────────────────────────────────────────────────
-
 def fetch_popular(s, slug, eid):
     url = MATCH_API.format(slug=slug, eid=eid) + "?req=la,s,stnf,c,mb,mbl"
-    r   = s.get(url, impersonate="chrome120", headers={
-        **HEADERS, "referer": f"{BASE}/odds/{slug}/{eid}/"
-    })
+    referer = f"{BASE}/odds/{slug}/{eid}/"
+    r = s.get(url, impersonate="chrome120", headers={**HEADERS, "referer": referer})
     if r.status_code != 200:
         return None
     try:
@@ -158,23 +148,24 @@ def fetch_popular(s, slug, eid):
         return None
 
 
-# ── Extract tableLayout selections ────────────────────────────────────────────
-
 def extract_table_layout(market):
     tl = market.get("tableLayout")
     if not tl:
         return []
-    col_title_list = [ct.get("title", "") for ct in tl.get("columnTitles", [])]
-    groups         = {g.get("id"): g.get("title", "") for g in tl.get("groups", [])}
-    results        = []
+
+    col_titles = [ct.get("title", "") for ct in tl.get("columnTitles", [])]
+    groups = {g.get("id"): g.get("title", "") for g in tl.get("groups", [])}
+
+    results = []
     for row in tl.get("rows", []):
         player_name = row.get("title", "")
-        team_name   = groups.get(row.get("groupId", ""), "")
-        no_group    = row.get("noGroup", False)
+        team_name = groups.get(row.get("groupId", ""), "")
+        no_group = row.get("noGroup", False)
+
         for gs in row.get("groupSelections", []):
             for sel in gs.get("selections", []):
-                col_idx   = sel.get("columnIndex", 0)
-                col_title = col_title_list[col_idx] if col_idx < len(col_title_list) else ""
+                col_idx = sel.get("columnIndex", 0)
+                col_title = col_titles[col_idx] if col_idx < len(col_titles) else ""
                 results.append({
                     "player_name":  player_name if not no_group else None,
                     "team_name":    team_name,
@@ -187,36 +178,36 @@ def extract_table_layout(market):
     return results
 
 
-# ── Parse all markets ─────────────────────────────────────────────────────────
-
 def parse_all_markets(raw):
-    markets     = {}
+    markets = {}
     market_list = raw.get("data", {}).get("event", {}).get("markets", [])
+
     for mkt in market_list:
-        name     = mkt.get("name", "")
-        type_id  = mkt.get("typeId")
+        name = mkt.get("name", "")
+        type_id = mkt.get("typeId")
         std_sels = mkt.get("selections", [])
-        tl_sels  = extract_table_layout(mkt)
+        tl_sels = extract_table_layout(mkt)
+
         if std_sels:
             markets[name] = {
-                "type":       "standard",
-                "typeId":     type_id,
+                "type": "standard",
+                "typeId": type_id,
                 "selections": [
-                    {"name": s.get("name"), "price": s.get("price"),
-                     "handicap": s.get("handicap")}
+                    {"name": s.get("name"), "price": s.get("price"), "handicap": s.get("handicap")}
                     for s in std_sels
                 ],
             }
         elif tl_sels:
-            markets[name] = {"type": "tableLayout", "typeId": type_id,
-                             "selections": tl_sels}
+            markets[name] = {
+                "type": "tableLayout",
+                "typeId": type_id,
+                "selections": tl_sels,
+            }
+
     return markets
 
 
-# ── Build clean output ────────────────────────────────────────────────────────
-
-def build_clean(home_en: str, away_en: str, markets: dict,
-                home_pt: str, away_pt: str) -> dict:
+def build_clean(home_en, away_en, markets, home_pt, away_pt):
     out = {
         "home":        home_en,
         "away":        away_en,
@@ -231,17 +222,16 @@ def build_clean(home_en: str, away_en: str, markets: dict,
         "scorers":     {"anytime": [], "first": [], "last": []},
     }
 
-    home_l = home_pt.lower()   # PT name — matches Betano market strings
+    home_l = home_pt.lower()
     away_l = away_pt.lower()
 
     for name, mkt in markets.items():
-        nl   = name.lower()
+        nl = name.lower()
         sels = mkt["selections"]
-        t    = mkt["type"]
+        t = mkt["type"]
 
         if t == "standard":
-            rows = [{"name": s["name"], "price": s["price"], "handicap": s["handicap"]}
-                    for s in sels]
+            rows = [{"name": s["name"], "price": s["price"], "handicap": s["handicap"]} for s in sels]
 
             if "resultado final" in nl:
                 out["1x2"] = rows
@@ -250,19 +240,16 @@ def build_clean(home_en: str, away_en: str, markets: dict,
                 out["btts"] = rows
 
             elif nl == "total de golos mais/menos":
-                # Exact match → match-level total (no team prefix in market name)
                 out["totals"] = rows
 
-            elif ("total de golos mais/menos" in nl and
-                  any(home_l[:n] in nl
-                      for n in [8, 7, 6, 5, 4, 3]   # FIX 1: 4 and 3 added
-                      if len(home_l) >= n)):
+            elif "total de golos mais/menos" in nl and any(
+                home_l[:n] in nl for n in [8, 7, 6, 5, 4, 3] if len(home_l) >= n
+            ):
                 out["home_totals"] = rows
 
-            elif ("total de golos mais/menos" in nl and
-                  any(away_l[:n] in nl
-                      for n in [8, 7, 6, 5, 4, 3]   # FIX 1: 4 and 3 added
-                      if len(away_l) >= n)):
+            elif "total de golos mais/menos" in nl and any(
+                away_l[:n] in nl for n in [8, 7, 6, 5, 4, 3] if len(away_l) >= n
+            ):
                 out["away_totals"] = rows
 
             elif "+2 golos vantagem" in nl or "2 golos de vantagem" in nl:
@@ -272,19 +259,15 @@ def build_clean(home_en: str, away_en: str, markets: dict,
                 out["qualify"] = rows
 
         elif t == "tableLayout":
+
             if "handicap" in nl:
-                lines: dict = {}
+                lines = {}
                 for s in sels:
                     h = s.get("handicap")
-                    lines.setdefault(h, []).append(
-                        {"name": s["name"], "price": s["price"]}
-                    )
+                    lines.setdefault(h, []).append({"name": s["name"], "price": s["price"]})
                 out["handicap"] = [
                     {"line": h, "selections": v}
-                    for h, v in sorted(
-                        lines.items(),
-                        key=lambda x: (x[0] is None, x[0] or 0)
-                    )
+                    for h, v in sorted(lines.items(), key=lambda x: (x[0] is None, x[0] or 0))
                 ]
 
             elif "marcar em qualquer altura" in nl or "marcador" in nl:
@@ -297,8 +280,9 @@ def build_clean(home_en: str, away_en: str, markets: dict,
                         "name":   s["name"],
                         "price":  s["price"],
                     }
-                    col       = s.get("column_index", 0)
+                    col = s.get("column_index", 0)
                     col_title = s.get("column_title", "").lower()
+
                     if col == 0 or any(k in col_title for k in ("qualquer", "anytime")):
                         out["scorers"]["anytime"].append(entry)
                     elif col == 1 or any(k in col_title for k in ("primeiro", "first")):
@@ -312,14 +296,12 @@ def build_clean(home_en: str, away_en: str, markets: dict,
     return out
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-
 if __name__ == "__main__":
     s = make_session()
 
     matches = get_matches(s)
     if not matches:
-        print("Auto-discovery failed — using fallback")
+        print("auto-discovery failed, using fallback")
         matches = [{"slug": "paises-baixos-marrocos", "eid": "88049190"}]
 
     all_results = []
@@ -333,42 +315,37 @@ if __name__ == "__main__":
             print("  FAILED")
             continue
 
-        event   = raw.get("data", {}).get("event", {})
-        name    = event.get("shortName", slug)
-        parts   = name.split(" - ", 1)
+        event = raw.get("data", {}).get("event", {})
+        name = event.get("shortName", slug)
+        parts = name.split(" - ", 1)
         home_pt = parts[0].strip()
         away_pt = parts[1].strip() if len(parts) > 1 else ""
         home_en = pt_to_en(home_pt)
         away_en = pt_to_en(away_pt)
 
         markets = parse_all_markets(raw)
-        clean   = build_clean(home_en, away_en, markets, home_pt, away_pt)
+        clean = build_clean(home_en, away_en, markets, home_pt, away_pt)
         all_results.append(clean)
 
-        print(f"  {home_pt!r} → {home_en!r}  vs  {away_pt!r} → {away_en!r}")
-        print(f"  1x2:         {[(x['name'], x['price']) for x in clean['1x2']]}")
-        print(f"  btts:        {[(x['name'], x['price']) for x in clean['btts']]}")
+        print(f"  {home_pt} -> {home_en}  vs  {away_pt} -> {away_en}")
+        print(f"  1x2:        {[(x['name'], x['price']) for x in clean['1x2']]}")
+        print(f"  btts:       {[(x['name'], x['price']) for x in clean['btts']]}")
         t25 = [x for x in clean['totals'] if x.get('handicap') == 2.5]
-        print(f"  total >2.5:  {[(x['name'], x['price']) for x in t25]}")
+        print(f"  total >2.5: {[(x['name'], x['price']) for x in t25]}")
         h05 = [x for x in clean['home_totals'] if x.get('handicap') == 0.5]
         a05 = [x for x in clean['away_totals'] if x.get('handicap') == 0.5]
-        print(f"  home >0.5:   {[(x['name'], x['price']) for x in h05]}")
-        print(f"  away >0.5:   {[(x['name'], x['price']) for x in a05]}")
-        print(f"  win_by_2:    {[(x['name'], x['price']) for x in clean['win_by_2']]}")
-        print(f"  handicap:    {[x['line'] for x in clean['handicap']]}")
-        print(f"  scorers ({len(clean['scorers']['anytime'])}): "
-              f"{[(x['player'], x['price']) for x in clean['scorers']['anytime'][:5]]}")
+        print(f"  home >0.5:  {[(x['name'], x['price']) for x in h05]}")
+        print(f"  away >0.5:  {[(x['name'], x['price']) for x in a05]}")
+        print(f"  win_by_2:   {[(x['name'], x['price']) for x in clean['win_by_2']]}")
+        print(f"  handicap:   {[x['line'] for x in clean['handicap']]}")
+        print(f"  scorers ({len(clean['scorers']['anytime'])}): {[(x['player'], x['price']) for x in clean['scorers']['anytime'][:5]]}")
 
-        # Diagnostic: warn immediately on empty team totals so name mismatches
-        # are caught at fetch time rather than discovered as NaN in the parquet.
         if not clean["home_totals"]:
-            print(f"  [!] home_totals EMPTY — market matching failed for PT name: {home_pt!r}")
-            total_mkt_names = [k for k in markets if "total" in k.lower()]
-            print(f"      Total markets available: {total_mkt_names}")
+            print(f"  [!] home_totals empty for: {home_pt!r}")
+            print(f"      available total markets: {[k for k in markets if 'total' in k.lower()]}")
         if not clean["away_totals"]:
-            print(f"  [!] away_totals EMPTY — market matching failed for PT name: {away_pt!r}")
-            total_mkt_names = [k for k in markets if "total" in k.lower()]
-            print(f"      Total markets available: {total_mkt_names}")
+            print(f"  [!] away_totals empty for: {away_pt!r}")
+            print(f"      available total markets: {[k for k in markets if 'total' in k.lower()]}")
 
         time.sleep(1.0)
 

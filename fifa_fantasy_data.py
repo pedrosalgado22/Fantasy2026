@@ -1,4 +1,5 @@
-import requests, json
+import requests
+import json
 
 FIFA_HEADERS = {
     'accept': 'application/json, text/plain, */*',
@@ -12,6 +13,7 @@ players = requests.get(f'{BASE}/players.json', headers=FIFA_HEADERS).json()
 rounds = requests.get(f'{BASE}/rounds.json', headers=FIFA_HEADERS).json()
 
 all_stats = {}
+
 for i, p in enumerate(players):
     try:
         stats = requests.get(f'{BASE}/player_stats/{p["id"]}.json', headers=FIFA_HEADERS).json()
@@ -22,27 +24,29 @@ for i, p in enumerate(players):
         pass
 
 dataset = []
+
 for p in players:
+    name = p.get('knownName') or f"{p['firstName']} {p['lastName']}"
+
     row = {
-        'id': p['id'],
-        'name': p.get('knownName') or f"{p['firstName']} {p['lastName']}",
-        'squad_id': p['squadId'],
-        'position': p['position'],
-        'price': p['price'],
-        'status': p['status'],
-        'total_points': p['stats']['totalPoints'],
-        'avg_points': p['stats']['avgPoints'],
-        'round_points': p['stats']['roundPoints'],
-        'next_fixture': p['stats']['nextFixtureFromActiveRound'],
+        'id':               p['id'],
+        'name':             name,
+        'squad_id':         p['squadId'],
+        'position':         p['position'],
+        'price':            p['price'],
+        'status':           p['status'],
+        'total_points':     p['stats']['totalPoints'],
+        'avg_points':       p['stats']['avgPoints'],
+        'round_points':     p['stats']['roundPoints'],
+        'next_fixture':     p['stats']['nextFixtureFromActiveRound'],
         'percent_selected': p['percentSelected'],
-        'round_stats': all_stats.get(p['id'], []),
+        'round_stats':      all_stats.get(p['id'], []),
     }
 
-    # Add individual round stats as flat columns: round_1_GS, round_2_MP, etc.
     for round_entry in all_stats.get(p['id'], []):
         r = round_entry.get('roundId')
-        stats = round_entry.get('stats') or {}
-        for stat_key, stat_val in stats.items():
+        round_stats = round_entry.get('stats') or {}
+        for stat_key, stat_val in round_stats.items():
             row[f'round_{r}_{stat_key}'] = stat_val
 
     dataset.append(row)
