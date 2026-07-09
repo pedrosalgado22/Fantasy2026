@@ -435,7 +435,7 @@ MATCH  'Adrien Rabiot'                          -> 'Adrien Rabiot'              
 MATCH  'Warren Zaïre-Emery'                     -> 'Warren Zaïre-Emery'                      score=100.0  team=France
 MATCH  'Manu Koné'                              -> 'Manu Kone'                               score=100.0  team=France
 MATCH  'Maghnes Akliouche'                      -> 'Maghnes Akliouche'                       score=100.0  team=France
-NO_MATCH  'Aurélien Tchouaméni'                     team=France
+MATCH  'Aurélien Tchouaméni'                    -> 'Aurélien Tchouaméni'                     score=100.0  team=France
 MATCH  'Rayan Cherki'                           -> 'Rayan Cherki'                            score=100.0  team=France
 MATCH  'Michael Olise'                          -> 'Michael Olise'                           score=100.0  team=France
 NO_MATCH  'Lennart Karl'                            team=Germany
@@ -640,7 +640,7 @@ MATCH  'Gessime Yassine'                        -> 'Gessime Yassine'            
 NO_MATCH  'Rayane Bounida'                          team=Morocco
 NO_MATCH  'Yassir Zabiri'                           team=Morocco
 NO_MATCH  'El Mehdi Al Harrar'                      team=Morocco
-NO_MATCH  'Ismael Saibari'                          team=Morocco
+MATCH  'Ismael Saibari'                         -> 'Ismael Saibari'                          score=100.0  team=Morocco
 NO_MATCH  'Kees Smit'                               team=Netherlands
 NO_MATCH  'Luciano Valente'                         team=Netherlands
 NO_MATCH  'Denzel Dumfries'                         team=Netherlands
@@ -923,9 +923,9 @@ NO_MATCH  'Anthony Elanga'                          team=Sweden
 NO_MATCH  'Benjamin Nygren'                         team=Sweden
 NO_MATCH  'Gustaf Nilsson'                          team=Sweden
 NO_MATCH  'Kristoffer Nordfeldt'                    team=Sweden
-MATCH  'Johan Manzambi'                         -> 'Johan Manzambi'                          score=100.0  team=Switzerland
+NO_MATCH  'Johan Manzambi'                          team=Switzerland
 MATCH  'Granit Xhaka'                           -> 'Granit Xhaka'                            score=100.0  team=Switzerland
-MATCH  'Michel Aebischer'                       -> 'Michel Aebischer'                        score=100.0  team=Switzerland
+NO_MATCH  'Michel Aebischer'                        team=Switzerland
 MATCH  'Remo Freuler'                           -> 'Remo Freuler'                            score=100.0  team=Switzerland
 MATCH  'Ardon Jashari'                          -> 'Ardon Jashari'                           score=100.0  team=Switzerland
 MATCH  'Fabian Rieder'                          -> 'Fabian Rieder'                           score=100.0  team=Switzerland
@@ -936,7 +936,7 @@ MATCH  'Silvan Widmer'                          -> 'Silvan Widmer'              
 MATCH  'Miro Muheim'                            -> 'Miro Muheim'                             score=100.0  team=Switzerland
 MATCH  'Eray Cömert'                            -> 'Eray Cömert'                             score=100.0  team=Switzerland
 MATCH  'Aurèle Amenda'                          -> 'Aurele Amenda'                           score=100.0  team=Switzerland
-MATCH  'Luca Jaquez'                            -> 'Luca Jaquez'                             score=100.0  team=Switzerland
+NO_MATCH  'Luca Jaquez'                             team=Switzerland
 MATCH  'Breel Embolo'                           -> 'Breel Embolo'                            score=100.0  team=Switzerland
 MATCH  'Noah Okafor'                            -> 'Noah Okafor'                             score=100.0  team=Switzerland
 MATCH  'Dan Ndoye'                              -> 'Dan Ndoye'                               score=100.0  team=Switzerland
