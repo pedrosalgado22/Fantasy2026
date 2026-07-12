@@ -54,6 +54,15 @@ Eventually I dropped it completely. More than half the player pool plays outside
 
 **Picking the squad.** The final selection is an integer program solved with the CBC solver, maximizing total expected points across a starting eleven, with the captain's points doubled and bench players discounted to sixty percent of their value since they only score if actually used. It respects a fixed budget, an exact position quota for the fifteen man squad, a legal formation range for the starting eleven, and a cap of four players from any single nation. A separate version of the same model starts from an existing squad and decides which transfers to make given a limited number of free transfers, docking three points from the objective for every transfer beyond that limit, while forced transfers, for a player who's no longer available, don't count against the free allowance since those weren't a choice.
 
+
+
+## Known Fragility
+
+I'll be straight about this. The code is held together by string matching from one end to the other. Every team name mapping, every market string check, every fuzzy name override is hardcoded around Betano's current Portuguese odds format and FIFA's current squad IDs. Point this at a different bookmaker, a different tournament, or even just a team whose name gets abbreviated differently, and it breaks immediately. There's no abstraction layer protecting against any of that, on purpose, because I had a couple of days between rounds and building something bulletproof was never the goal. Working well enough for right now was.
+
+A lot of it was also written quickly with AI assistance because of the time pressure, and I'm not entirely happy about that. Some of it is messier and less careful than I'd write given more time. Pragmatism won over pride here, plainly.
+
+
 ## The Round of 16 Squad
 
 Going into the round of 16 the model suggested four transfers, all within the free allowance. Out went Jordan Pickford, Sergiño Dest, Harry Kane, and Jamal Musiala, the last one forced since he'd dropped out of contention entirely. In came Michael Olise, Mikel Oyarzabal, Emiliano Martínez, and Achraf Hakimi, with Kylian Mbappé kept on as captain.
@@ -107,15 +116,71 @@ Optimal selection still put up a great tally, 102 points, the most in my league 
 * GKs and defenders now take a penalty on attacking stats. Their chance of contributing that way is low and unpredictable, and they were getting inflated purely off the team level coefficient and the fact they get more expected points per goal (7/9)
 * Goal scoring and clean sheet now weigh Betano about 10% less, tournament data picks up the slack. Should help with misses like Haaland and the Argentina/France clean sheet gap.
 * Expected points get an adjustment using the odds of the team qualifying, so a pick likely to get eliminated, and need replacing, gets discounted for it.
-* The algorithm will overpick 3 or even 4 defenders of the same team, especially after the devaluing of attacking possibilities for defenders. With that, the model will try to squeeze in as many defenders of the most likely clean sheet as it can. That however is the definition of putting all eggs in one basket, as since defenders will get most of their points for team achievements instead of personal ( clean sheet vs goal ), a single goal losing me 20 points and guaranteeing that at least half of my final defenders won't achieve a CS, with addiitonal goals losing me even more goals * 4. Thus, in order to spread out my team better, defenders must be capped to 2 of the same team. 
+* The algorithm will overpick 3 or even 4 defenders of the same team, especially after the devaluing of attacking possibilities for defenders. With that, the model will try to squeeze in as many defenders of the most likely clean sheet as it can. That however is the definition of putting all eggs in one basket, as since defenders will get most of their points for team achievements instead of personal ( clean sheet vs goal ), a single goal losing me 20 points and guaranteeing that at least half of my final defenders won't achieve a CS, with addiitonal goals losing me even more goals * 4. Thus, in order to spread out my team better, defenders must be capped to 2 of the same team.
 
 
+## The Round of 8
 
-## Known Fragility
+**Transfers**
+OUT: Vinícius Júnior, Christian Pulisic, Camilo Vargas, Johan Manzambi
+IN: Brahim Díaz, Unai Simón, Jude Bellingham, Dani Olmo
 
-I'll be straight about this. The code is held together by string matching from one end to the other. Every team name mapping, every market string check, every fuzzy name override is hardcoded around Betano's current Portuguese odds format and FIFA's current squad IDs. Point this at a different bookmaker, a different tournament, or even just a team whose name gets abbreviated differently, and it breaks immediately. There's no abstraction layer protecting against any of that, on purpose, because I had a couple of days between rounds and building something bulletproof was never the goal. Working well enough for right now was.
+**Squad** (Expected points: 100.54, Cost: $104.9M)
 
-A lot of it was also written quickly with AI assistance because of the time pressure, and I'm not entirely happy about that. Some of it is messier and less careful than I'd write given more time. Pragmatism won over pride here, plainly.
+* GK Emiliano Martínez (Argentina) $5.0, 3.74 EP
+* GK Unai Simón (Spain) $5.0, 4.11 EP
+* DEF Marc Cucurella (Spain) $5.1, 5.86 EP
+* DEF Lisandro Martínez (Argentina) $4.6, 4.45 EP
+* DEF Nico O'Reilly (England) $4.7, 3.44 EP
+* DEF Achraf Hakimi (Morocco) $6.0, 3.18 EP
+* DEF Facundo Medina (Argentina) $4.0, 2.40 EP
+* MID Michael Olise (France) $9.5, 8.61 EP
+* MID Jude Bellingham (England) $8.3, 7.45 EP
+* MID Ousmane Dembélé (France) $10.0, 7.26 EP
+* MID Dani Olmo (Spain) $7.7, 5.43 EP [SCOUT]
+* MID Brahim Díaz (Morocco) $6.4, 5.13 EP
+* FWD Lionel Messi (Argentina) $10.0, 11.48 EP [C]
+* FWD Kylian Mbappé (France) $10.5, 9.47 EP
+* FWD Mikel Oyarzabal (Spain) $8.1, 7.05 EP
+
+## The Round of 8 Review
+
+### Substitution Review
+
+**Brahim Díaz:** I understand the logic. He'd had a fantastic World Cup as part of Morocco's attack, carried the scouting bonus, and was set to start as their most advanced forward. Any chance of Morrocco scoring a goal would go through him. It still didn't turn out to be a good decision, mainly because of how strong France were and considering how my options were thin: I already had Olise, Jude, Dembélé and Olmo locked in, and the more likely alternatives were players like Álex Baena or Mac Allister, with teams like England still rotating through four wingers. I agreed with the logic and would have made the same call again going into the round. I'm not mad about it, but it wasn't a good decision.
+
+**Jude Bellingham:** If anything, a round too late. Obviously the right call though, he scored two more goals and led England into the next round as the best player of the round. The most optimal choice, even if the most obvious one.
+
+**Dani Olmo:** A good decision, an assist plus the scouting bonus. He didn't even end up the highest scoring midfielder on his own team, Merino and Fabián Ruiz both outscored him, but it's hard to ask the model to predict points from players which have been coming off the bench in this tournament. Out of Spain's regular starters, he was the best option over Baena, a benched Pedri, and Lamine, so overall the right choice.
+
+**Unai Simón:** The decision came down to Spain's clean sheet versus France's. Every bookie gave Spain the slightly better chance, given their record of zero goals conceded so far and Morocco's stronger attack compared to Belgium's. They were wrong. France were the only team to keep a clean sheet, and the lack of French defenders on my team hurt me again. My mistake last round of not subbing in Maignan wasn't as costly then, thanks to Vargas's clean sheet, but it caught up with me here, having Maignan instead would have been an extra five points. Still no French defenders, despite them having conceded zero goals through the knockout stage. Any chance of a comeback was dead in the water with that.
+
+### Result
+
+The optimal selection put up an average tally, 82 points, coming second in my league and a few points behind the best non booster teams on the wider leaderboard (85 to 90). Variance seems to have hit a wall this week. Most good teams without a booster landed somewhere between 75 and 87 points, and a look at both my own eleven man league and the leaderboard shows the smallest gap yet between the most optimal teams and the average ones. That tracks, standings are unlikely to move much beyond the margin of error from here on, which makes sense as the player pool keeps shrinking. Everything unpredictable this round came from bench players suddenly delivering, such as high points from Doué, Ruiz, Merino and Álvarez, guys who've spent a lot of this World Cup on the bench. I can't really hold that against the model. Predicting bench points is a) not something you can do efficiently, and b) something I literally coded it not to attempt in the first place.
+
+Once again, even without a booster, it still had the advantage of unlimited picks over the four transfer limited competitors, which is exactly why an above average result still isn't something I can be happy with. It didn't win my league, and it doesn't stand out on the leaderboard either. A truly optimal score this round would have been 86 to 90 points, and every team above 90 on the leaderboard was running a booster.
+
+<img width="779" height="711" alt="image" src="https://github.com/user-attachments/assets/c8e4ba5f-defe-4e65-9a39-db22609f1624" />
+
+
+### Highs and Lows
+
+**Lows**
+
+* Argentina's defense is still overvalued, and the model keeps doing it.
+* Failed to prioritize any French defenders for the second round in a row. Brahim wasn't a bad shout, but it didn't pay off, and I think the model still doesn't grasp how far ahead France is of everyone else. It did include two French defenders in the optimal team, but prioritized Spain in my actual one.
+* Mac Allister showed up in a lot of test iterations across both rounds, but never made it into an actual final squad. The best possible team can only be known in hindsight, but swapping an Argentine defender for a French one and adding an Argentine midfielder would have diversified the team significantly and, in practice, gained me another 20 points, since both scored across the last two rounds. If I'd caught the goalkeeper bug in time last round, Maignan over Emi, it might have freed up room to fit an Argentine player elsewhere, likely in midfield.
+
+**Highs**
+
+* Out of all of Spain's starting midfielders so far, Dani Olmo was indeed the right pick, even over Lamine, though the optimal team went with Baena.
+* Jude.
+* Two French defenders made the optimal team.
+
+### Changes Made
+
+No additional changes. It's hard to meaningfully tune the model off this little data and this little actual predictive variance. There are no obvious flaws or gaps to fix, I can't make it know Spain was about to concede their first goal, or that a bench player might get five minutes and score (fucking Merino). Sticking with this model for the rest of the tournament.
 
 ## Possible Improvements
 
