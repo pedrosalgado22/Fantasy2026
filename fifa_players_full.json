@@ -911,7 +911,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": []
     },
     {
@@ -2807,7 +2807,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 10.4,
+      "percent_selected": 11,
       "round_stats": [
         {
           "roundId": 1,
@@ -3103,7 +3103,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.4,
+      "percent_selected": 5.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -3339,7 +3339,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 1.6,
+      "percent_selected": 1.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -3603,7 +3603,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.6,
+      "percent_selected": 2.4,
       "round_stats": [
         {
           "roundId": 2,
@@ -3868,7 +3868,7 @@
         "6": 5
       },
       "next_fixture": null,
-      "percent_selected": 55.8,
+      "percent_selected": 56.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -4013,7 +4013,7 @@
             "GC": 1,
             "PS": 0,
             "T": 3,
-            "CC": 1,
+            "CC": 0,
             "ST": 1,
             "FK": 0,
             "S": 0,
@@ -4124,7 +4124,7 @@
       "round_6_GC": 1,
       "round_6_PS": 0,
       "round_6_T": 3,
-      "round_6_CC": 1,
+      "round_6_CC": 0,
       "round_6_ST": 1,
       "round_6_FK": 0,
       "round_6_S": 0,
@@ -4148,7 +4148,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 8.1,
+      "percent_selected": 8.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -4437,7 +4437,7 @@
         "3": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 3,
@@ -4501,7 +4501,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -4734,7 +4734,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 3,
@@ -4856,7 +4856,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 36.3,
+      "percent_selected": 35.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -5129,7 +5129,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.3,
       "round_stats": []
     },
     {
@@ -5163,7 +5163,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 1.4,
       "round_stats": [
         {
           "roundId": 2,
@@ -5413,7 +5413,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 3.5,
+      "percent_selected": 4.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -6124,7 +6124,7 @@
         "6": 9
       },
       "next_fixture": null,
-      "percent_selected": 12.3,
+      "percent_selected": 16.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -6403,7 +6403,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.2,
+      "percent_selected": 5.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -8100,7 +8100,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -12296,7 +12296,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.5,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -13001,7 +13001,7 @@
         "4": 4
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -13284,7 +13284,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -13622,7 +13622,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -13816,7 +13816,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -14095,7 +14095,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.6,
+      "percent_selected": 5.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -14671,7 +14671,7 @@
         "6": 10
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 1.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -14968,7 +14968,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -15439,7 +15439,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 1.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -15675,7 +15675,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 3.9,
+      "percent_selected": 3.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -18630,7 +18630,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": [
         {
           "roundId": 1,
@@ -18883,7 +18883,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 11.6,
+      "percent_selected": 11.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -19119,7 +19119,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 5.2,
+      "percent_selected": 5.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -19651,7 +19651,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -19915,7 +19915,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 14.2,
+      "percent_selected": 13.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -20151,7 +20151,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -20386,7 +20386,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 2,
@@ -21097,7 +21097,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 5,
+      "percent_selected": 4.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -22242,9 +22242,9 @@
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -22281,9 +22281,9 @@
       "round_4_OG": 0,
       "round_4_PW": 0,
       "round_4_PC": 0,
-      "round_4_CS": 1,
+      "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 0,
+      "round_4_GC": 1,
       "round_4_PS": 0,
       "round_4_T": 0,
       "round_4_CC": 0,
@@ -22400,7 +22400,7 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 3,
+            "GC": 2,
             "PS": 0,
             "T": 3,
             "CC": 0,
@@ -22475,7 +22475,7 @@
       "round_4_PC": 0,
       "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 3,
+      "round_4_GC": 2,
       "round_4_PS": 0,
       "round_4_T": 3,
       "round_4_CC": 0,
@@ -24602,7 +24602,7 @@
             "PC": 0,
             "CS": 0,
             "GS": 1,
-            "GC": 3,
+            "GC": 2,
             "PS": 0,
             "T": 1,
             "CC": 0,
@@ -24677,7 +24677,7 @@
       "round_4_PC": 0,
       "round_4_CS": 0,
       "round_4_GS": 1,
-      "round_4_GC": 3,
+      "round_4_GC": 2,
       "round_4_PS": 0,
       "round_4_T": 1,
       "round_4_CC": 0,
@@ -24895,7 +24895,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -25337,7 +25337,7 @@
         "5": -1
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -25573,7 +25573,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -25808,7 +25808,7 @@
         "5": 0
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -26649,7 +26649,7 @@
         "5": 0
       },
       "next_fixture": null,
-      "percent_selected": 2.6,
+      "percent_selected": 2.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -27265,7 +27265,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 2,
@@ -28037,7 +28037,7 @@
         "5": 7
       },
       "next_fixture": null,
-      "percent_selected": 6.9,
+      "percent_selected": 6.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -28509,7 +28509,7 @@
         "5": 8
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 1,
@@ -28804,7 +28804,7 @@
         "5": 9
       },
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -29057,7 +29057,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 8.9,
+      "percent_selected": 8.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -29737,7 +29737,7 @@
         "5": 7
       },
       "next_fixture": null,
-      "percent_selected": 2.5,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -31298,7 +31298,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -31874,7 +31874,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -47285,7 +47285,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -48467,7 +48467,7 @@
         "5": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -49128,7 +49128,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": [
         {
           "roundId": 4,
@@ -49263,7 +49263,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 2.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -49766,7 +49766,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 13,
+      "percent_selected": 14.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -50060,7 +50060,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 7.1,
+      "percent_selected": 7.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -50336,7 +50336,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 5,
@@ -50444,7 +50444,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 6.4,
+      "percent_selected": 7.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -50722,7 +50722,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 1.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -50916,7 +50916,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 1.4,
+      "percent_selected": 2.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -51196,7 +51196,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 46.9,
+      "percent_selected": 50.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -51476,7 +51476,7 @@
         "6": 4
       },
       "next_fixture": null,
-      "percent_selected": 4.8,
+      "percent_selected": 5,
       "round_stats": [
         {
           "roundId": 1,
@@ -51621,7 +51621,7 @@
             "GC": 0,
             "PS": 0,
             "T": 3,
-            "CC": 1,
+            "CC": 0,
             "ST": 2,
             "FK": 0,
             "S": 0,
@@ -51732,7 +51732,7 @@
       "round_6_GC": 0,
       "round_6_PS": 0,
       "round_6_T": 3,
-      "round_6_CC": 1,
+      "round_6_CC": 0,
       "round_6_ST": 2,
       "round_6_FK": 0,
       "round_6_S": 0,
@@ -51947,7 +51947,7 @@
         "6": 5
       },
       "next_fixture": null,
-      "percent_selected": 7.7,
+      "percent_selected": 10.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -52419,7 +52419,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -52656,7 +52656,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 18.2,
+      "percent_selected": 20.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -52943,7 +52943,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.8,
       "round_stats": []
     },
     {
@@ -52959,7 +52959,7 @@
         "3": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 3,
@@ -53038,7 +53038,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.9,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -53317,7 +53317,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 6.2,
+      "percent_selected": 6.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -53554,7 +53554,7 @@
         "6": 14
       },
       "next_fixture": null,
-      "percent_selected": 44.2,
+      "percent_selected": 46.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -53977,7 +53977,7 @@
         "3": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 3,
@@ -54042,7 +54042,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 16,
+      "percent_selected": 18.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -54394,7 +54394,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 9.2,
+      "percent_selected": 12.5,
       "round_stats": [
         {
           "roundId": 2,
@@ -54780,7 +54780,7 @@
         "6": 13
       },
       "next_fixture": null,
-      "percent_selected": 71.1,
+      "percent_selected": 71.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -55060,7 +55060,7 @@
         "6": 10
       },
       "next_fixture": null,
-      "percent_selected": 46.1,
+      "percent_selected": 47.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -55400,7 +55400,7 @@
         "6": 8
       },
       "next_fixture": null,
-      "percent_selected": 5.4,
+      "percent_selected": 6.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -55680,7 +55680,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 21.4,
+      "percent_selected": 24.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -55967,7 +55967,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 2.1,
       "round_stats": []
     },
     {
@@ -55987,7 +55987,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 1.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -56282,7 +56282,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.7,
       "round_stats": [
         {
           "roundId": 2,
@@ -56920,7 +56920,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 48.9,
+      "percent_selected": 49.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -57272,7 +57272,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.7,
+      "percent_selected": 5.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -58010,7 +58010,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 2.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -58220,7 +58220,7 @@
         "4": 7
       },
       "next_fixture": null,
-      "percent_selected": 5.5,
+      "percent_selected": 5.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -59092,7 +59092,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 12.9,
+      "percent_selected": 12.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -59284,7 +59284,7 @@
         "4": 5
       },
       "next_fixture": null,
-      "percent_selected": 6.8,
+      "percent_selected": 6.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -67230,7 +67230,7 @@
         "4": 0
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 2,
@@ -68756,7 +68756,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 1.1,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 1,
@@ -73505,7 +73505,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 2,
@@ -73654,7 +73654,7 @@
         "5": -1
       },
       "next_fixture": null,
-      "percent_selected": 1.9,
+      "percent_selected": 1.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -74274,7 +74274,7 @@
         "5": -1
       },
       "next_fixture": null,
-      "percent_selected": 1.8,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 2,
@@ -74907,7 +74907,7 @@
         "5": 9
       },
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -75599,7 +75599,7 @@
         "3": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 2.1,
       "round_stats": [
         {
           "roundId": 3,
@@ -75677,7 +75677,7 @@
         "5": -1
       },
       "next_fixture": null,
-      "percent_selected": 5.3,
+      "percent_selected": 4.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -76577,7 +76577,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -77311,7 +77311,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 10.5,
+      "percent_selected": 7.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -77574,7 +77574,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 8.3,
+      "percent_selected": 8.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -77766,7 +77766,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 12.5,
+      "percent_selected": 12.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -77957,7 +77957,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 2.6,
+      "percent_selected": 2.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -78548,7 +78548,7 @@
         "4": 9
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -79244,7 +79244,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 1.8,
+      "percent_selected": 1.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -79464,7 +79464,7 @@
         "4": 3
       },
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -82005,7 +82005,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.6,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -82242,7 +82242,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -82582,7 +82582,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -83096,7 +83096,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -83288,7 +83288,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 2,
@@ -83596,9 +83596,9 @@
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -83689,9 +83689,9 @@
       "round_6_OG": 0,
       "round_6_PW": 0,
       "round_6_PC": 0,
-      "round_6_CS": 1,
+      "round_6_CS": 0,
       "round_6_GS": 0,
-      "round_6_GC": 0,
+      "round_6_GC": 1,
       "round_6_PS": 0,
       "round_6_T": 0,
       "round_6_CC": 0,
@@ -83717,7 +83717,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -83949,7 +83949,7 @@
         "3": -1
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 3,
@@ -84003,17 +84003,17 @@
       "position": "DEF",
       "price": 3.7,
       "status": "eliminated",
-      "total_points": 9,
-      "avg_points": 1.8,
+      "total_points": 10,
+      "avg_points": 2,
       "round_points": {
         "1": 2,
         "2": 2,
         "4": 2,
         "5": 2,
-        "6": 1
+        "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -84118,7 +84118,7 @@
         {
           "roundId": 6,
           "tournamentId": 98,
-          "points": 1,
+          "points": 2,
           "stats": {
             "SXI": 0,
             "MP": 90,
@@ -84130,7 +84130,7 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 2,
+            "GC": 1,
             "PS": 0,
             "T": 2,
             "CC": 0,
@@ -84223,7 +84223,7 @@
       "round_6_PC": 0,
       "round_6_CS": 0,
       "round_6_GS": 0,
-      "round_6_GC": 2,
+      "round_6_GC": 1,
       "round_6_PS": 0,
       "round_6_T": 2,
       "round_6_CC": 0,
@@ -84245,7 +84245,7 @@
         "3": 0
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 0.6,
       "round_stats": [
         {
           "roundId": 3,
@@ -84309,7 +84309,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 27.9,
+      "percent_selected": 22.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -84782,7 +84782,7 @@
         "6": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -85165,7 +85165,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.9,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -85522,7 +85522,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 1.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -90783,7 +90783,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -91699,7 +91699,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 23.1,
+      "percent_selected": 22.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -91935,7 +91935,7 @@
         "5": 7
       },
       "next_fixture": null,
-      "percent_selected": 4.2,
+      "percent_selected": 4.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -92289,7 +92289,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -92687,7 +92687,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.2,
+      "percent_selected": 1.1,
       "round_stats": [
         {
           "roundId": 2,
@@ -92837,7 +92837,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -93545,7 +93545,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 6.1,
+      "percent_selected": 6,
       "round_stats": [
         {
           "roundId": 1,
@@ -94017,7 +94017,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 20.5,
+      "percent_selected": 20.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -99781,7 +99781,7 @@
         "3": 2
       },
       "next_fixture": null,
-      "percent_selected": 3.5,
+      "percent_selected": 3.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -100170,7 +100170,7 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 3,
+            "GC": 2,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -100245,7 +100245,7 @@
       "round_4_PC": 0,
       "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 3,
+      "round_4_GC": 2,
       "round_4_PS": 0,
       "round_4_T": 0,
       "round_4_CC": 0,
@@ -101021,18 +101021,18 @@
           "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 27,
+            "MP": 26,
             "AS": 0,
             "YC": 0,
             "RC": 0,
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
-            "T": 0,
+            "T": 1,
             "CC": 0,
             "ST": 0,
             "FK": 0,
@@ -101078,18 +101078,18 @@
       "round_2_S": 0,
       "round_2_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 27,
+      "round_4_MP": 26,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
       "round_4_OG": 0,
       "round_4_PW": 0,
       "round_4_PC": 0,
-      "round_4_CS": 1,
+      "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 0,
+      "round_4_GC": 1,
       "round_4_PS": 0,
-      "round_4_T": 0,
+      "round_4_T": 1,
       "round_4_CC": 0,
       "round_4_ST": 0,
       "round_4_FK": 0,
@@ -101103,12 +101103,12 @@
       "position": "DEF",
       "price": 4.1,
       "status": "eliminated",
-      "total_points": 10,
-      "avg_points": 3.3,
+      "total_points": 11,
+      "avg_points": 3.7,
       "round_points": {
         "2": 1,
         "3": 9,
-        "4": 0
+        "4": 1
       },
       "next_fixture": null,
       "percent_selected": 0,
@@ -101166,10 +101166,10 @@
         {
           "roundId": 4,
           "tournamentId": 84,
-          "points": 0,
+          "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 93,
+            "MP": 94,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -101178,7 +101178,7 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 3,
+            "GC": 2,
             "PS": 0,
             "T": 2,
             "CC": 0,
@@ -101226,7 +101226,7 @@
       "round_3_S": 0,
       "round_3_SB": 1,
       "round_4_SXI": 0,
-      "round_4_MP": 93,
+      "round_4_MP": 94,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -101235,7 +101235,7 @@
       "round_4_PC": 0,
       "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 3,
+      "round_4_GC": 2,
       "round_4_PS": 0,
       "round_4_T": 2,
       "round_4_CC": 0,
@@ -101521,16 +101521,16 @@
           "points": 1,
           "stats": {
             "SXI": 0,
-            "MP": 27,
+            "MP": 26,
             "AS": 0,
             "YC": 0,
             "RC": 0,
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -101596,16 +101596,16 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 27,
+      "round_4_MP": 26,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
       "round_4_OG": 0,
       "round_4_PW": 0,
       "round_4_PC": 0,
-      "round_4_CS": 1,
+      "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 0,
+      "round_4_GC": 1,
       "round_4_PS": 0,
       "round_4_T": 0,
       "round_4_CC": 0,
@@ -102656,7 +102656,7 @@
             "GS": 0,
             "GC": 3,
             "PS": 0,
-            "T": 4,
+            "T": 3,
             "CC": 0,
             "ST": 0,
             "FK": 0,
@@ -102731,7 +102731,7 @@
       "round_4_GS": 0,
       "round_4_GC": 3,
       "round_4_PS": 0,
-      "round_4_T": 4,
+      "round_4_T": 3,
       "round_4_CC": 0,
       "round_4_ST": 0,
       "round_4_FK": 0,
@@ -105815,7 +105815,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 9.4,
+      "percent_selected": 10.7,
       "round_stats": [
         {
           "roundId": 2,
@@ -106064,7 +106064,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 10.8,
+      "percent_selected": 11,
       "round_stats": [
         {
           "roundId": 2,
@@ -106258,7 +106258,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 20,
+      "percent_selected": 19.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -106531,7 +106531,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.8,
       "round_stats": []
     },
     {
@@ -106552,7 +106552,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 49.7,
+      "percent_selected": 50.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -106832,7 +106832,7 @@
         "6": 4
       },
       "next_fixture": null,
-      "percent_selected": 15.9,
+      "percent_selected": 16.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -107112,7 +107112,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 38.3,
+      "percent_selected": 37.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -107392,7 +107392,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 2,
+      "percent_selected": 2.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -107672,7 +107672,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 15.1,
+      "percent_selected": 16,
       "round_stats": [
         {
           "roundId": 1,
@@ -108005,7 +108005,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.9,
       "round_stats": []
     },
     {
@@ -108019,7 +108019,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 7.3,
+      "percent_selected": 7.2,
       "round_stats": []
     },
     {
@@ -108040,7 +108040,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 19.2,
+      "percent_selected": 18.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -108313,7 +108313,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 1.1,
+      "percent_selected": 1.3,
       "round_stats": []
     },
     {
@@ -108330,7 +108330,7 @@
         "3": 12
       },
       "next_fixture": null,
-      "percent_selected": 4,
+      "percent_selected": 3.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -108438,7 +108438,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 2.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -108718,7 +108718,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 3.9,
+      "percent_selected": 4.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -108998,7 +108998,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 7.2,
+      "percent_selected": 7.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -111806,7 +111806,7 @@
         "4": 6
       },
       "next_fixture": null,
-      "percent_selected": 8.6,
+      "percent_selected": 5.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -112000,7 +112000,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 2,
       "round_stats": [
         {
           "roundId": 1,
@@ -112614,7 +112614,7 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 3,
+            "GC": 2,
             "PS": 0,
             "T": 3,
             "CC": 0,
@@ -112725,7 +112725,7 @@
       "round_6_PC": 0,
       "round_6_CS": 0,
       "round_6_GS": 0,
-      "round_6_GC": 3,
+      "round_6_GC": 2,
       "round_6_PS": 0,
       "round_6_T": 3,
       "round_6_CC": 0,
@@ -112749,7 +112749,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": [
         {
           "roundId": 1,
@@ -112814,9 +112814,9 @@
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 2,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -112871,9 +112871,9 @@
       "round_6_OG": 0,
       "round_6_PW": 0,
       "round_6_PC": 0,
-      "round_6_CS": 1,
+      "round_6_CS": 0,
       "round_6_GS": 0,
-      "round_6_GC": 0,
+      "round_6_GC": 2,
       "round_6_PS": 0,
       "round_6_T": 0,
       "round_6_CC": 0,
@@ -113136,7 +113136,7 @@
         "6": 0
       },
       "next_fixture": null,
-      "percent_selected": 2.9,
+      "percent_selected": 2.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -113416,7 +113416,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 2.3,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -113696,7 +113696,7 @@
         "6": 0
       },
       "next_fixture": null,
-      "percent_selected": 1.4,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -114430,7 +114430,7 @@
         "3": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 2,
@@ -114538,7 +114538,7 @@
         "6": 0
       },
       "next_fixture": null,
-      "percent_selected": 1.5,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -115158,7 +115158,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 3.5,
+      "percent_selected": 3.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -115748,9 +115748,9 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 3,
+            "GC": 1,
             "PS": 0,
-            "T": 2,
+            "T": 1,
             "CC": 0,
             "ST": 0,
             "FK": 0,
@@ -115823,9 +115823,9 @@
       "round_6_PC": 0,
       "round_6_CS": 0,
       "round_6_GS": 0,
-      "round_6_GC": 3,
+      "round_6_GC": 1,
       "round_6_PS": 0,
-      "round_6_T": 2,
+      "round_6_T": 1,
       "round_6_CC": 0,
       "round_6_ST": 0,
       "round_6_FK": 0,
@@ -115850,7 +115850,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.1,
+      "percent_selected": 1.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -115990,9 +115990,9 @@
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -116101,9 +116101,9 @@
       "round_6_OG": 0,
       "round_6_PW": 0,
       "round_6_PC": 0,
-      "round_6_CS": 1,
+      "round_6_CS": 0,
       "round_6_GS": 0,
-      "round_6_GC": 0,
+      "round_6_GC": 1,
       "round_6_PS": 0,
       "round_6_T": 0,
       "round_6_CC": 0,
@@ -122347,7 +122347,7 @@
         "3": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 3,
@@ -124282,7 +124282,7 @@
         "5": -1
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -124639,7 +124639,7 @@
         "5": -1
       },
       "next_fixture": null,
-      "percent_selected": 3.8,
+      "percent_selected": 3.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -125214,7 +125214,7 @@
         "5": 7
       },
       "next_fixture": null,
-      "percent_selected": 1.7,
+      "percent_selected": 1.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -125540,7 +125540,7 @@
         "5": 0
       },
       "next_fixture": null,
-      "percent_selected": 2.1,
+      "percent_selected": 1.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -125741,7 +125741,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.6,
       "round_stats": []
     },
     {
@@ -125760,7 +125760,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 2.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -128573,7 +128573,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 25.3,
+      "percent_selected": 26.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -128822,7 +128822,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 14.9,
+      "percent_selected": 14.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -129042,7 +129042,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -129401,7 +129401,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": []
     },
     {
@@ -129478,7 +129478,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 3,
+      "percent_selected": 3.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -130003,7 +130003,7 @@
         "3": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 3,
@@ -130081,7 +130081,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 2,
       "round_stats": [
         {
           "roundId": 1,
@@ -130314,7 +130314,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 7.7,
+      "percent_selected": 7.6,
       "round_stats": [
         {
           "roundId": 1,
@@ -131183,7 +131183,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 1.3,
+      "percent_selected": 2.3,
       "round_stats": []
     },
     {
@@ -131203,7 +131203,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 16.3,
+      "percent_selected": 17.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -131440,7 +131440,7 @@
         "6": 7
       },
       "next_fixture": null,
-      "percent_selected": 12.8,
+      "percent_selected": 13.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -132785,7 +132785,7 @@
         "2": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0,
       "round_stats": [
         {
           "roundId": 2,
@@ -133054,7 +133054,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.6,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -133306,7 +133306,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 2,
@@ -135834,7 +135834,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 8.8,
+      "percent_selected": 8.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -136107,7 +136107,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 0.7,
       "round_stats": []
     },
     {
@@ -136128,7 +136128,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.4,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -136556,7 +136556,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 7.7,
+      "percent_selected": 4.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -137300,9 +137300,9 @@
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
             "T": 0,
             "CC": 0,
@@ -137339,9 +137339,9 @@
       "round_4_OG": 0,
       "round_4_PW": 0,
       "round_4_PC": 0,
-      "round_4_CS": 1,
+      "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 0,
+      "round_4_GC": 1,
       "round_4_PS": 0,
       "round_4_T": 0,
       "round_4_CC": 0,
@@ -137676,7 +137676,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 2.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -140601,7 +140601,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 5.2,
+      "percent_selected": 5,
       "round_stats": [
         {
           "roundId": 1,
@@ -140836,7 +140836,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 3.3,
+      "percent_selected": 3.2,
       "round_stats": [
         {
           "roundId": 2,
@@ -141220,7 +141220,7 @@
         "5": 0
       },
       "next_fixture": null,
-      "percent_selected": 1.4,
+      "percent_selected": 1.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -141413,7 +141413,7 @@
         "5": 3
       },
       "next_fixture": null,
-      "percent_selected": 7.1,
+      "percent_selected": 7,
       "round_stats": [
         {
           "roundId": 1,
@@ -143095,7 +143095,7 @@
         "5": 10
       },
       "next_fixture": null,
-      "percent_selected": 1.1,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 1,
@@ -143537,7 +143537,7 @@
         "5": 2
       },
       "next_fixture": null,
-      "percent_selected": 4,
+      "percent_selected": 3.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -143772,7 +143772,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 6.4,
+      "percent_selected": 6.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -144068,7 +144068,7 @@
         "4": 0
       },
       "next_fixture": null,
-      "percent_selected": 5.3,
+      "percent_selected": 5.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -144260,7 +144260,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 2.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -145205,7 +145205,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": []
     },
     {
@@ -145295,7 +145295,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -145527,7 +145527,7 @@
         "5": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 5,
@@ -145745,7 +145745,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 1,
+      "percent_selected": 0.9,
       "round_stats": []
     },
     {
@@ -145761,7 +145761,7 @@
         "3": 11
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.2,
       "round_stats": [
         {
           "roundId": 3,
@@ -146105,7 +146105,7 @@
         "6": 5
       },
       "next_fixture": null,
-      "percent_selected": 5.4,
+      "percent_selected": 4.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -146538,12 +146538,12 @@
             "OG": 0,
             "PW": 0,
             "PC": 0,
-            "CS": 1,
+            "CS": 0,
             "GS": 0,
-            "GC": 0,
+            "GC": 1,
             "PS": 0,
             "T": 0,
-            "CC": 0,
+            "CC": 1,
             "ST": 1,
             "FK": 0,
             "S": 0,
@@ -146559,12 +146559,12 @@
       "round_4_OG": 0,
       "round_4_PW": 0,
       "round_4_PC": 0,
-      "round_4_CS": 1,
+      "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 0,
+      "round_4_GC": 1,
       "round_4_PS": 0,
       "round_4_T": 0,
-      "round_4_CC": 0,
+      "round_4_CC": 1,
       "round_4_ST": 1,
       "round_4_FK": 0,
       "round_4_S": 0,
@@ -146577,13 +146577,13 @@
       "position": "MID",
       "price": 7.6,
       "status": "eliminated",
-      "total_points": 15,
-      "avg_points": 3.8,
+      "total_points": 16,
+      "avg_points": 4,
       "round_points": {
         "1": 2,
         "2": 8,
         "3": 3,
-        "4": 2
+        "4": 3
       },
       "next_fixture": null,
       "percent_selected": 1.2,
@@ -146666,10 +146666,10 @@
         {
           "roundId": 4,
           "tournamentId": 84,
-          "points": 2,
+          "points": 3,
           "stats": {
             "SXI": 0,
-            "MP": 93,
+            "MP": 94,
             "AS": 0,
             "YC": 0,
             "RC": 0,
@@ -146678,10 +146678,10 @@
             "PC": 0,
             "CS": 0,
             "GS": 0,
-            "GC": 3,
+            "GC": 2,
             "PS": 0,
             "T": 1,
-            "CC": 0,
+            "CC": 2,
             "ST": 1,
             "FK": 0,
             "S": 0,
@@ -146744,7 +146744,7 @@
       "round_3_S": 0,
       "round_3_SB": 0,
       "round_4_SXI": 0,
-      "round_4_MP": 93,
+      "round_4_MP": 94,
       "round_4_AS": 0,
       "round_4_YC": 0,
       "round_4_RC": 0,
@@ -146753,10 +146753,10 @@
       "round_4_PC": 0,
       "round_4_CS": 0,
       "round_4_GS": 0,
-      "round_4_GC": 3,
+      "round_4_GC": 2,
       "round_4_PS": 0,
       "round_4_T": 1,
-      "round_4_CC": 0,
+      "round_4_CC": 2,
       "round_4_ST": 1,
       "round_4_FK": 0,
       "round_4_S": 0,
@@ -147259,7 +147259,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 3,
+      "percent_selected": 3.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -147408,7 +147408,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 1,
       "round_stats": [
         {
           "roundId": 2,
@@ -149087,7 +149087,7 @@
         "5": 0
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.4,
       "round_stats": [
         {
           "roundId": 1,
@@ -150740,7 +150740,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.9,
+      "percent_selected": 0.8,
       "round_stats": [
         {
           "roundId": 1,
@@ -153161,7 +153161,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.3,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 4,
@@ -153226,7 +153226,7 @@
         "6": 9
       },
       "next_fixture": null,
-      "percent_selected": 2.2,
+      "percent_selected": 4.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -153506,7 +153506,7 @@
         "6": 9
       },
       "next_fixture": null,
-      "percent_selected": 0.7,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -154813,7 +154813,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 1.5,
+      "percent_selected": 1.4,
       "round_stats": []
     },
     {
@@ -154834,7 +154834,7 @@
         "6": 6
       },
       "next_fixture": null,
-      "percent_selected": 5,
+      "percent_selected": 4.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -155128,7 +155128,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 29.1,
+      "percent_selected": 23.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -155406,7 +155406,7 @@
         "4": 2
       },
       "next_fixture": null,
-      "percent_selected": 1.1,
+      "percent_selected": 0.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -155600,7 +155600,7 @@
         "6": 0
       },
       "next_fixture": null,
-      "percent_selected": 2.9,
+      "percent_selected": 2.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -155876,7 +155876,7 @@
         "5": 8
       },
       "next_fixture": null,
-      "percent_selected": 2.7,
+      "percent_selected": 2.5,
       "round_stats": [
         {
           "roundId": 3,
@@ -155983,7 +155983,7 @@
         "6": 0
       },
       "next_fixture": null,
-      "percent_selected": 1.9,
+      "percent_selected": 1.2,
       "round_stats": [
         {
           "roundId": 1,
@@ -156708,7 +156708,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 5.4,
+      "percent_selected": 3.9,
       "round_stats": [
         {
           "roundId": 1,
@@ -156988,7 +156988,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.8,
+      "percent_selected": 0.5,
       "round_stats": [
         {
           "roundId": 1,
@@ -157268,7 +157268,7 @@
         "6": 3
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -157548,7 +157548,7 @@
         "6": 1
       },
       "next_fixture": null,
-      "percent_selected": 0.5,
+      "percent_selected": 0.3,
       "round_stats": [
         {
           "roundId": 1,
@@ -157841,7 +157841,7 @@
         "6": 2
       },
       "next_fixture": null,
-      "percent_selected": 0.2,
+      "percent_selected": 0.1,
       "round_stats": [
         {
           "roundId": 1,
@@ -158463,7 +158463,7 @@
         "5": 0
       },
       "next_fixture": null,
-      "percent_selected": 4.6,
+      "percent_selected": 4,
       "round_stats": [
         {
           "roundId": 1,
@@ -160460,7 +160460,7 @@
         "4": -1
       },
       "next_fixture": null,
-      "percent_selected": 2.1,
+      "percent_selected": 2,
       "round_stats": [
         {
           "roundId": 1,
@@ -160652,7 +160652,7 @@
         "4": 1
       },
       "next_fixture": null,
-      "percent_selected": 2.8,
+      "percent_selected": 2.7,
       "round_stats": [
         {
           "roundId": 1,
@@ -161289,7 +161289,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 2.6,
+      "percent_selected": 2.5,
       "round_stats": []
     },
     {
@@ -161803,7 +161803,7 @@
       "avg_points": 0,
       "round_points": [],
       "next_fixture": null,
-      "percent_selected": 0.1,
+      "percent_selected": 0.2,
       "round_stats": []
     },
     {
