@@ -119,7 +119,7 @@ Optimal selection still put up a great tally, 102 points, the most in my league 
 * The algorithm will overpick 3 or even 4 defenders of the same team, especially after the devaluing of attacking possibilities for defenders. With that, the model will try to squeeze in as many defenders of the most likely clean sheet as it can. That however is the definition of putting all eggs in one basket, as since defenders will get most of their points for team achievements instead of personal ( clean sheet vs goal ), a single goal losing me 20 points and guaranteeing that at least half of my final defenders won't achieve a CS, with addiitonal goals losing me even more goals * 4. Thus, in order to spread out my team better, defenders must be capped to 2 of the same team.
 
 
-## The Round of 8
+## Quarter-finals
 
 **Transfers**
 OUT: Vinícius Júnior, Christian Pulisic, Camilo Vargas, Johan Manzambi
@@ -143,7 +143,7 @@ IN: Brahim Díaz, Unai Simón, Jude Bellingham, Dani Olmo
 * FWD Kylian Mbappé (France) $10.5, 9.47 EP
 * FWD Mikel Oyarzabal (Spain) $8.1, 7.05 EP
 
-## The Round of 8 Review
+## Quarter-finals Review
 
 ### Substitution Review
 
@@ -181,6 +181,71 @@ Once again, even without a booster, it still had the advantage of unlimited pick
 ### Changes Made
 
 No additional changes. It's hard to meaningfully tune the model off this little data and this little actual predictive variance. There are no obvious flaws or gaps to fix, I can't make it know Spain was about to concede their first goal, or that a bench player might get five minutes and score (fucking Merino). Sticking with this model for the rest of the tournament.
+
+## Semi-finals
+
+**Transfers**
+OUT: Unai Simón, Facundo Medina, Emiliano Martínez, Brahim Díaz, Achraf Hakimi
+IN: Mike Maignan, Jordan Pickford, Nahuel Molina, Anthony Gordon, Lucas Digne
+
+**Squad**
+
+* GK Mike Maignan (France) $5.0m
+* GK Jordan Pickford (England) $4.8m
+* DEF Marc Cucurella (Spain) $5.1m
+* DEF Lisandro Martínez (Argentina) $4.6m
+* DEF Nico O'Reilly (England) $4.7m
+* DEF Nahuel Molina (Argentina) $4.4m
+* DEF Lucas Digne (France) $5.0m
+* MID Michael Olise (France) $9.5m
+* MID Jude Bellingham (England) $8.3m
+* MID Ousmane Dembélé (France) $10.0m
+* MID Dani Olmo (Spain) $7.7m
+* MID Anthony Gordon (England) $7.0m
+* FWD Lionel Messi (Argentina) $10.0m
+* FWD Kylian Mbappé (France) $10.5m
+* FWD Mikel Oyarzabal (Spain) $8.1m
+
+(Model suggested transfers:
+OUT: Emiliano Martínez, Unai Simón, Achraf Hakimi, Facundo Medina, Brahim Díaz
+IN: Cristian Romero, Jordan Pickford, Mike Maignan, Adrien Rabiot, Jules Koundé)
+
+## Semi-finals Review
+
+In the semi finals, my substitutions did not follow the algorithm exactly. I did not fully agree with its choices, and I also thought the only realistic way to recover ground in the league was to start building less balanced, less optimal teams. I still took the algorithm's advice on spreading defenders across teams, but wanted something bolder than going with Rabiot, for example, which is what the model suggested. This also made me realize the model was undervaluing goals and assists, since picking Rabiot over someone like Gordon, Mac Allister, or Baena is likely a decision driven mostly by win probability, clean sheet probability, and minutes played probability. There are far fewer "safe" options than Rabiot that are actually more likely to score big points, and this realization is what pushed me to change both my choices and the algorithm's structure.
+
+### Substitution Review
+
+**Mike Maignan, Jordan Pickford, Nahuel Molina, Lucas Digne:** I am grouping all the defenders together here since none of them stood out positively, so this is really just a clean sheet analysis. The algorithm initially suggested a spread of two Argentina, two England, two France, and one Spain, which I agreed with and followed a similar logic on clean sheet probability. Well, the model was wrong. The team least likely to keep a clean sheet was the only one that did, with Spain holding the line against France. I fully understand the logic of not expecting France's ridiculous attack to be completely nullified, but it was still a massive, hard to predict error, since simply keeping Unai Simón would have put me in second place. I am not holding this too heavily against the model, since even I, while rating Spain's defense highly, could not have imagined Mbappé, Olise, Dembélé, and Doué combining for zero goals. Still, objectively speaking, it was a huge failure.
+
+**Anthony Gordon:** I personally overruled the Rabiot decision and went with Gordon instead, since I thought he struck the perfect balance between a risky pick that not everyone owned and someone who could actually score big points while playing regularly. It turned out to be the right call, Gordon scored a goal against Argentina. The model is undervaluing the probability of scoring and assisting for midfielders, and not by a small margin.
+
+### Result
+
+The optimal selection once again posted an average tally, 56 points, third in the league and considerably behind the best non booster teams on the wider leaderboard (60 to 80). That is lower than my main team, even with the benefit of a clean sheet when Argentina conceded only once. By far the worst performance from the algorithm so far, a mix of having most of my budget tied up in French attackers who combined for zero goals, conservative choices like Rabiot that failed despite their conservatism, and having only one defender from the one team that actually kept a clean sheet. Its worst performance by a wide margin. While the results that led to it were genuinely surprising, zero goals from France, really, it still is not a good performance. Football is wonderfully unpredictable. No one could have expected France not to score at all. Not going through, or scoring only a couple? Sure, Spain is excellent. But zero is unbelievable. Even England's two main attacking threats managing zero goal contributions against arguably the weakest defense of the four remaining teams is part of that same unpredictability. It is hard to track non linear outcomes and find underlying patterns using a linear algorithm built on manually defined coefficients, and this algorithm, even if perfectly tuned, can only ever serve as a decision aid, never as a fully automated predictor the way a proper machine learning model could be. Obviously.
+
+<img width="820" height="684" alt="image" src="https://github.com/user-attachments/assets/5314cf14-8889-4adb-bbb1-add52083d021" />
+
+### Highs and Lows
+
+**Lows**
+
+* France's defense
+* France's attack
+* Thinking Spain was the least likely to keep a clean sheet
+* Rabiot being valued so highly for some fucking reason
+* Playing it too conservative
+
+**Highs**
+
+* Oyarzabal finally delivered
+* Dani Olmo still being in the optimal team and continuing to perform
+* Messi is still Messi. The algorithm keeps giving him the highest expected points, and he keeps delivering even at his age. Not one shadow of doubt from the algorithm about him.
+
+### Changes Made
+
+Coefficients for scoring and assists were slightly increased, since the model was undervaluing these two core aspects of the fantasy game. In some cases it was prioritizing players with a higher chance of playing a full match or keeping a clean sheet over players with a real chance to score or assist, which inevitably gave those safer picks a much lower ceiling for expected points and hurt the algorithm's ability to identify standout performances.
+
 
 ## Possible Improvements
 
