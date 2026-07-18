@@ -413,7 +413,7 @@ NO_MATCH  'Jordan Pickford'                         team=England
 NO_MATCH  'Dean Henderson'                          team=England
 NO_MATCH  'James Trafford'                          team=England
 NO_MATCH  'Jordan Henderson'                        team=England
-MATCH  'Kobbie Mainoo'                          -> 'Kobbie Mainoo'                           score=100.0  team=England
+NO_MATCH  'Kobbie Mainoo'                           team=England
 MATCH  'Elliot Anderson'                        -> 'Elliot Anderson'                         score=100.0  team=England
 MATCH  'Declan Rice'                            -> 'Declan Rice'                             score=100.0  team=England
 MATCH  'Jude Bellingham'                        -> 'Jude Bellingham'                         score=100.0  team=England
@@ -435,7 +435,7 @@ MATCH  'Adrien Rabiot'                          -> 'Adrien Rabiot'              
 MATCH  'Warren Zaïre-Emery'                     -> 'Warren Zaïre-Emery'                      score=100.0  team=France
 MATCH  'Manu Koné'                              -> 'Manu Kone'                               score=100.0  team=France
 MATCH  'Maghnes Akliouche'                      -> 'Maghnes Akliouche'                       score=100.0  team=France
-NO_MATCH  'Aurélien Tchouaméni'                     team=France
+MATCH  'Aurélien Tchouaméni'                    -> 'Aurélien Tchouaméni'                     score=100.0  team=France
 MATCH  'Rayan Cherki'                           -> 'Rayan Cherki'                            score=100.0  team=France
 MATCH  'Michael Olise'                          -> 'Michael Olise'                           score=100.0  team=France
 NO_MATCH  'Lennart Karl'                            team=Germany
@@ -1130,7 +1130,7 @@ NO_MATCH  'Christophe Kabongo'                      team=Czechia
 NO_MATCH  'Jan Kuchta'                              team=Czechia
 NO_MATCH  'Adam Hlozek'                             team=Czechia
 NO_MATCH  'Robin Risser'                            team=France
-MATCH  'William Saliba'                         -> 'William Saliba'                          score=100.0  team=France
+NO_MATCH  'William Saliba'                          team=France
 MATCH  'Jules Koundé'                           -> 'Jules Koundé'                            score=100.0  team=France
 MATCH  'Bradley Barcola'                        -> 'Bradley Barcola'                         score=100.0  team=France
 MATCH  'Jean-Philippe Mateta'                   -> 'Jean-Philippe Mateta'                    score=100.0  team=France
@@ -1341,7 +1341,7 @@ NO_MATCH  'Kamogelo Sebelebele'                     team=South Africa
 NO_MATCH  'Patrick Maswanganyi'                     team=South Africa
 NO_MATCH  'Brooklyn Poggenpoel'                     team=South Africa
 NO_MATCH  'Iqraam Rayners'                          team=South Africa
-NO_MATCH  'Jarell Quansah'                          team=England
+MATCH  'Jarell Quansah'                         -> 'Jarell Quansah'                          score=100.0  team=England
 MATCH  'Reece James'                            -> 'Reece James'                             score=100.0  team=England
 MATCH  'Eberechi Eze'                           -> 'Eberechi Eze'                            score=100.0  team=England
 MATCH  'Ollie Watkins'                          -> 'Ollie Watkins'                           score=100.0  team=England
