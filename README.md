@@ -2,7 +2,12 @@
 
 A probabilistic squad selection system built for FIFA's official World Cup 2026 fantasy game. The system combines bookmaker odds with FIFA fantasy platform data to compute expected fantasy points per player, then selects a valid squad using integer linear programming.
 
-This project began during the Round of 16 after a 6th place standing as of that point.
+This project began during the Round of 16 after a 5th place standing as of that point.
+
+<img width="1041" height="694" alt="ap25324491553100_jpg" src="https://github.com/user-attachments/assets/3d815a9f-c8d2-40f9-ae09-42a4e24cf822" />
+
+
+
 
 ## Repository Contents
 
@@ -29,9 +34,9 @@ A third source, club level statistics from FBref, was used during early developm
 
 ## Impossibility to deploy a fully automated system
 
-Deploying a fully automated model would have taken more time, which was a constraint during the development of this algorithm (during Round of 32 for Round of 16). Not only that, but the needed database for such a project would need to very specific and treated carefully due to the "bubble" the World Cup represents in the context of competitive football.
+Deploying a fully automated model would have taken more time, which was a constraint during the development of this algorithm (during Round of 32 for Round of 16). Not only that, but the needed database for such a project would need to very specific and treated carefully due to the "bubble" the World Cup represents in the context of competitive football:
 
-1. International friendlies and qualfiers might not reflect competitive tactics or full strength lineups.
+1. Previous international friendlies and qualfiers might not reflect competitive tactics or full strength lineups.
 2. Club level statistics reflect a different context of teammates, tactical systems, and opposition quality, and might not transfer reliably to international competition.
 3. The only prior World Cup dataset is four years old and reflects a substantially different player pool in different form.
 
@@ -39,11 +44,12 @@ Such a limitation is the reason the projects is standing on bookies' shoulders, 
 
 ## Reliance on Bookmaker Odds
 
-Bookmaker odds incorporate information, including squad news and internal tactical intelligence not available to this project. An independently constructed probability estimate was unlikely to outperform odds derived probabilities under these conditions. Betano odds were therefore treated as the primary signal for point sources such as goal scoring and clean sheet probability.
+Bookmaker odds incorporate information, including squad news and internal tactical intelligence not available to this project. An independently constructed probability estimate was never going to outperform odds derived probabilities by million-dollar businesses even with perfect, complete avaliable data. Betano odds were therefore treated as the primary signal for point sources such as goal scoring and clean sheet probability. 
 
 ## Club Level Statistics, Discontinued
 
-FBref statistics were joined to FIFA player records using name matching with an edit distance tolerance of two characters. This source was discontinued for two reasons. More than half of the player pool competes outside the top five European leagues covered by FBref, resulting in low coverage. Club level performance also does not transfer reliably to international competition, due to differing teammates, tactical systems, and opposition quality. The final model relies on Betano odds, in tournament statistics, and manually assigned coefficients.
+FBref statistics were joined to FIFA player records using name matching with an edit distance tolerance of two characters. This source was discontinued, as more than half of the player pool competes outside the top five European leagues covered by FBref, resulting in low coverage (a complete dataset would need to cover all the way from the canadian to the australian league).
+
 
 ## Methodology
 
@@ -71,53 +77,61 @@ Expected value is computed per scoring category. Goals are valued at 9 points fo
 
 A differential, or scouting, bonus applies if a player is selected by fewer than 5 percent of managers and exceeds 4 base points in a match. This is modeled using a 90 percent Poisson confidence interval around expected base points. The full bonus is awarded if the lower bound exceeds 4 points. No bonus is awarded if the upper bound is below 4 points. If the interval spans 4 points, the bonus is scaled by the tail probability of exceeding 4 points given the expected value.
 
-An elimination risk adjustment, introduced after the round of 16, subtracts an amount equal to 1.5 multiplied by the probability of the player's team not qualifying, applied after the differential bonus is calculated. This adjustment is additive rather than proportional, so it does not disproportionately reduce the expected points of high output players.
+An elimination risk adjustment, introduced after the round of 16, subtracts an amount multiplied by the probability of the player's team not qualifying, applied after the differential bonus is calculated. This adjustment is additive rather than proportional, so it does not disproportionately reduce the expected points of high output players.
 
 An attacking output penalty for goalkeepers and defenders, also introduced after the round of 16, reduces expected points from goal contributions for these positions. This addressed a pattern in which selections were inflated by low probability, high variance attacking outcomes, combined with the higher per goal point value assigned to these positions relative to midfielders and forwards.
 
 ### Squad Selection
 
-Squad selection is formulated as an integer linear program and solved using the CBC solver. The objective maximizes total expected points across an 11 player starting lineup, with captain points doubled and bench player points weighted at 0.6. Constraints include a budget of $105.0M, a 15 player squad composed of 2 goalkeepers, 5 defenders, 5 midfielders, and 3 forwards, a legal starting formation of 1 goalkeeper, 3 to 5 defenders, 3 to 5 midfielders, and 1 to 3 forwards, and a maximum of 4 players per nation. A maximum of 2 combined goalkeepers and defenders per nation was added after the round of 16, described in Model Evolution below.
+Squad selection is formulated as an integer linear program and solved using the CBC solver. The objective maximizes total expected points across an 11 player starting lineup, with captain points doubled and bench player points. Constraints include a budget of $105.0M, a 15 player squad composed of 2 goalkeepers, 5 defenders, 5 midfielders, and 3 forwards, a legal starting formation of 1 goalkeeper, 3 to 5 defenders, 3 to 5 midfielders, and 1 to 3 forwards, and a maximum of 4 players per nation. A maximum of 2 combined goalkeepers and defenders per nation was added after the round of 16, described in Model Evolution below.
 
 ### Transfer Optimization
 
-A separate formulation evaluates transfers from an existing squad. Each transfer beyond a fixed free transfer allowance is penalized by 3 points in the objective function. Forced transfers, required when a player becomes ineligible, are excluded from this penalty.
+A separate formulation evaluates transfers from an existing squad. Each transfer beyond the fixed free transfer allowance is penalized by 3 points in the objective function.
 
 ## Round Summaries
 
 ### Round of 16
 
-Transfers. Out: Jordan Pickford, Sergiño Dest, Harry Kane, Jamal Musiala. In: Michael Olise, Mikel Oyarzabal, Emiliano Martínez, Achraf Hakimi.
+My team: Transfers. Out: Jordan Pickford, Sergiño Dest, Harry Kane, Jamal Musiala. In: Michael Olise, Mikel Oyarzabal, Emiliano Martínez, Achraf Hakimi.
 
-A model error was identified in this round. Goal scoring probability for goalkeepers was not set to zero prior to squad selection, contributing to Emiliano Martínez being selected over Mike Maignan.
+A model error was identified in this round. Goal scoring probability for goalkeepers was not set to zero prior to squad selection, contributing to Emiliano Martínez being selected over Mike Maignan, which would end up costing 5-10 points down the line due to the difference in clean sheets after this point between Argentina and France.
 
-Result: 102 points, the highest recorded score in the private league for this round.
+Standing: Still 5th place, lower gap.
+
+Optimal squad selection result: 102 points, the highest recorded score in the private league for this round and a moderate outlier for the public leaderboard, with obviously an "optimal" squad having the advantage of drafting a team from scratch.
 
 <img width="806" height="636" alt="image" src="https://github.com/user-attachments/assets/fdb6199e-5077-418e-8d37-590c99bccb5b" />
 
 ### Quarter Finals
 
-Transfers. Out: Vinícius Júnior, Christian Pulisic, Camilo Vargas, Johan Manzambi. In: Brahim Díaz, Unai Simón, Jude Bellingham, Dani Olmo.
+My team: Transfers. Out: Vinícius Júnior, Christian Pulisic, Camilo Vargas, Johan Manzambi. In: Brahim Díaz, Unai Simón, Jude Bellingham, Dani Olmo.
 
-Result: 82 points, second place in the private league. Non booster teams on the wider leaderboard scored between 85 and 90 points in this round.
+Standing: Still 5th place, lower gap.
+
+Optimal squad selection result: 82 points, second place in the private league. Non booster teams on the wider leaderboard scored between 85 and 90 points in this round.
 
 <img width="779" height="711" alt="image" src="https://github.com/user-attachments/assets/c8e4ba5f-defe-4e65-9a39-db22609f1624" />
 
 ### Semi Finals
 
-Transfers. Out: Unai Simón, Facundo Medina, Emiliano Martínez, Brahim Díaz, Achraf Hakimi. In: Mike Maignan, Jordan Pickford, Nahuel Molina, Anthony Gordon, Lucas Digne.
+My team: Transfers. Out: Unai Simón, Facundo Medina, Emiliano Martínez, Brahim Díaz, Achraf Hakimi. In: Mike Maignan, Jordan Pickford, Nahuel Molina, Anthony Gordon, Lucas Digne.
 
 The final selection deviated from 2 of the 5 transfers suggested by the model, Anthony Gordon was selected in place of Adrien Rabiot, and Nahuel Molina in place of Cristian Romero. This followed an assessment that the model was undervaluing goal and assist probability in midfield selection relative to clean sheet and appearance probability.
 
-Result: 56 points, third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
+Standing: 4th place, lower gap to first.
+
+Optimal squad selection result: 56 points, third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
 
 <img width="820" height="684" alt="image" src="https://github.com/user-attachments/assets/5314cf14-8889-4adb-bbb1-add52083d021" />
 
 ### Final
 
-The model recommended squad, listed below, was not used. A squad weighted toward Spain was selected instead, in order to increase the probability of overtaking the private league leader rather than to maximize expected points.
+My team: Transfers recommended by the model were not used, as the only chance for a possible victory was to do something extreme ( which would not be the algorithm's output ) and hope it would pay out, with the decision being going all in on Spain hoping for a 3-0 or more win.
 
-Model recommended squad, expected points 81.98, cost $105.0M:
+Final Standing: 2nd place.
+
+Optimal recommended squad, expected points 81.98:
 
 * GK Mike Maignan (France) $5.0M, 3.10 EP
 * DEF Marc Cucurella (Spain) $5.1M, 3.36 EP
@@ -135,42 +149,53 @@ Model recommended squad, expected points 81.98, cost $105.0M:
 * FWD Mikel Oyarzabal (Spain) $8.1M, 5.30 EP
 * GK Jordan Pickford (England) $4.8M, 3.02 EP
 
-Result: consistent with the round average, in the range of 75 to 80 points.
+Optimal squad selection result: consistent with the round average, in the range of 75 to 80 points.
 
 ## Results
 
-Round of 32 standing: 6th place, 377 points. Final standing: 2nd place, 670 points.
+Round of 32 standing: 5th place, 377 points, -36 gap to first. Final standing: 2nd place, 670 points, -14 gap to first.
 
-Deviations from model recommendations in the semi final and final rounds preceded improved relative outcomes compared to full adherence to model output in earlier rounds. This supports characterizing the system as a decision support tool rather than an autonomous selector.
+The algorithm allowed for a considerable shrikage of the gap to the 4 players above in the first two rounds it was deployed.
 
-Selection accuracy and predictive separation decreased in later rounds. This is attributed to a narrowing player pool and reduced performance variance among the remaining, higher quality teams.
+However, if the team were to follow the algorithm's decisions in the semi-final round, the final results would have been slightly worse, with more risky decisions like overruling Anthony Gordon in the semi-final allowing to bridge that small gap to the above players. The model was also limited in perfomance by some initial coding mistakes, which were giving defenders and goalkeeper unrealistic scoring/assisting probabilities, and are likely to have cost the team anywhere from 5 to 25 points (for example as referenced above in Maignan, which was not chosen over Martinez due to the argentian having a higher chance to score a goal. The french goalkeeper would go on to make 2 clean sheets after that mistake against Emi Martinez's zero).
+
+
+This displays the correct approach to this algorithm, as it can serve as a decision maker help but cannot be deployed on its own, missing private league context (need to make outside the box decisions in order to gain ground), general footballing context and suffering from the lack of variance existing in the final rounds. 
+
+Its main limitation was just that, the fact that it was used so late, with such a small ammount of teams, players and variance. This is very visible by the decreasing perfomance and more similar picks as the tournament proceeds.
+
+---
+
+<img width="1296" height="729" alt="r1691526_1296x729_16-9" src="https://github.com/user-attachments/assets/90c8d48a-cb99-41e6-9b52-59f2a8a164a9" />
+
 
 ## Model Evolution
 
-After the round of 16, three changes were made. An attacking output penalty was applied to goalkeepers and defenders. A maximum of 2 combined goalkeepers and defenders per nation was added to reduce concentration risk in a single team's defense. Betano weighting for goal scoring and clean sheet probability was reduced by approximately 10 percentage points in favor of tournament derived data.
+After the round of 16, three changes were made. An attacking output penalty was applied to goalkeepers and defenders to stop the model from deciding defenders and goalkeepers based on scoring probabilities. A maximum of 2 combined goalkeepers and defenders per nation was added to reduce concentration risk in a single team's defense. Betano weighting for goal scoring and clean sheet probability was reduced by approximately 10 percentage points in favor of tournament derived data.
 
-After the semi final, scoring and assist coefficients were increased. This followed an observed pattern in which the model favored players with higher clean sheet or appearance probability over players with comparable or higher scoring and assist probability, reducing the model's ability to identify high ceiling outcomes.
+After the semi final, scoring and assist coefficients were increased for midfielders. This followed an observed pattern in which the model favored players with higher clean sheet or appearance probability over players with comparable or higher scoring and assist probability, reducing the model's ability to identify high ceiling outcomes over high floor ones.
 
-Additional coefficient adjustments were made across rounds without a corresponding written entry in this document. By the final round, the maximum players per nation constraint had been raised from 4 to 6, the bench weight had been raised from 0.6 to 0.9, and the elimination risk penalty had been reduced in magnitude from 1.5 to 1.0 points. The qualification bonus term was also set to zero for the final round, since no further tournament advancement remained to reward. These changes reflect continuous, informal recalibration between rounds rather than a single fixed model version deployed throughout the tournament.
+Additional coefficient adjustments were made across rounds without a corresponding written entry in this document. These changes reflect continuous, informal recalibration between rounds rather than a single fixed model version deployed throughout the tournament.
 
 ## Known Limitations
 
-1. Team name resolution relies on hardcoded string matching and manually maintained Portuguese to English dictionaries. A different bookmaker, tournament, or team naming convention would require manual reconfiguration.
-2. No abstraction layer separates data source specific logic from the remainder of the pipeline.
-3. Model weights and thresholds were assigned manually based on football domain knowledge, not fitted from data.
-4. Reliance on a single bookmaker introduces exposure to that bookmaker's individual pricing errors. During the round of 16, Betano assigned Erling Haaland lower goal scoring probability than several less prolific forwards, including Julián Álvarez and a benched Romelu Lukaku.
-5. The model was not deployed from the start of the tournament. Full operation began at the round of 16, reducing the number of rounds available for calibration and excluding the group stage and round of 32 from live testing.
-6. Predictive separation decreased as the tournament progressed, consistent with a narrowing player pool and reduced variance among remaining teams.
-7. Bench player point outcomes are not predictable within this framework, since playing time allocation is a coaching decision made after the squad selection deadline.
-8. Player availability was patched manually in code ahead of each round, based on externally sourced injury and squad news, since the FIFA fantasy API status field did not reliably reflect real world unavailability in time for the selection deadline.
-9. A small squad ranking bias was identified and not fully resolved. Team and position stratified ranking can assign a top rank to a player with limited playing time, if that player is the only one with meaningful minutes at their position for a given nation, inflating their apparent standing relative to their actual quality.
-10. Automated notebook execution through nbconvert was unreliable in at least one round, requiring manual interruption and a manual rerun of the pipeline.
+1. Team name resolution relies on hardcoded string matching and manually maintained Portuguese to English dictionaries. A slightly different bookmaker, tournament, or team naming convention would require manual reconfiguration and would break the code, with every team not initially matched fixed manually with strings.
+2. In general the code is held together by duct tape and prayers at multiple points and not in good conditions to be replicated for future scenarios.
+3. Due to the time constraint to get the model operational for the Round of 16, a lot of the code was either written in a rush or by AI after specific detailed human instructions. Everything works but it is less efficient and clean than it should be.
+4. No abstraction layer separates data source specific logic from the remainder of the pipeline.
+5. Model weights and thresholds are assigned manually based on football domain knowledge and trial and error from round to round ( small overfitted sample ) and not fitted from data.
+6. Reliance on a single bookmaker introduces exposure to that bookmaker's individual pricing errors.
+7. The model was not deployed from the start of the tournament. Full operation began at the round of 16, reducing the number of rounds available for calibration and excluding the group stage and round of 32 from live testing.
+8. Predictive separation decreased as the tournament progressed, consistent with a narrowing player pool and reduced variance among remaining teams.
+9. Bench player point outcomes are not predictable within this framework, since playing time allocation is a coaching decision made after the squad selection deadline.
+10. Player availability was patched manually in code ahead of each round, based on externally sourced injury and squad news, since the FIFA fantasy API status field did not reliably reflect real world unavailability in time for the selection deadline.
 
 ## Possible Improvements
 
-1. Use of multiple bookmakers or an odds aggregation service to reduce dependence on a single pricing source. Betano was selected initially for scraping accessibility, not pricing accuracy.
-2. Incorporation of additional bookmaker markets, including shots on target and card probability where available, using the same extraction method applied to scorer odds.
+1. Use of multiple bookmakers or an odds aggregation service to reduce dependence on a single pricing source. Betano was selected initially for scraping accessibility, not pricing accuracy. The aggregation of 3 to 5 sources would heavily improve the models's robustness.
+2. Incorporation of bookmakers with additional market events, including shots on target and card probability where available, using the same extraction method applied to scorer odds.
 3. Backtesting against a complete tournament, including the group stage, to establish coefficient values prior to live deployment.
+4. A more efficient, cleaner code with better data treatment and feature engineering.
 
 ## Tech Stack
 
