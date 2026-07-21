@@ -1,8 +1,8 @@
 # World Cup 2026 Fantasy Optimizer
 
-A probabilistic squad selection system built for FIFA's official World Cup 2026 fantasy game. The system combines bookmaker odds with FIFA fantasy platform data to compute expected fantasy points per player, then selects a legal squad using integer linear programming.
+A probabilistic squad selection system built for FIFA's official World Cup 2026 fantasy game. The system combines bookmaker odds with FIFA fantasy platform data to compute expected fantasy points per player, then selects a valid squad using integer linear programming.
 
-The project began after a fifth place finish in a private fantasy league, using time available between tournament rounds.
+This project began during the Round of 16 after a 6th place standing as of that point.
 
 ## Repository Contents
 
@@ -23,23 +23,23 @@ The project began after a fifth place finish in a private fantasy league, using 
 
 ## Data Sources
 
-Two active data sources are used. Betano, for match and player odds, retrieved through its public API and, for one match, through a Betclic gRPC Web endpoint that was reverse engineered field by field due to the absence of public documentation. The FIFA fantasy platform, for player prices, positions, point totals, and round by round statistics.
+Two active data sources are used. Betano, for match and player odds, retrieved through its public API and the FIFA fantasy platform, for player prices, positions, point totals, and round by round statistics.
 
-A third source, club level statistics from FBref, was used during early development and later discontinued. The reasoning is described below.
+A third source, club level statistics from FBref, was used during early development and later discontinued.
 
-## Why Not Machine Learning
+## Impossibility to deploy a fully automated system
 
-No dataset suitable for supervised learning of national team, World Cup specific outcomes was available. Three reasons support this conclusion.
+Deploying a fully automated model would have taken more time, which was a constraint during the development of this algorithm (during Round of 32 for Round of 16). Not only that, but the needed database for such a project would need to very specific and treated carefully due to the "bubble" the World Cup represents in the context of competitive football.
 
-1. International friendlies do not reflect competitive tactics or full strength lineups.
-2. Club level statistics reflect a different context of teammates, tactical systems, and opposition quality, and do not transfer reliably to international competition.
+1. International friendlies and qualfiers might not reflect competitive tactics or full strength lineups.
+2. Club level statistics reflect a different context of teammates, tactical systems, and opposition quality, and might not transfer reliably to international competition.
 3. The only prior World Cup dataset is four years old and reflects a substantially different player pool in different form.
 
-Given these constraints, a hand constructed probability model was used in place of a trained model.
+Such a limitation is the reason the projects is standing on bookies' shoulders, which will have a much more capable predicative model regardless and add a degree of an automation to the algorithm.
 
 ## Reliance on Bookmaker Odds
 
-Bookmaker odds incorporate information, including squad news and internal tactical intelligence, that is not available to this project. An independently constructed probability estimate was judged unlikely to outperform odds derived probabilities under these conditions. Betano odds were therefore treated as the primary signal for goal scoring and clean sheet probability, initially weighted between 0.75 and 0.80. This weighting was reduced by approximately 10 percentage points after the round of 16, described further in Model Evolution below.
+Bookmaker odds incorporate information, including squad news and internal tactical intelligence not available to this project. An independently constructed probability estimate was unlikely to outperform odds derived probabilities under these conditions. Betano odds were therefore treated as the primary signal for point sources such as goal scoring and clean sheet probability.
 
 ## Club Level Statistics, Discontinued
 
