@@ -99,9 +99,12 @@ A model error was identified in this round. Goal scoring probability for goalkee
 
 Standing: Still 5th place, lower gap.
 
-Optimal squad selection result: 102 points, the highest recorded score in the private league for this round and a moderate outlier for the public leaderboard, with obviously an "optimal" squad having the advantage of drafting a team from scratch.
+---
 
 <img width="806" height="636" alt="image" src="https://github.com/user-attachments/assets/fdb6199e-5077-418e-8d37-590c99bccb5b" />
+
+
+Optimal squad selection result: 102 points, the highest recorded score in the private league for this round and a moderate outlier for the public leaderboard, with obviously an "optimal" squad having the advantage of drafting a team from scratch.
 
 ---
 
@@ -113,9 +116,12 @@ My team: Transfers. Out: Vinícius Júnior, Christian Pulisic, Camilo Vargas, Jo
 
 Standing: Still 5th place, lower gap.
 
-Optimal squad selection result: 82 points, second place in the private league. Non booster teams on the wider leaderboard scored between 85 and 90 points in this round.
+---
 
 <img width="779" height="711" alt="image" src="https://github.com/user-attachments/assets/c8e4ba5f-defe-4e65-9a39-db22609f1624" />
+
+Optimal squad selection result: 82 points, second place in the private league. Non booster teams on the wider leaderboard scored between 85 and 90 points in this round.
+
 
 ---
 
@@ -130,13 +136,15 @@ The final selection deviated from 2 of the 5 transfers suggested by the model, A
 
 Standing: 4th place, lower gap to first.
 
-Optimal squad selection result: 56 points with a booster ( 1 goal conceded == clean sheet ), third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
+---
 
 <img width="820" height="684" alt="image" src="https://github.com/user-attachments/assets/5314cf14-8889-4adb-bbb1-add52083d021" />
 
+Optimal squad selection result: 56 points with a booster ( 1 goal conceded == clean sheet ), third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
+
 ---
 
-<img width="600" height="338" alt="Messi-vs-England_jpg" src="https://github.com/user-attachments/assets/5f798684-e62b-4b94-b22a-173dbef38646" />
+<img width="1600" height="900" alt="Messi-vs-England_jpg" src="https://github.com/user-attachments/assets/5f798684-e62b-4b94-b22a-173dbef38646" />
 
 
 ### Final
