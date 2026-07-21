@@ -103,6 +103,10 @@ Optimal squad selection result: 102 points, the highest recorded score in the pr
 
 <img width="806" height="636" alt="image" src="https://github.com/user-attachments/assets/fdb6199e-5077-418e-8d37-590c99bccb5b" />
 
+---
+
+<img width="1296" height="729" alt="i" src="https://github.com/user-attachments/assets/43e8dc95-f6fb-4353-9304-b5166124be3e" />
+
 ### Quarter Finals
 
 My team: Transfers. Out: Vinícius Júnior, Christian Pulisic, Camilo Vargas, Johan Manzambi. In: Brahim Díaz, Unai Simón, Jude Bellingham, Dani Olmo.
@@ -112,6 +116,11 @@ Standing: Still 5th place, lower gap.
 Optimal squad selection result: 82 points, second place in the private league. Non booster teams on the wider leaderboard scored between 85 and 90 points in this round.
 
 <img width="779" height="711" alt="image" src="https://github.com/user-attachments/assets/c8e4ba5f-defe-4e65-9a39-db22609f1624" />
+
+---
+
+<img width="1600" height="900" alt="skysports-kylian-mbappe-france_7294177_jpg" src="https://github.com/user-attachments/assets/8481055c-1270-423b-acfd-d41a57c11cdc" />
+
 
 ### Semi Finals
 
@@ -124,6 +133,11 @@ Standing: 4th place, lower gap to first.
 Optimal squad selection result: 56 points with a booster ( 1 goal conceded == clean sheet ), third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
 
 <img width="820" height="684" alt="image" src="https://github.com/user-attachments/assets/5314cf14-8889-4adb-bbb1-add52083d021" />
+
+---
+
+<img width="600" height="338" alt="Messi-vs-England_jpg" src="https://github.com/user-attachments/assets/5f798684-e62b-4b94-b22a-173dbef38646" />
+
 
 ### Final
 
