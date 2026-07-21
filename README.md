@@ -121,7 +121,7 @@ The final selection deviated from 2 of the 5 transfers suggested by the model, A
 
 Standing: 4th place, lower gap to first.
 
-Optimal squad selection result: 56 points, third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
+Optimal squad selection result: 56 points with a booster ( 1 goal conceded == clean sheet ), third place in the private league. Non booster teams on the wider leaderboard scored between 60 and 80 points in this round. This is the lowest recorded result of the tournament, attributed to zero goals scored by an odds favored French attacking line across the match.
 
 <img width="820" height="684" alt="image" src="https://github.com/user-attachments/assets/5314cf14-8889-4adb-bbb1-add52083d021" />
 
