@@ -59,9 +59,13 @@ Implied probability is calculated as one divided by the decimal odd. Two way mar
 
 ### Event Modeling
 
-Single occurrence events, including red cards, conceded penalties, and own goals, are modeled using a sigmoid function applied to a weighted combination of input signals.
+Single occurrence events, including red cards, conceded penalties, and own goals, are modeled using a sigmoid function applied to a weighted combination of input signals, each further scaled by a small maximum probability constant reflecting the real world rarity of the event. Yellow card probability is the one exception, computed as a weighted combination of input signals multiplied directly by the probability of playing 60 minutes, with no sigmoid transform applied.
 
-Countable, repeatable events, including goals, assists, saves, tackles, shots on target, and chances created, are modeled as Poisson processes. A rate parameter is recovered from an estimated occurrence probability using the relationship that the probability of zero occurrences equals the negative exponential of the rate. Solving for the rate gives the natural log of one minus the probability, negated. Since the expected value of a Poisson variable equals its rate, threshold based bonus points are computed as rate divided by threshold, without further transformation.
+Goals and assists are modeled by recovering a Poisson rate parameter from an estimated occurrence probability, using the relationship that the probability of zero occurrences equals the negative exponential of the rate. Solving for the rate gives the natural log of one minus the probability, negated. Since both are worth a fixed point value per occurrence with no bonus threshold, the recovered rate is used directly, multiplied by the relevant point value.
+
+Tackles, chances created, and shots on target are recovered through the same rate transform and are subject to a bonus threshold, one point for every 3 tackles or every 2 chances created or shots on target. In the current implementation, the recovered rate is multiplied by the threshold value when the expected count is first computed, then divided by the same threshold value when bonus points are calculated, which cancels out. The bonus points figure that reaches the total for these three categories is therefore numerically equal to the undivided rate, not the rate divided by the stated threshold.
+
+Saves are modeled differently again. Expected saves are a sigmoid function of a weighted combination of signals, scaled by a fixed ceiling of 4, rather than recovered through the rate transform used above. This expected save count is then divided by the save bonus threshold of 3, and since that division is not offset by any prior multiplication, it does apply in full.
 
 ### Ranking
 
@@ -79,11 +83,11 @@ A differential, or scouting, bonus applies if a player is selected by fewer than
 
 An elimination risk adjustment, introduced after the round of 16, subtracts an amount multiplied by the probability of the player's team not qualifying, applied after the differential bonus is calculated. This adjustment is additive rather than proportional, so it does not disproportionately reduce the expected points of high output players.
 
-An attacking output penalty for goalkeepers and defenders, also introduced after the round of 16, reduces expected points from goal contributions for these positions. This addressed a pattern in which selections were inflated by low probability, high variance attacking outcomes, combined with the higher per goal point value assigned to these positions relative to midfielders and forwards.
+An attacking output penalty for goalkeepers and defenders, introduced after the round of 16, applies separately to goal scoring and assist rates. Goal scoring probability is set to zero for goalkeepers and multiplied by 0.7 for defenders. Assist rate is multiplied by 0.1 for goalkeepers and 0.9 for defenders. This addressed a pattern in which selections were inflated by low probability, high variance attacking outcomes, combined with the higher per goal point value assigned to these positions relative to midfielders and forwards.
 
 ### Squad Selection
 
-Squad selection is formulated as an integer linear program and solved using the CBC solver. The objective maximizes total expected points across an 11 player starting lineup, with captain points doubled and bench player points. Constraints include a budget of $105.0M, a 15 player squad composed of 2 goalkeepers, 5 defenders, 5 midfielders, and 3 forwards, a legal starting formation of 1 goalkeeper, 3 to 5 defenders, 3 to 5 midfielders, and 1 to 3 forwards, and a maximum of 4 players per nation. A maximum of 2 combined goalkeepers and defenders per nation was added after the round of 16, described in Model Evolution below.
+Squad selection is formulated as an integer linear program and solved using the CBC solver. The objective maximizes total expected points across an 11 player starting lineup, with captain points doubled and bench player points discounted by a fixed weight, reflecting the reduced likelihood that a benched player accumulates points. Constraints include a budget of $105.0M, a 15 player squad composed of 2 goalkeepers, 5 defenders, 5 midfielders, and 3 forwards, a legal starting formation of 1 goalkeeper, 3 to 5 defenders, 3 to 5 midfielders, and 1 to 3 forwards, and a maximum of 4 players per nation. A maximum of 2 combined goalkeepers and defenders per nation was added after the round of 16, described in Model Evolution below.
 
 ### Transfer Optimization
 
@@ -193,7 +197,7 @@ Its main limitation was just that, the fact that it was used so late, with such 
 
 ## Model Evolution
 
-After the round of 16, three changes were made. An attacking output penalty was applied to goalkeepers and defenders to stop the model from deciding defenders and goalkeepers based on scoring probabilities. A maximum of 2 combined goalkeepers and defenders per nation was added to reduce concentration risk in a single team's defense. Betano weighting for goal scoring and clean sheet probability was reduced by approximately 10 percentage points in favor of tournament derived data.
+After the round of 16, three changes were made. An attacking output penalty was applied to goalkeepers and defenders to stop the model from deciding defenders and goalkeepers based on scoring probabilities. A maximum of 2 combined goalkeepers and defenders per nation was added to reduce concentration risk in a single team's defense. Betano weighting for goal scoring probability was reduced from 0.80 to 0.70 in favor of tournament derived data. Clean sheet weighting on Betano's implied probability was not changed, and stayed at 0.90 throughout.
 
 After the semi final, scoring and assist coefficients were increased for midfielders. This followed an observed pattern in which the model favored players with higher clean sheet or appearance probability over players with comparable or higher scoring and assist probability, reducing the model's ability to identify high ceiling outcomes over high floor ones.
 
