@@ -230,7 +230,7 @@ Additional coefficient adjustments were made across rounds without a correspondi
 1. The time constraint was the main limitation and at fault for a lot of the limitations below
 2. Team name resolution relies on hardcoded string matching and manually maintained Portuguese to English dictionaries. A slightly different bookmaker, tournament, or team naming convention would require manual reconfiguration and would break the code, with every team or player not initially matched fixed manually with strings.
 3. In general the code is held together by duct tape and prayers at multiple points and not in good conditions to be replicated for future scenarios.
-4. Due to the time constraint to get the model operational for the Round of 16, a lot of the code was either written in a rush or by AI after specific detailed human instructions. Everything works but it is less efficient and clean than it should be. Its not good code.
+4. Due to the time constraint to get the model operational for the Round of 16, a lot of the code was either written in a rush or by AI after specific detailed human instructions. Everything works but it is less efficient and clean than it should be.
 5. No abstraction layer separates data source specific logic from the remainder of the pipeline.
 6. Model weights and thresholds are assigned manually based on football domain knowledge and trial and error from round to round ( using a very small very overfitted sample ) and not fitted from data.
 7. Reliance on a single bookmaker introduces exposure to that bookmaker's individual pricing errors.
